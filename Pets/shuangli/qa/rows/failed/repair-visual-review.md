@@ -1,0 +1,5 @@
+Replaced failed source row using built-in imagegen. Previous source archived as decoded/failed-rejected-squat.png.
+
+Native-size visual check: eight complete front-facing standing poses. Same large head, short torso, white/lavender dress, horns, wings, curled attached tail, and viewer-right hair rosette remain present. Both feet stay planted with straight legs; no squat or sitting. Disappointment reads through progressively lowered/sad/closed eyes and a mild shoulder/head slump, then recovery. Lowest frame's horn top lowers only six native pixels (about 3% of full height), while all foot baselines remain at y203. No clipped anatomy, loose effects, overlap, or sudden collapse.
+
+Bundled components extraction and inspect_frames.py passed, 8/8 frames, no errors or warnings, no occupied cell edge pixels. Final assembled motion preview remains with the parent workflow; bundled preview rendering requires all standard state folders. Chroma fringe awaits the one final despill pass during parent assembly.

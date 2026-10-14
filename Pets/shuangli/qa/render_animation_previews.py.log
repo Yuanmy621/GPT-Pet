@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "output_dir": "Pets/shuangli/qa/standard-previews",
+  "previews": [
+    {
+      "state": "idle",
+      "path": "Pets/shuangli/qa/standard-previews/idle.gif",
+      "frames": 6
+    },
+    {
+      "state": "running-right",
+      "path": "Pets/shuangli/qa/standard-previews/running-right.gif",
+      "frames": 8
+    },
+    {
+      "state": "running-left",
+      "path": "Pets/shuangli/qa/standard-previews/running-left.gif",
+      "frames": 8
+    },
+    {
+      "state": "waving",
+      "path": "Pets/shuangli/qa/standard-previews/waving.gif",
+      "frames": 4
+    },
+    {
+      "state": "jumping",
+      "path": "Pets/shuangli/qa/standard-previews/jumping.gif",
+      "frames": 5
+    },
+    {
+      "state": "failed",
+      "path": "Pets/shuangli/qa/standard-previews/failed.gif",
+      "frames": 8
+    },
+    {
+      "state": "waiting",
+      "path": "Pets/shuangli/qa/standard-previews/waiting.gif",
+      "frames": 6
+    },
+    {
+      "state": "running",
+      "path": "Pets/shuangli/qa/standard-previews/running.gif",
+      "frames": 6
+    },
+    {
+      "state": "review",
+      "path": "Pets/shuangli/qa/standard-previews/review.gif",
+      "frames": 6
+    }
+  ]
+}

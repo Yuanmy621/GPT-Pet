@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "file": "Pets/shuangli/final/spritesheet-extended.png",
+  "encoded_bytes": 3505211,
+  "sha256": "6daae254b0eae8e7ddff1c194970d170e99fa529de8b7e75383095e2a45205ee",
+  "format": "PNG",
+  "mode": "RGBA",
+  "columns": 8,
+  "rows": 11,
+  "sprite_version_number": 2,
+  "width": 1536,
+  "height": 2288,
+  "transparent_rgb_residue_pixels": 0,
+  "errors": [],
+  "warnings": []
+}
+Pets-skill/scripts/validate_atlas.py:103: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  visible = [value > 0 for value in alpha.getdata()]
+Pets-skill/scripts/validate_atlas.py:116: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  rgba.getdata(), alpha.getdata(), expanded.getdata()

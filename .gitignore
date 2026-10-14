@@ -1,0 +1,18 @@
+.pet-tools/
+__pycache__/
+
+# Local Python environments and OS files
+.venv/
+venv/
+*.py[cod]
+.DS_Store
+
+# Credentials and account-specific pet installation records
+.env
+.env.*
+!.env.example
+Pets/*/pet-record.json
+Pets/*/qa/library-status.json
+
+# Locally regenerated preview output
+output/

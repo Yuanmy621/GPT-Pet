@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and chin point toward the right edge of the face, with the fuller eye on the left side. B's nose and chin project left, with the fuller eye on the right side."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A shows a leftward nose and cheek silhouette, with the dominant visible eye to its right. B shows a rightward nose and cheek silhouette, with the dominant visible eye to its left."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's profile places the nose at the face's rightmost point and exposes the eye behind it on the left. B's profile places the nose at the leftmost point and exposes the eye behind it on the right."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a left-facing nose, mouth and chin contour with one prominent eye on the right half of the face. B has a right-facing nose, mouth and chin contour with one prominent eye on the left half."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Despite the downward pitch, A's nose and chin project left and its larger visible eye is on the right. B's nose and chin project right and its larger visible eye is on the left."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's lowered face is asymmetric toward the left: the nose contour lies left of the fuller right-side eye, and the far left eye is mostly hidden. B's lowered face points right: the rightward nose contour sits beyond the fuller left-side eye, with the far right eye compressed."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a subtle left turn, shown by the fuller eye on the face's right side, the mostly obscured far left eye and the leftward mouth/chin contour. B has a subtle right turn, shown by the fuller left-side eye, narrower far right eye and right-shifted nose/chin."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises the chin, exposes the neck beneath the jaw and has open eyes directed upward. B lowers the eye line beneath the bangs and tucks the chin close to the collar, with more of the head crown visible."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's chin is tucked and its eyes sit low beneath the bangs, with the crown tilted toward the viewer. B's chin and nose angle upward, its eyes are raised and a longer neck gap is visible beneath the jaw."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A lowers the nose and chin toward the chest and keeps the visible eye beneath a low brow. B lifts the nose and chin, opens the eye upward and exposes the neck under the jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face pitches down, with the chin near the collar and a lowered eye under the bangs. B's profile tilts up, with the nose and chin higher, an upward eye line and an exposed stretch of neck."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A shows the head crown prominently and drops the nose and chin toward the chest, with its eye lowered under the fringe. B raises the nose and chin, shows the underside of the jaw and looks upward with exposed neck below."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's chin is lowered near the collar, the nose points down and the visible eye is tucked beneath the bangs. B's chin is raised above an exposed neck, the nose tips upward and the eyes have an upward line."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A has a modest upward pitch, with its nose and chin lifted, its visible eye open and the neck showing beneath a nearly level jaw. B lowers the nose and chin toward the collar, with a downward eye line and more of the crown facing the viewer."
+    }
+  ]
+}

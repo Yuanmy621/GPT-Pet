@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "frames_root": "Pets/shuangli/frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "directions": {
+    "000": {
+      "expected": "up",
+      "observed": "raised chin and irises beneath upper lids, face points to upper screen",
+      "verdict": "pass"
+    },
+    "090": {
+      "expected": "right",
+      "observed": "nose/visible face and irises turn to screen-right while torso stays front",
+      "verdict": "pass"
+    },
+    "180": {
+      "expected": "down",
+      "observed": "chin tucks and eyelids/irises point below face center",
+      "verdict": "pass"
+    },
+    "270": {
+      "expected": "left",
+      "observed": "repaired head has left-pointing profile nose and eye facing screen-left, rosette attached near viewer right",
+      "verdict": "pass"
+    }
+  }
+}

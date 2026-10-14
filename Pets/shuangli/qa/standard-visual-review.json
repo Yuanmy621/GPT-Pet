@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "reviewer": "parent",
+  "source": "final/spritesheet-standard.png",
+  "reviewed_contact": "qa/contact-sheet.png",
+  "observations": {
+    "idle": "calm blink cycle, attached hair/tail",
+    "running-right": "8 right-facing alternating gait frames; rosette far side hidden",
+    "running-left": "8 left-facing alternating gait; near side rosette remains same anatomical side",
+    "waving": "4 attached hand greeting poses",
+    "jumping": "5 anticipation/lift/peak/descent/crouch landing frames; source translates vertically and returns to y203",
+    "failed": "8 standing disappointed head/eyes reaction then recovery; repaired deep squat",
+    "waiting": "6 clasp/open palms expectant gestures; repaired head-body proportions",
+    "running": "6 stationary concentrated thinking poses",
+    "review": "6 checking gaze, tilt, blink, satisfied nod"
+  },
+  "limitations": "Chroma fringes remain until final prescribed cleanup."
+}

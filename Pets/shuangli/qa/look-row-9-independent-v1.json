@@ -1,0 +1,202 @@
+{
+  "ok": false,
+  "scope": "Independent semantic and visual QA only; no generation or final structural gate performed.",
+  "source": "Pets/shuangli/decoded/look-row-9.png",
+  "source_sha256": "a04ac2d1e2d97d429aeac01db934c58c51fe368254b95b7dab1418e79c409871",
+  "registered_row": "Pets/shuangli/qa/look-row-9-registered.png",
+  "registered_sha256": "36b53589c1493f8e0342e4b099db471fd6815d7686bea7313e475b38f09bd8bb",
+  "coordinate_system": "viewer/screen",
+  "frame_count_source": 8,
+  "frame_count_registered_complete_cells": 6,
+  "registration_verdict": "fail",
+  "source_proportions_verdict": "pass",
+  "clipping_verdict": "No obvious clipped body parts in source or registered complete cells; source gaps are too tight near wing tips.",
+  "cardinal_verdicts": {
+    "000": "pass up",
+    "090": "pass screen-right"
+  },
+  "sequence_verdict": "fail: frame 5 jumps from right profile to downward near-front/slight left yaw; frames 6 and 7 continue toward down-left, losing the required down-right quadrant.",
+  "frames": [
+    {
+      "frame": 0,
+      "expected": {
+        "degrees": "000",
+        "direction": "up"
+      },
+      "observed": "up",
+      "verdict": "pass",
+      "landmark_evidence": "Chin clearly lifted; mouth and nose point upward; eyes are high under brows. Face stays near horizontal center with no side yaw.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          68,
+          104,
+          128,
+          202
+        ],
+        "nonzero_alpha_pixels": 4690,
+        "verdict": "fail",
+        "evidence": "Pose height is approximately 98 pixels, about half approved idle height; major scale mismatch."
+      }
+    },
+    {
+      "frame": 1,
+      "expected": {
+        "degrees": "022.5",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "verdict": "pass",
+      "landmark_evidence": "Chin remains lifted while nose and face plane move toward screen-right; screen-left ear is exposed and face asymmetry indicates right yaw.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          99,
+          200,
+          101,
+          202
+        ],
+        "nonzero_alpha_pixels": 3,
+        "verdict": "fail",
+        "evidence": "Empty/sparse cell."
+      }
+    },
+    {
+      "frame": 2,
+      "expected": {
+        "degrees": "045",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "verdict": "pass",
+      "landmark_evidence": "Nose projects further screen-right with raised chin and eyes aimed upward-right; mouth is on the right half of the head.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          9,
+          103,
+          187,
+          202
+        ],
+        "nonzero_alpha_pixels": 13766,
+        "verdict": "fail",
+        "evidence": "Contains three poses in one cell."
+      }
+    },
+    {
+      "frame": 3,
+      "expected": {
+        "degrees": "067.5",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "verdict": "pass",
+      "landmark_evidence": "Nose/face still face screen-right and chin remains somewhat lifted; upward component is weaker than prior poses but visible.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          68,
+          103,
+          127,
+          202
+        ],
+        "nonzero_alpha_pixels": 4451,
+        "verdict": "fail",
+        "evidence": "Pose height is approximately 98 pixels, about half approved idle height; major scale mismatch."
+      }
+    },
+    {
+      "frame": 4,
+      "expected": {
+        "degrees": "090",
+        "direction": "right"
+      },
+      "observed": "screen-right",
+      "verdict": "pass",
+      "landmark_evidence": "Nose tip and jaw project unmistakably toward screen-right; left ear visible behind face, far eye partly occluded; chin is approximately level.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          68,
+          104,
+          127,
+          202
+        ],
+        "nonzero_alpha_pixels": 4453,
+        "verdict": "fail",
+        "evidence": "Pose height is approximately 98 pixels, about half approved idle height; major scale mismatch."
+      }
+    },
+    {
+      "frame": 5,
+      "expected": {
+        "degrees": "112.5",
+        "direction": "down-right"
+      },
+      "observed": "down with slight screen-left yaw",
+      "verdict": "fail",
+      "landmark_evidence": "Chin tucks down, eye line lowers under bangs, crown becomes prominent. Face is close to frontal but nose/chin sit left of head mass and visible viewer-right ear indicates slight left yaw. No genuine right horizontal component; immediate reversal from prior right profile.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          99,
+          200,
+          100,
+          202
+        ],
+        "nonzero_alpha_pixels": 2,
+        "verdict": "fail",
+        "evidence": "Empty/sparse cell."
+      }
+    },
+    {
+      "frame": 6,
+      "expected": {
+        "degrees": "135",
+        "direction": "down-right"
+      },
+      "observed": "down with slight screen-left yaw",
+      "verdict": "fail",
+      "landmark_evidence": "Chin remains tucked, eyes below thick bangs. Nose and chin remain left of head mass with viewer-right ear exposed; no screen-right projection. Downward component passes but expected right component fails.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          69,
+          104,
+          128,
+          202
+        ],
+        "nonzero_alpha_pixels": 4457,
+        "verdict": "fail",
+        "evidence": "Pose height is approximately 98 pixels, about half approved idle height; major scale mismatch."
+      }
+    },
+    {
+      "frame": 7,
+      "expected": {
+        "degrees": "157.5",
+        "direction": "down-right"
+      },
+      "observed": "down-left",
+      "verdict": "fail",
+      "landmark_evidence": "Head yaws clearly toward screen-left while chin tucks down: nose/chin and visible eye are left of skull center, opposite eye is obscured by bangs, viewer-right ear/ornament exposed. Both downward pitch and left yaw are clear, giving the wrong quadrant.",
+      "semantics_inspected_from": "source pose order; registered row has invalid pose-to-cell mapping",
+      "registered_cell": {
+        "alpha_bounds": [
+          69,
+          104,
+          128,
+          202
+        ],
+        "nonzero_alpha_pixels": 4368,
+        "verdict": "fail",
+        "evidence": "Pose height is approximately 98 pixels, about half approved idle height; major scale mismatch."
+      }
+    }
+  ],
+  "required_repairs": [
+    "Regenerate complete coherent row 9 with clear right yaw maintained for 112.5/135/157.5 while progressively increasing down pitch.",
+    "Increase gaps between every complete pose so neighboring wing tips do not merge; re-register the whole row at approved standard-row scale and baseline."
+  ],
+  "zoom_evidence": "Pets/shuangli/qa/look-row-9-independent-heads.png"
+}

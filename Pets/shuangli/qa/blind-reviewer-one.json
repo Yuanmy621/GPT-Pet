@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and rounded face contour project to the right, with the right eye compressed by the turn. B's nose projects left and its left eye is the compressed far eye; both gazes follow their respective head turns."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose tip and chin sit left of the face center, and the left eye is narrower than the prominent right eye. B shows the reverse facial geometry: the nose and chin project right with a prominent left eye."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has a clear right-facing nose silhouette, broad visible left eye, and narrowed far eye at the right edge. B has a left-facing nose silhouette, broad visible right eye, and narrowed far eye at the left edge."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's face terminates in a left-facing nose and chin profile, with the right eye most visible. B's nose and chin extend right, and its left eye is most visible."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Despite the lowered head pitch, A's nose and chin are displaced left and its near right eye remains visible. B's nose and chin are displaced right, with the near left eye clearly visible and the far right eye compressed."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A bows while turning left: its nose lies left of the prominent right eye and its face outline slopes into a left-facing chin. B bows while turning right: its nose lies right of the prominent left eye, with a narrower far right eye."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's lowered nose and chin lie left of the head center, with the near right eye larger than the far left eye. B has a shallower right turn: its nose and chin lie slightly right of center and its right eye is more compressed than its left eye. The rightward cue in B is weaker but visible."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises its chin, exposes a broad lower face above the collar, and places both pupils high under the upper eyelids. B lowers its chin toward the collar; its fringe covers more of the eyes and both eyes look downward."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A's forehead tips forward, the chin tucks toward the collar, and the narrowed eyes look down. B lifts its nose and chin, shows more lower face and neck, and directs the pupils upward."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A's side-facing head is bowed: the chin is close to the collar and the gaze sits low beneath the fringe. B's nose and chin tilt upward, the lower face opens away from the collar, and the prominent eye gazes upward."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a shallow downward pitch, shown by the lowered chin, forward fringe, and low gaze. B raises its side-facing nose and chin and turns its prominent eye upward; the pitch in A is milder than in the preceding down poses."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A's chin tucks inward below a forward-tilted forehead, with its visible eye looking low. B tips its nose and chin upward, exposes the underside of the face and neck, and looks up with raised pupils."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's lowered face and chin approach the collar while the visible eye looks down under the fringe. B's chin lifts away from the collar, the mouth and nose sit higher on an upward-tilted face, and its eyes gaze upward."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A shows a shallow raised chin, an open lower face above the neck, and an upward pupil position. B angles the forehead forward and chin downward toward the collar, with its visible eye looking down. A's upward pitch is subtle but discernible."
+    }
+  ]
+}

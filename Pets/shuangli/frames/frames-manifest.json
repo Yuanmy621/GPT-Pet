@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#00FF00",
+    "rgb": [
+      0,
+      255,
+      0
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "idle",
+      "frames": [
+        "Pets/shuangli/frames/idle/00.png",
+        "Pets/shuangli/frames/idle/01.png",
+        "Pets/shuangli/frames/idle/02.png",
+        "Pets/shuangli/frames/idle/03.png",
+        "Pets/shuangli/frames/idle/04.png",
+        "Pets/shuangli/frames/idle/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-right",
+      "frames": [
+        "Pets/shuangli/frames/running-right/00.png",
+        "Pets/shuangli/frames/running-right/01.png",
+        "Pets/shuangli/frames/running-right/02.png",
+        "Pets/shuangli/frames/running-right/03.png",
+        "Pets/shuangli/frames/running-right/04.png",
+        "Pets/shuangli/frames/running-right/05.png",
+        "Pets/shuangli/frames/running-right/06.png",
+        "Pets/shuangli/frames/running-right/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running-left",
+      "frames": [
+        "Pets/shuangli/frames/running-left/00.png",
+        "Pets/shuangli/frames/running-left/01.png",
+        "Pets/shuangli/frames/running-left/02.png",
+        "Pets/shuangli/frames/running-left/03.png",
+        "Pets/shuangli/frames/running-left/04.png",
+        "Pets/shuangli/frames/running-left/05.png",
+        "Pets/shuangli/frames/running-left/06.png",
+        "Pets/shuangli/frames/running-left/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waving",
+      "frames": [
+        "Pets/shuangli/frames/waving/00.png",
+        "Pets/shuangli/frames/waving/01.png",
+        "Pets/shuangli/frames/waving/02.png",
+        "Pets/shuangli/frames/waving/03.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "jumping",
+      "frames": [
+        "Pets/shuangli/frames/jumping/00.png",
+        "Pets/shuangli/frames/jumping/01.png",
+        "Pets/shuangli/frames/jumping/02.png",
+        "Pets/shuangli/frames/jumping/03.png",
+        "Pets/shuangli/frames/jumping/04.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "failed",
+      "frames": [
+        "Pets/shuangli/frames/failed/00.png",
+        "Pets/shuangli/frames/failed/01.png",
+        "Pets/shuangli/frames/failed/02.png",
+        "Pets/shuangli/frames/failed/03.png",
+        "Pets/shuangli/frames/failed/04.png",
+        "Pets/shuangli/frames/failed/05.png",
+        "Pets/shuangli/frames/failed/06.png",
+        "Pets/shuangli/frames/failed/07.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "waiting",
+      "frames": [
+        "Pets/shuangli/frames/waiting/00.png",
+        "Pets/shuangli/frames/waiting/01.png",
+        "Pets/shuangli/frames/waiting/02.png",
+        "Pets/shuangli/frames/waiting/03.png",
+        "Pets/shuangli/frames/waiting/04.png",
+        "Pets/shuangli/frames/waiting/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "running",
+      "frames": [
+        "Pets/shuangli/frames/running/00.png",
+        "Pets/shuangli/frames/running/01.png",
+        "Pets/shuangli/frames/running/02.png",
+        "Pets/shuangli/frames/running/03.png",
+        "Pets/shuangli/frames/running/04.png",
+        "Pets/shuangli/frames/running/05.png"
+      ],
+      "method": "components"
+    },
+    {
+      "state": "review",
+      "frames": [
+        "Pets/shuangli/frames/review/00.png",
+        "Pets/shuangli/frames/review/01.png",
+        "Pets/shuangli/frames/review/02.png",
+        "Pets/shuangli/frames/review/03.png",
+        "Pets/shuangli/frames/review/04.png",
+        "Pets/shuangli/frames/review/05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

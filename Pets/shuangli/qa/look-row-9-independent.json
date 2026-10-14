@@ -1,0 +1,225 @@
+{
+  "ok": true,
+  "revision": 3,
+  "scope": "Independent visual and semantic QA only; no generation or authoritative final structural gate.",
+  "source": "Pets/shuangli/decoded/look-row-9.png",
+  "source_sha256": "b79af9506c846630700a96bf554c5666de7c222a592bd199fc05610d3c9fdd16",
+  "registered_row": "Pets/shuangli/qa/look-row-9-registered.png",
+  "registered_sha256": "1879d9af4706a06492263f19bcf3560bfdb3f18a239b59724e3aca18c8373c00",
+  "coordinate_system": "viewer/screen",
+  "frame_count": 8,
+  "registration_verdict": "pass: eight complete individual sprites with baseline y202 throughout, heights 188–195 pixels, safe margins and no empty/multiple-pose cells.",
+  "scale_verdict": "pass: registered row now comparable to idle with one shared scale.",
+  "idle_alpha_bounds": [
+    34,
+    5,
+    157,
+    203
+  ],
+  "source_proportions_verdict": "pass: approved chibi head, short torso, face design, horns, wings, tail and dress consistent.",
+  "identity_verdict": "pass: source and native registered row inspected independently after imagegen repair. Knot rosette remains visible on viewer-right/anatomical-left in frontal up pose and naturally occluded behind far side for all right-yaw poses. It no longer appears over exposed screen-left/anatomical-right near ear in frames5–7.",
+  "clipping_verdict": "pass: complete horns, wings, hair, tail, dress and feet within cells.",
+  "cardinal_verdicts": {
+    "000": "pass up",
+    "090": "pass screen-right"
+  },
+  "direction_sequence_verdict": "pass: up to up-right to right to down-right; no prior wrong-quadrant reversal remains.",
+  "continuity_verdict": "pass: direction sweep, identity, body scale and baseline coherent; prior wrong-side rosette pop removed.",
+  "frames": [
+    {
+      "frame": 0,
+      "expected": {
+        "degrees": "000",
+        "direction": "up"
+      },
+      "observed": "up",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Chin lifted, face/nose oriented up, pupils high beneath brows; face horizontally centered. Viewer-right rosette matches canonical anatomical-left side.",
+      "registered_cell": {
+        "alpha_bounds": [
+          32,
+          10,
+          158,
+          202
+        ],
+        "height": 192,
+        "nonzero_alpha_pixels": 18197,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 1,
+      "expected": {
+        "degrees": "022.5",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Chin remains lifted while nose/face project slightly toward screen-right; screen-left ear is exposed and face plane is asymmetric in right-yaw sense. Rosette naturally occludes on far side.",
+      "registered_cell": {
+        "alpha_bounds": [
+          35,
+          9,
+          157,
+          202
+        ],
+        "height": 193,
+        "nonzero_alpha_pixels": 17514,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 2,
+      "expected": {
+        "degrees": "045",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Nose and mouth project further toward screen-right, with chin lifted and pupils aimed above horizontal; screen-left near ear is exposed. Far-side rosette stays hidden.",
+      "registered_cell": {
+        "alpha_bounds": [
+          36,
+          8,
+          156,
+          202
+        ],
+        "height": 194,
+        "nonzero_alpha_pixels": 17289,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 3,
+      "expected": {
+        "degrees": "067.5",
+        "direction": "up-right"
+      },
+      "observed": "up-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Face projects clearly screen-right with raised chin; upward pitch is weaker than earlier poses but still visible. Screen-left ear/near cheek geometry confirms right yaw. Rosette remains hidden.",
+      "registered_cell": {
+        "alpha_bounds": [
+          36,
+          7,
+          156,
+          202
+        ],
+        "height": 195,
+        "nonzero_alpha_pixels": 17034,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 4,
+      "expected": {
+        "degrees": "090",
+        "direction": "right"
+      },
+      "observed": "right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Nose tip and jaw extend unmistakably screen-right; far eye partly occluded, visible screen-left ear trails nose. Chin is approximately level, giving right cardinal. Rosette is hidden as expected.",
+      "registered_cell": {
+        "alpha_bounds": [
+          36,
+          9,
+          155,
+          202
+        ],
+        "height": 193,
+        "nonzero_alpha_pixels": 16888,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 5,
+      "expected": {
+        "degrees": "112.5",
+        "direction": "down-right"
+      },
+      "observed": "down-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Nose/face plane still project screen-right; eye line and chin dip below right-cardinal height, giving slight down pitch. Exposed screen-left near ear has ordinary white hair above it and no knot rosette; far anatomical-left ornament remains occluded.",
+      "registered_cell": {
+        "alpha_bounds": [
+          36,
+          12,
+          154,
+          202
+        ],
+        "height": 190,
+        "nonzero_alpha_pixels": 16583,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 6,
+      "expected": {
+        "degrees": "135",
+        "direction": "down-right"
+      },
+      "observed": "down-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Chin tucks down more deeply and eyes lower under bangs; nose/face retain screen-right displacement relative to skull/neck center. Screen-left near ear is exposed with plain hair above it, no incorrect knot; fixed far-side ornament is naturally hidden.",
+      "registered_cell": {
+        "alpha_bounds": [
+          34,
+          13,
+          153,
+          202
+        ],
+        "height": 189,
+        "nonzero_alpha_pixels": 16643,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    },
+    {
+      "frame": 7,
+      "expected": {
+        "degrees": "157.5",
+        "direction": "down-right"
+      },
+      "observed": "down-right",
+      "semantic_verdict": "pass",
+      "identity_verdict": "pass",
+      "verdict": "pass",
+      "landmark_evidence": "Deep downward pitch: eye line compressed under bangs, crown prominent, chin near chest. Head reduces right yaw toward front but nose/chin still shift screen-right relative to skull/neck axis, preserving down-right. Plain hair above visible screen-left near ear; no anatomical-right rosette or ornament pop.",
+      "registered_cell": {
+        "alpha_bounds": [
+          32,
+          14,
+          152,
+          202
+        ],
+        "height": 188,
+        "nonzero_alpha_pixels": 16463,
+        "registration_verdict": "pass",
+        "clipping_verdict": "pass"
+      }
+    }
+  ],
+  "required_repairs": [],
+  "zoom_evidence": "Pets/shuangli/qa/look-row-9-independent-heads.png",
+  "inspection_evidence": "Viewed exact current source, full registered row at native1536×208 size, and enlarged source head landmarks; final independent review after look repair."
+}
