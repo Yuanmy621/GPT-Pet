@@ -1,5 +1,5 @@
 {
-  "source_atlas": "Pets/shuangli/final/spritesheet-extended.png",
+  "source_atlas": "Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
   "all_states": [
     "idle",
     "running-right",
@@ -11,5 +11,6 @@
     "running",
     "review"
   ],
-  "source_is_final_encoded_sheet": true
+  "source_is_final_encoded_sheet": true,
+  "sprite_version": 2
 }

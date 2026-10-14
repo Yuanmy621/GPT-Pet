@@ -4,6 +4,8 @@
 
 角色采用日系 Q 版比例：银白长发、紫色眼睛、双龙角、尖耳、淡紫薄翼、蓬松龙尾，搭配白色长裙、紫灰褶边和银色花结饰品。
 
+当前成品已应用待机与工作动画修订：固定身体和衣裙姿态，减少循环接缝跳变，并加强眼睛与轮廓的原生尺寸可读性。源图、前后对比和验证记录见 [修订说明](Pets/shuangli/revisions/clarity-motion-v2/README.md)。
+
 ![霜璃九组动作预览](Pets/shuangli/previews/all-states.gif)
 
 ![霜璃十六方向视线](Pets/shuangli/previews/look-loop.gif)

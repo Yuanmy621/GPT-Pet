@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose and chin sit toward the right edge of the face, with the right-facing eye surface exposed. B: the nose projects left and the chin follows a left-facing profile."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose extends from the left face contour and the visible eye surface faces left. B: the nose, mouth and chin extend toward the right, exposing the right-facing cheek."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the face presents a left profile, with the nose tip left of the eyes and a leftward chin contour. B: the nose and chin point right and the eye surface turns toward the right edge."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the visible nose and mouth terminate on the right face contour. B: the nose projects to the left and the chin lies beneath a left-facing eye surface."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: despite the lowered head, the nose and chin extend left of the eye surface. B: the lowered face exposes its right-facing surface, with the nose and chin offset right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the bowed head retains a leftward nose tip and left-facing cheek contour. B: the nose tip and chin are directed right beneath the lowered eye surface."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the lowered face is slightly turned right, with its nose and chin near the right contour. B: the bowed face shows a clearer left profile, with the nose projecting left."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown and bangs dominate, the eye surface slopes downward, and the chin is tucked toward the chest. B: the eyes face upward, the chin is raised, and the underside of the lower face is exposed."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the eye surface is lowered beneath the bangs and the chin is tucked close to the chest. B: the nose and chin lift, with the cheek and eye surface angled upward."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the side profile has a raised nose and chin, with the eye surface looking above horizontal. B: the crown tips forward and the nose and chin drop beneath the downward-facing eye surface."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the side-facing nose is slightly elevated and the chin sits forward and raised, though the upward tilt is mild. B: the nose and chin are lowered and the eye surface angles toward the ground."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the head tips back, with a raised nose, exposed lower cheek and lifted chin. B: the head tips forward, exposing more crown and bringing the nose and chin toward the chest."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "ambiguous",
+      "B": "up",
+      "reason": "A: the cell is blank, so no head, nose, chin or eye surface is available to judge. B: the nose and chin are lifted in a left-facing profile and the eye surface angles upward."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the forehead and bangs tip forward, with a lowered nose and tucked chin. B: the side-facing nose and chin are slightly raised and the eye surface angles upward, although the upward tilt is subtle."
+    }
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "atlas": "Pets/shuangli/final/spritesheet-extended.png",
-  "encoded_bytes": 3505211,
-  "sha256": "6daae254b0eae8e7ddff1c194970d170e99fa529de8b7e75383095e2a45205ee",
+  "atlas": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
+  "encoded_bytes": 3528335,
+  "sha256": "ae8a172992e425c540badb74b330673d3564ee57b6803e4420e677f14646ae5e",
   "jump": {
     "idle_baseline": 202,
     "jump_baselines": [
@@ -16,24 +16,24 @@
     "landing_delta_pixels": 0
   },
   "look_registration": {
-    "neutral_center_x": 95.5,
+    "neutral_center_x": 96.0,
     "look_centers_x": [
-      95.0,
       96.0,
+      97.0,
+      98.0,
+      97.0,
+      96.5,
       96.0,
-      96.0,
-      95.5,
-      95.0,
-      93.5,
-      92.0,
-      97.5,
-      102.0,
-      102.5,
-      102.5,
-      102.0,
+      94.5,
+      93.0,
+      98.5,
+      103.0,
+      103.5,
+      103.5,
+      103.0,
       100.0,
-      99.0,
-      99.0
+      101.0,
+      100.0
     ],
     "look_widths": [
       126,
@@ -53,7 +53,7 @@
       120,
       124
     ],
-    "maximum_center_drift_pixels": 7.0,
+    "maximum_center_drift_pixels": 7.5,
     "maximum_width_ratio": 1.105263157894737
   },
   "errors": [],

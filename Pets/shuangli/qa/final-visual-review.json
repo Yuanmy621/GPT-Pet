@@ -1,0 +1,26 @@
+{
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
+  "viewed": [
+    "qa/contact-sheet-final.png",
+    "qa/native-before-after.png",
+    "qa/direction-sheet.png",
+    "previews/motion-stills.png"
+  ],
+  "idle": {
+    "verdict": "pass",
+    "evidence": "Same body/feet bounds in all six cells; gradual eyelid closing then reopen; wing posture held throughout. Native eyes and robe contours legible. Wing width +15px from wider resting pose, character height and feet baseline preserved."
+  },
+  "running": {
+    "verdict": "pass",
+    "evidence": "Hand stays attached near chin through all six frames; lids narrow and reopen. No alternation between temple gesture and chin gesture. All six cells share identical bbox and feet baseline."
+  },
+  "standard_transitions": {
+    "verdict": "pass",
+    "evidence": "Idle and retained jumping resting baseline same (bottom at y203 exclusive); airborne frame visibly lifts and returns. Broader idle wings remain distinct pose rather than body scale jump; head and trunk size consistent across retained states."
+  },
+  "directions": {
+    "verdict": "pass",
+    "evidence": "Whole sixteen-pose family registered at stable ground line. Cardinal chin/gaze orientations clearly up/right/down/left; two loop boundaries retain planted body and expected clockwise gaze."
+  },
+  "limits": "Comparison reports measure sprite artwork continuity; app render frame rate and Retina display interpolation cannot be changed through the Pets asset API."
+}

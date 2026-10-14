@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "atlas": "Pets/shuangli/final/spritesheet-extended.png",
+  "encoded_bytes": 3505211,
+  "sha256": "6daae254b0eae8e7ddff1c194970d170e99fa529de8b7e75383095e2a45205ee",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      190,
+      175,
+      198,
+      202
+    ],
+    "airborne_lift_pixels": 27,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      95.0,
+      96.0,
+      96.0,
+      96.0,
+      95.5,
+      95.0,
+      93.5,
+      92.0,
+      97.5,
+      102.0,
+      102.5,
+      102.5,
+      102.0,
+      100.0,
+      99.0,
+      99.0
+    ],
+    "look_widths": [
+      126,
+      122,
+      120,
+      120,
+      119,
+      118,
+      119,
+      120,
+      125,
+      114,
+      115,
+      115,
+      114,
+      120,
+      120,
+      124
+    ],
+    "maximum_center_drift_pixels": 7.0,
+    "maximum_width_ratio": 1.105263157894737
+  },
+  "errors": [],
+  "warnings": [
+    "157.5->180 diff is a local outlier (3719 pixels vs neighbor average 2314)"
+  ]
+}

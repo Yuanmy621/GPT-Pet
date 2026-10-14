@@ -4,85 +4,85 @@
       "pair": "horizontal-1",
       "A": "screen-right",
       "B": "screen-left",
-      "reason": "A's nose and chin point toward the right edge of the face, with the fuller eye on the left side. B's nose and chin project left, with the fuller eye on the right side."
+      "reason": "A's nose and chin extend toward the right, with the face opening toward that side. B's nose and chin extend left, with the visible facial surface opening left."
     },
     {
       "pair": "horizontal-2",
       "A": "screen-left",
       "B": "screen-right",
-      "reason": "A shows a leftward nose and cheek silhouette, with the dominant visible eye to its right. B shows a rightward nose and cheek silhouette, with the dominant visible eye to its left."
+      "reason": "A presents a leftward nose profile and leftward chin; the right-side hair ornament is behind the facial plane. B has the nose and chin projecting right and the ear behind them on the left."
     },
     {
       "pair": "horizontal-3",
-      "A": "screen-right",
-      "B": "screen-left",
-      "reason": "A's profile places the nose at the face's rightmost point and exposes the eye behind it on the left. B's profile places the nose at the leftmost point and exposes the eye behind it on the right."
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose tip and front cheek contour point left, with the eyes on the left-facing surface. B's nose tip and front cheek contour point right, with the eyes on the right-facing surface."
     },
     {
       "pair": "horizontal-4",
-      "A": "screen-left",
-      "B": "screen-right",
-      "reason": "A has a left-facing nose, mouth and chin contour with one prominent eye on the right half of the face. B has a right-facing nose, mouth and chin contour with one prominent eye on the left half."
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's front facial outline and chin lie to the right of the neck, and the visible ear is behind the face on the left. B reverses these cues: the nose and chin project left and the ornament sits behind the face on the right."
     },
     {
       "pair": "horizontal-5",
       "A": "screen-left",
       "B": "screen-right",
-      "reason": "Despite the downward pitch, A's nose and chin project left and its larger visible eye is on the right. B's nose and chin project right and its larger visible eye is on the left."
+      "reason": "Both heads are somewhat lowered. A's nose and chin still protrude left from beneath the bangs. B's facial surface, nose, and chin extend right, with the left ear behind them."
     },
     {
       "pair": "horizontal-6",
       "A": "screen-left",
       "B": "screen-right",
-      "reason": "A's lowered face is asymmetric toward the left: the nose contour lies left of the fuller right-side eye, and the far left eye is mostly hidden. B's lowered face points right: the rightward nose contour sits beyond the fuller left-side eye, with the far right eye compressed."
+      "reason": "Despite the downward pitch, A's cheek and chin slope toward the left and its nose points left. B's cheek and chin slope toward the right and its visible eye surface opens right."
     },
     {
       "pair": "horizontal-7",
-      "A": "screen-left",
-      "B": "screen-right",
-      "reason": "A has a subtle left turn, shown by the fuller eye on the face's right side, the mostly obscured far left eye and the leftward mouth/chin contour. B has a subtle right turn, shown by the fuller left-side eye, narrower far right eye and right-shifted nose/chin."
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Moderate confidence because both faces are bowed. A's lower face and chin shift right of the neck and its ear is visible on the left. B's lower face and nose shift left, with the right ornament behind the face."
     },
     {
       "pair": "vertical-1",
-      "A": "up",
-      "B": "down",
-      "reason": "A raises the chin, exposes the neck beneath the jaw and has open eyes directed upward. B lowers the eye line beneath the bangs and tucks the chin close to the collar, with more of the head crown visible."
+      "A": "down",
+      "B": "up",
+      "reason": "A bows the head: the bangs and crown dominate, the eye band lies low, and the chin tucks toward the chest. B lifts the face, with the eyes higher in the exposed facial surface and the chin raised away from the chest."
     },
     {
       "pair": "vertical-2",
       "A": "down",
       "B": "up",
-      "reason": "A's chin is tucked and its eyes sit low beneath the bangs, with the crown tilted toward the viewer. B's chin and nose angle upward, its eyes are raised and a longer neck gap is visible beneath the jaw."
+      "reason": "A's eyes look from under descending bangs and its chin is tucked. B exposes more of the face below the eyes, raises the nose, and lifts the chin away from the neck."
     },
     {
       "pair": "vertical-3",
-      "A": "down",
-      "B": "up",
-      "reason": "A lowers the nose and chin toward the chest and keeps the visible eye beneath a low brow. B lifts the nose and chin, opens the eye upward and exposes the neck under the jaw."
+      "A": "up",
+      "B": "down",
+      "reason": "A's nose points upward and the chin lifts, exposing a broad facial surface beneath the eyes. B's nose and chin angle downward, with the eye surface compressed beneath the bangs."
     },
     {
       "pair": "vertical-4",
-      "A": "down",
-      "B": "up",
-      "reason": "A's face pitches down, with the chin near the collar and a lowered eye under the bangs. B's profile tilts up, with the nose and chin higher, an upward eye line and an exposed stretch of neck."
+      "A": "up",
+      "B": "down",
+      "reason": "Lower confidence for the small pitch difference. A's nose and front jaw angle slightly upward and the chin stays raised; B's eyes sit under lower bangs and its nose/chin tilt toward the chest."
     },
     {
       "pair": "vertical-5",
-      "A": "down",
-      "B": "up",
-      "reason": "A shows the head crown prominently and drops the nose and chin toward the chest, with its eye lowered under the fringe. B raises the nose and chin, shows the underside of the jaw and looks upward with exposed neck below."
+      "A": "up",
+      "B": "down",
+      "reason": "A strongly lifts its nose and chin, exposing the lower facial plane. B bows the head leftward and down, showing more crown and bangs while tucking the chin close to the chest."
     },
     {
       "pair": "vertical-6",
       "A": "down",
       "B": "up",
-      "reason": "A's chin is lowered near the collar, the nose points down and the visible eye is tucked beneath the bangs. B's chin is raised above an exposed neck, the nose tips upward and the eyes have an upward line."
+      "reason": "A's forehead and bangs tilt forward over the low eye band, and its nose/chin point down. B raises the nose and chin, with the exposed facial plane angled upward."
     },
     {
       "pair": "vertical-7",
-      "A": "up",
-      "B": "down",
-      "reason": "A has a modest upward pitch, with its nose and chin lifted, its visible eye open and the neck showing beneath a nearly level jaw. B lowers the nose and chin toward the collar, with a downward eye line and more of the crown facing the viewer."
+      "A": "down",
+      "B": "up",
+      "reason": "A's crown is prominent, its eye band is low, and its nose/chin point toward the chest. B holds the nose and chin slightly higher and exposes the face upward; B's upward pitch is mild, so confidence is lower."
     }
   ]
 }

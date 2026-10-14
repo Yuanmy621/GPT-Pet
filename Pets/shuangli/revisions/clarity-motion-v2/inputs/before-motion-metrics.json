@@ -1,0 +1,150 @@
+{
+  "idle": [
+    {
+      "from": 0,
+      "to": 1,
+      "changed_pixels": 6190,
+      "body_changed_pixels": 3282,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "changed_pixels": 3288,
+      "body_changed_pixels": 1723,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "changed_pixels": 4058,
+      "body_changed_pixels": 2462,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "changed_pixels": 5259,
+      "body_changed_pixels": 3021,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "changed_pixels": 1736,
+      "body_changed_pixels": 992,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "changed_pixels": 6021,
+      "body_changed_pixels": 3149,
+      "bbox": [
+        34,
+        5,
+        157,
+        203
+      ]
+    }
+  ],
+  "running": [
+    {
+      "from": 0,
+      "to": 1,
+      "changed_pixels": 7439,
+      "body_changed_pixels": 3900,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "changed_pixels": 5314,
+      "body_changed_pixels": 2483,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "changed_pixels": 5465,
+      "body_changed_pixels": 2709,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "changed_pixels": 7532,
+      "body_changed_pixels": 4853,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "changed_pixels": 5372,
+      "body_changed_pixels": 3687,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "changed_pixels": 6387,
+      "body_changed_pixels": 3360,
+      "bbox": [
+        35,
+        5,
+        156,
+        203
+      ]
+    }
+  ]
+}

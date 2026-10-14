@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "Pets/shuangli/frames",
+  "frames_root": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames",
   "states": [
     "idle",
     "running-right",
@@ -13,7 +13,15 @@
     "review"
   ],
   "errors": [],
-  "warnings": [],
+  "warnings": [
+    "running-right used extraction method approved-encoded-cells; component extraction is preferred",
+    "running-left used extraction method approved-encoded-cells; component extraction is preferred",
+    "waving used extraction method approved-encoded-cells; component extraction is preferred",
+    "jumping used extraction method approved-encoded-cells; component extraction is preferred",
+    "failed used extraction method approved-encoded-cells; component extraction is preferred",
+    "waiting used extraction method approved-encoded-cells; component extraction is preferred",
+    "review used extraction method approved-encoded-cells; component extraction is preferred"
+  ],
   "rows": [
     {
       "state": "idle",
@@ -26,93 +34,93 @@
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/idle/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17218,
+          "nontransparent_pixels": 18304,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 316
+          "chroma_adjacent_pixels": 331
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/idle/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17133,
+          "nontransparent_pixels": 18241,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 294
+          "chroma_adjacent_pixels": 306
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/idle/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17074,
+          "nontransparent_pixels": 18221,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 284
+          "chroma_adjacent_pixels": 328
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/idle/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17020,
+          "nontransparent_pixels": 18236,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 291
+          "chroma_adjacent_pixels": 330
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/idle/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17119,
+          "nontransparent_pixels": 18228,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 318
+          "chroma_adjacent_pixels": 301
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/idle/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/idle/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17101,
+          "nontransparent_pixels": 18200,
           "bbox": [
-            34,
+            27,
             5,
-            157,
+            165,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 308
+          "chroma_adjacent_pixels": 338
         }
       ]
     },
@@ -120,14 +128,16 @@
       "state": "running-right",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-right used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/running-right/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15838,
@@ -138,11 +148,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 402
+          "chroma_adjacent_pixels": 4
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/running-right/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13322,
@@ -153,11 +163,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 377
+          "chroma_adjacent_pixels": 2
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/running-right/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 12791,
@@ -168,11 +178,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 297
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/running-right/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13784,
@@ -183,11 +193,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 371
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/running-right/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15423,
@@ -198,11 +208,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 386
+          "chroma_adjacent_pixels": 2
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/running-right/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13148,
@@ -213,11 +223,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 316
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "Pets/shuangli/frames/running-right/06.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 12939,
@@ -228,11 +238,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 349
+          "chroma_adjacent_pixels": 3
         },
         {
           "index": 7,
-          "file": "Pets/shuangli/frames/running-right/07.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-right/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14990,
@@ -243,7 +253,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 383
+          "chroma_adjacent_pixels": 12
         }
       ]
     },
@@ -251,14 +261,16 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "running-left used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/running-left/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15673,
@@ -269,11 +281,11 @@
             202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 385
+          "chroma_adjacent_pixels": 4
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/running-left/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 13777,
@@ -284,11 +296,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 329
+          "chroma_adjacent_pixels": 5
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/running-left/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15272,
@@ -299,11 +311,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 340
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/running-left/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14017,
@@ -314,11 +326,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 349
+          "chroma_adjacent_pixels": 12
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/running-left/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15718,
@@ -329,11 +341,11 @@
             202
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 339
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/running-left/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14139,
@@ -344,11 +356,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 282
+          "chroma_adjacent_pixels": 6
         },
         {
           "index": 6,
-          "file": "Pets/shuangli/frames/running-left/06.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15877,
@@ -359,11 +371,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 329
+          "chroma_adjacent_pixels": 9
         },
         {
           "index": 7,
-          "file": "Pets/shuangli/frames/running-left/07.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running-left/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14415,
@@ -374,7 +386,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 309
+          "chroma_adjacent_pixels": 5
         }
       ]
     },
@@ -382,14 +394,16 @@
       "state": "waving",
       "expected_frames": 4,
       "actual_frames": 4,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "waving used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/waving/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waving/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18027,
@@ -400,11 +414,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 179
+          "chroma_adjacent_pixels": 12
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/waving/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waving/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17960,
@@ -415,11 +429,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 177
+          "chroma_adjacent_pixels": 15
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/waving/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waving/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17972,
@@ -430,11 +444,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 192
+          "chroma_adjacent_pixels": 17
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/waving/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waving/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18046,
@@ -445,7 +459,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 190
+          "chroma_adjacent_pixels": 13
         }
       ]
     },
@@ -453,14 +467,16 @@
       "state": "jumping",
       "expected_frames": 5,
       "actual_frames": 5,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "jumping used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/jumping/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/jumping/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14376,
@@ -471,11 +487,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/jumping/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/jumping/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15439,
@@ -486,11 +502,11 @@
             192
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 178
+          "chroma_adjacent_pixels": 1
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/jumping/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/jumping/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16024,
@@ -501,11 +517,11 @@
             177
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 240
+          "chroma_adjacent_pixels": 4
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/jumping/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/jumping/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15490,
@@ -516,11 +532,11 @@
             200
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 232
+          "chroma_adjacent_pixels": 3
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/jumping/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/jumping/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14342,
@@ -531,7 +547,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 141
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -539,14 +555,16 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "failed used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/failed/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15813,
@@ -557,11 +575,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 242
+          "chroma_adjacent_pixels": 7
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/failed/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15276,
@@ -572,11 +590,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 249
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/failed/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15232,
@@ -587,11 +605,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 250
+          "chroma_adjacent_pixels": 3
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/failed/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15141,
@@ -602,11 +620,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 241
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/failed/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14837,
@@ -617,11 +635,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
+          "chroma_adjacent_pixels": 1
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/failed/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15332,
@@ -632,11 +650,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 247
+          "chroma_adjacent_pixels": 2
         },
         {
           "index": 6,
-          "file": "Pets/shuangli/frames/failed/06.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15451,
@@ -647,11 +665,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 235
+          "chroma_adjacent_pixels": 4
         },
         {
           "index": 7,
-          "file": "Pets/shuangli/frames/failed/07.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/failed/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 15493,
@@ -662,7 +680,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 245
+          "chroma_adjacent_pixels": 4
         }
       ]
     },
@@ -670,14 +688,16 @@
       "state": "waiting",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "waiting used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/waiting/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17019,
@@ -688,11 +708,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 274
+          "chroma_adjacent_pixels": 12
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/waiting/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16939,
@@ -703,11 +723,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 307
+          "chroma_adjacent_pixels": 7
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/waiting/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17087,
@@ -718,11 +738,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 257
+          "chroma_adjacent_pixels": 6
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/waiting/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17180,
@@ -733,11 +753,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 267
+          "chroma_adjacent_pixels": 5
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/waiting/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17086,
@@ -748,11 +768,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 265
+          "chroma_adjacent_pixels": 7
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/waiting/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/waiting/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17030,
@@ -763,7 +783,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 277
+          "chroma_adjacent_pixels": 11
         }
       ]
     },
@@ -778,14 +798,14 @@
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/running/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17099,
+          "nontransparent_pixels": 17704,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
@@ -793,78 +813,78 @@
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/running/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17007,
+          "nontransparent_pixels": 17712,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 240
+          "chroma_adjacent_pixels": 261
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/running/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16930,
+          "nontransparent_pixels": 17801,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 285
+          "chroma_adjacent_pixels": 252
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/running/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16908,
+          "nontransparent_pixels": 17818,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 260
+          "chroma_adjacent_pixels": 274
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/running/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17057,
+          "nontransparent_pixels": 17801,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 259
+          "chroma_adjacent_pixels": 272
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/running/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/running/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 16852,
+          "nontransparent_pixels": 17760,
           "bbox": [
-            35,
+            34,
             5,
-            156,
+            158,
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 253
+          "chroma_adjacent_pixels": 270
         }
       ]
     },
@@ -872,14 +892,16 @@
       "state": "review",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": "approved-encoded-cells",
       "ok": true,
       "errors": [],
-      "warnings": [],
+      "warnings": [
+        "review used extraction method approved-encoded-cells; component extraction is preferred"
+      ],
       "frames": [
         {
           "index": 0,
-          "file": "Pets/shuangli/frames/review/00.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16271,
@@ -890,11 +912,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 274
+          "chroma_adjacent_pixels": 5
         },
         {
           "index": 1,
-          "file": "Pets/shuangli/frames/review/01.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16223,
@@ -905,11 +927,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 304
+          "chroma_adjacent_pixels": 8
         },
         {
           "index": 2,
-          "file": "Pets/shuangli/frames/review/02.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16421,
@@ -920,11 +942,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 265
+          "chroma_adjacent_pixels": 5
         },
         {
           "index": 3,
-          "file": "Pets/shuangli/frames/review/03.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16245,
@@ -935,11 +957,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 279
+          "chroma_adjacent_pixels": 12
         },
         {
           "index": 4,
-          "file": "Pets/shuangli/frames/review/04.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16338,
@@ -950,11 +972,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 281
+          "chroma_adjacent_pixels": 4
         },
         {
           "index": 5,
-          "file": "Pets/shuangli/frames/review/05.png",
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/frames/review/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 16008,
@@ -965,7 +987,7 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 227
+          "chroma_adjacent_pixels": 3
         }
       ]
     }

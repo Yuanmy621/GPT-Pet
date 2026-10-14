@@ -1,0 +1,20 @@
+{
+  "state": "running",
+  "purpose": "Repair the existing active-work animation to reduce gesture jumps and improve clarity at native 192x208 size.",
+  "generated_with": "built-in image_gen",
+  "effective_prompt": "prompts/rows/running-effective.md",
+  "selected_source": "decoded/running.png",
+  "frame_review": "qa/rows/running/review.json",
+  "visual_review": {
+    "frame_count": 6,
+    "complete_separated_poses": true,
+    "identity": "Same silver-white/lavender chibi dragon woman; purple eyes; white horns; viewer-right rosette; matching dress, wings, and attached tail.",
+    "scale_baseline": "Planting and dress hem remain stable across six frames; no locomotion or abrupt resize.",
+    "state_semantics": "Right fingertip stays at chin through the entire focused thinking loop; lowered eyelids in central phases convey concentration.",
+    "motion_continuity": "Open eyes transition through slight lowering and recovery; first and last poses nearly coincide. No chin-to-temple hand switch, large closed-eye frame, wing pose flip, or large body gesture.",
+    "native_clarity": "Purple irises, lashes, horn outlines and ruffle edges are readable at 192x208. Fine violet-grey linework preserves pastel anime style; no thick black border.",
+    "effects_connectivity": "No props, labels, detached effects, shadows or clipping.",
+    "remaining_cleanup": "Extracted native cells have residual green edge spill. Parent must run prescribed single final atlas despill after assembly; source art otherwise passes."
+  },
+  "verdict": "pass_pending_parent_final_atlas_motion_review_and_chroma_cleanup"
+}

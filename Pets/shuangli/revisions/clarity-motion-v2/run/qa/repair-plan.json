@@ -1,0 +1,22 @@
+{
+  "stable_pet_id": "pet_6acf4b6e00a88191b8f57f6c09475178",
+  "active": true,
+  "repair_states": [
+    "idle",
+    "running"
+  ],
+  "preserve_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "clarity": "crisper fine outline and iris contrast at native192x208, same shape/proportion",
+  "motion": "fixed torso/cloth/hair pattern; coherent small movement and close cyclic endpoint",
+  "library": "local revision folder, cloud Library unavailable"
+}

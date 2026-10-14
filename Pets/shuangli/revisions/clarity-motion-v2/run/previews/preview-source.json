@@ -1,0 +1,16 @@
+{
+  "source_atlas": "Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
+  "all_states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "source_is_final_encoded_sheet": true,
+  "sprite_version": 2
+}
