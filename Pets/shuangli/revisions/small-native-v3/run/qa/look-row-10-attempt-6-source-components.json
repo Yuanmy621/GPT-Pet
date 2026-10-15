@@ -1,0 +1,92 @@
+{
+  "implementation": "Bundled remove_chroma_background + connected_components/component_frame_groups/component_bounds",
+  "chroma_key": "#00FF00",
+  "threshold": 96,
+  "source_size": [
+    2172,
+    724
+  ],
+  "ordered_pose_group_count": 8,
+  "components_with_area_at_least_128px": 8,
+  "ordered_group_bounds": [
+    [
+      8,
+      120,
+      293,
+      638
+    ],
+    [
+      292,
+      117,
+      565,
+      638
+    ],
+    [
+      563,
+      115,
+      832,
+      639
+    ],
+    [
+      830,
+      115,
+      1096,
+      639
+    ],
+    [
+      1094,
+      114,
+      1365,
+      639
+    ],
+    [
+      1362,
+      115,
+      1628,
+      639
+    ],
+    [
+      1627,
+      114,
+      1900,
+      639
+    ],
+    [
+      1897,
+      114,
+      2168,
+      639
+    ]
+  ],
+  "ordered_group_heights_px": [
+    518,
+    521,
+    524,
+    524,
+    525,
+    524,
+    525,
+    525
+  ],
+  "median_group_height_px": 524.0,
+  "foot_baseline_bottoms_px": [
+    638,
+    638,
+    639,
+    639,
+    639,
+    639,
+    639,
+    639
+  ],
+  "ordered_main_component_areas": [
+    104615,
+    97248,
+    96979,
+    96504,
+    95751,
+    96381,
+    99519,
+    102568
+  ]
+}

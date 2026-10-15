@@ -1,0 +1,18 @@
+{
+  "state": "review",
+  "selected_artifact": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/review.png",
+  "generated_source": "/Users/ymy/.codex/generated_images/01a13e25-a810-78f2-a31e-c168c1bdb56f/exec-53e0b22e-6516-4e4d-9900-c6bb364ee9e6.png",
+  "generation_tool": "image_gen.imagegen",
+  "effective_prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/effective-prompt.md",
+  "reference_paths": [
+    "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/canonical-base.png",
+    "/Users/ymy/Project/GPT-Pet/Pets/shuangli/references/identity-board.png",
+    "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/inputs/current-spritesheet.png",
+    "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/layout-guides/review.png",
+    "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/idle.png"
+  ],
+  "qa_report": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/review.json",
+  "visual_review": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/visual-review.json",
+  "native_evidence": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/native-evidence.json",
+  "status": "selected"
+}

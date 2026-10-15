@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v4",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the raised face projects left of the neck, with the nose at the left cheek outline and the ear and ornament behind it on the right. B: the nose, mouth, and chin are shifted right of the neck, with the left ear exposed behind the cheek."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose projects right and the chin lies right of the collar center; the visible ear is behind the face on the left. B: the chin and nose project left, while the ear and flower ornament lie on the right side behind the cheek."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the face has a leftward nose contour, with the chin left of the neck and the far eye compressed toward that contour. B: the nose forms the right edge of the face, and the jaw extends right from the neck beneath the eye."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the prominent eye, nose, and chin form a left-facing profile in front of the right-side ear. B: the eye and nose face right, with the ear visible on the left and the chin projecting right of the neck."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the lowered nose and chin extend left of the neck; the ornament and ear sit behind the face on the right. B: the lowered face extends right of the neck, and the visible left ear lies behind the right-facing nose."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: beneath the forward-hanging bangs, the nose and chin angle left of the collar center, with more of the head visible on the right. B: the chin and small nose lie to the right of the neck, and the left ear is visible behind the cheek."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the bowed face is left of the neck, with the nose on its left contour and the right-side ornament behind it. B: the bowed face has its nose and chin to the right of the neck, and the left ear remains visible behind the face."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown occupies much of the head, the bangs descend over the eyes, and the chin is tucked into the collar. B: the chin is raised, the jaw underside is exposed, and a visible neck joins the upturned face to the collar."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the nose and chin tilt upward, leaving an open neck below the jaw and eyes high in the facial plane. B: the head leans forward, the eyes sit beneath heavy bangs, and the chin drops close to the collar."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the profile nose points upward and the jaw lifts away from the collar, exposing the front of the neck. B: the crown rolls forward and the chin is lowered, with the eyes tucked beneath the bangs."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the visible crown and overhanging bangs accompany a lowered chin that compresses the neck above the collar. B: the profile nose and jaw point upward, with the chin held clear of the collar and the neck extended."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the head bows forward, making the crown prominent while the eyes and chin sit low near the collar. B: the face tilts back, the nose rises, and the raised chin exposes the neck below the jaw."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the chin is held up and away from the collar, with exposed neck beneath the upward-facing mouth and nose. B: the bangs fall in front of low eyes and the jaw is tucked down, shortening the visible neck."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the nose slopes down from the eye and the chin presses toward the collar beneath the forward-tilted crown. B: the chin sits forward and raised, the nose tips upward, and the front of the neck is visible under the jaw."
+    }
+  ]
+}

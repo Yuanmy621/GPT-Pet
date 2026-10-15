@@ -1,0 +1,81 @@
+{
+  "review_type": "independent final visual acceptance",
+  "candidate": "small-native-v3 candidate 1",
+  "overall": "fail",
+  "decision": "One conspicuous look-loop seam remains at 337.5 to 000. The rest of the character is visually coherent and usable.",
+  "independence": "Judgment made from actual image artifacts only; no parent or worker reviews or numeric quality metrics were read.",
+  "images_inspected": [
+    "qa/direction-sheet.png",
+    "qa/look-boundaries-native.png",
+    "qa/contact-sheet-final.png",
+    "previews/motion-stills.png",
+    "final/spritesheet-extended.png (ordered actual-cell crops)"
+  ],
+  "blockers": [
+    {
+      "id": "look_337_5_to_000_head_yaw_snap",
+      "severity": "blocker",
+      "where": {
+        "from": {
+          "angle": 337.5,
+          "row_index": 10,
+          "column_index": 7
+        },
+        "to": {
+          "angle": 0,
+          "row_index": 9,
+          "column_index": 0
+        }
+      },
+      "evidence": "At native size, 337.5 still reads as a strong left three-quarter upward head pose, close in yaw to 315. The next cell, 000, abruptly presents a symmetric frontal upward face. The nose, two-eye presentation, cheek contour, and visible ear/hair arrangement pivot together by a conspicuously large step while the torso and feet stay registered. This is a head-orientation snap, not a global body size pop. It is materially more abrupt than a small natural neighboring pose change.",
+      "smallest_source_repair": "Repair only the source upper head/neck for 337.5 into a shallow left-of-frontal upward view between the existing 315 and 000 poses. Preserve the registered torso, feet, wings, robe, tail, head scale, and the rosette on anatomical left. Use the frontal-up head and the current leftward head as references; do not mirror the whole character or move the rosette across the head."
+    }
+  ],
+  "checks": {
+    "same_character_across_states_and_looks": {
+      "status": "pass",
+      "evidence": "The white/lavender hair, horns, violet eyes, pale patterned robe, batlike wings, curled scaled tail, and rosette keep the same identity and rendering style. Jumping compresses the body through the bent pose without an obvious alternate character or art style."
+    },
+    "head_body_proportions_and_practical_scale": {
+      "status": "pass",
+      "evidence": "Standing look and expression cells have a consistent body footprint and practical scale relative to neutral. The up/down face silhouette changes are consistent with tilt; no conspicuous whole-pet enlargement or shrinking is visible."
+    },
+    "wings_tail_robe_continuity": {
+      "status": "pass",
+      "evidence": "Visible wings remain connected at the upper back/shoulder region, the tail retains its coherent curl, and robe strands retain the same layered design across states. No detached costume component is conspicuous."
+    },
+    "body_and_feet_registration": {
+      "status": "pass",
+      "evidence": "Standing look poses keep feet and torso placed consistently. Running and jumping foot changes read as the intended action; no stray standing-frame body slide is conspicuous."
+    },
+    "clipping_or_holes": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped horn, wing, tail, hem, or foot, and no accidental large transparent hole, is visible in the inspected actual sheets."
+    },
+    "rosette_anatomical_left": {
+      "status": "pass",
+      "evidence": "The rosette remains attached at the anatomical-left temple/horn area, appearing on viewer right in front views and clearly on the visible side in left-facing views; its reduced visibility in right-facing poses reads as occlusion."
+    },
+    "four_cardinals": {
+      "status": "pass",
+      "evidence": "000 clearly looks upward, 090 right, 180 downward, and 270 left. No cardinal is missing."
+    },
+    "ordered_quadrants": {
+      "status": "warning",
+      "evidence": "All four directional quadrants are represented and the overall turn proceeds in the expected order, but angular spacing is uneven. The upper-left end does not return far enough toward frontal before 000; this produces the blocker above."
+    },
+    "boundary_157_5_to_180": {
+      "status": "pass",
+      "evidence": "The head bows from a slight down-right presentation into centered down, with expected changes in fringe and eye exposure. At native size this reads as a neighboring tilt change rather than a conspicuous size pop or identity snap."
+    },
+    "boundary_337_5_to_000": {
+      "status": "fail",
+      "evidence": "Conspicuous left-three-quarter to frontal-up head pivot; see blocker look_337_5_to_000_head_yaw_snap."
+    }
+  },
+  "inspection_artifacts": [
+    "qa/independent-final-boundary-inspection.png",
+    "qa/independent-final-ordered-head-inspection.png"
+  ],
+  "artwork_mutated": false
+}

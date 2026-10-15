@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "stage": "four cardinal anchors only",
+  "strip": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-cardinals.png",
+  "source_sha256": "748fe9d771d17089e4bd1beb5f687e69e3782c67fd9bf37377850071604b4b08",
+  "approved_reference": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/approved-cardinals.png",
+  "native_panel": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/cardinal-native-panel.png",
+  "native_metrics": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/cardinal-native-metrics.json",
+  "inspection": "All four actual extracted 192x208 PNGs viewed separately at original resolution, then compared beside the approved native idle frame in the 960x240 panel.",
+  "geometry": {
+    "verdict": "pass",
+    "pose_count": 4,
+    "complete_full_body": true,
+    "source_slot_edge_pixels": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "anchor_foot_baseline_y": 203,
+    "clipping_or_neighbor_overlap": false,
+    "labels_or_props_or_shadows_or_detached_effects": false
+  },
+  "identity": {
+    "verdict": "pass",
+    "evidence": [
+      "Canonical enlarged chibi face, lavender iris/eyelid/highlight construction, white-lilac hair, horns, dress, silver knot ornaments, pale wings and attached scaled tail remain consistent.",
+      "Head size, clean linework and materials remain consistent across all four anchors.",
+      "The lower bodies remain frontal and the head/neck supply the directional motion."
+    ],
+    "observation": "Anchor wings are slightly more open than the idle comparison (alpha widths 141-150 px versus idle 123 px); head/body height and baseline match. Keep the standard contact sheet authoritative for compact wing spread and body registration in the final look rows."
+  },
+  "cardinals": [
+    {
+      "direction": "000",
+      "expected": "up",
+      "observed": "Broadly frontal face with lifted chin and visibly raised gaze.",
+      "verdict": "pass",
+      "landmark_evidence": [
+        "Both lavender eyes remain visible and aim above the viewer.",
+        "The nose/mouth sit above the broad exposed chin and the under-jaw/neck angle is raised.",
+        "Horns, hair and ears follow the head pitch while waist hands, dress, shoes, wings and attached tail remain planted."
+      ]
+    },
+    {
+      "direction": "090",
+      "expected": "screen-right",
+      "observed": "Head and face yaw toward the right image edge above a frontal planted torso.",
+      "verdict": "pass",
+      "landmark_evidence": [
+        "Nose tip and cheek/face surface project to the right of head center.",
+        "The near lavender eye looks toward the right edge and the far eye is foreshortened by physical head yaw.",
+        "Anatomical-left temple rosette is naturally hidden on the far side; no duplicate rosette appears on the visible cheek."
+      ]
+    },
+    {
+      "direction": "180",
+      "expected": "down",
+      "observed": "Frontal head with tucked chin and visibly lowered open eyes.",
+      "verdict": "pass",
+      "landmark_evidence": [
+        "Face is lower beneath overlapping forehead fringe and chin approaches the collar.",
+        "Both lavender irises remain visible in lowered eyelids and aim downward; this is not a closed-eye frame.",
+        "The forward torso, clasped waist hands and two planted shoes remain stable."
+      ]
+    },
+    {
+      "direction": "270",
+      "expected": "screen-left",
+      "observed": "Head and face yaw toward the left image edge above a frontal planted torso.",
+      "verdict": "pass",
+      "landmark_evidence": [
+        "Nose tip, cheek and face surface project to the left of head center.",
+        "The visible lavender eye and far-eye foreshortening agree with leftward yaw.",
+        "Anatomical-left silver temple rosette remains on the visible near temple; it has not been mirrored to the opposite anatomical side."
+      ]
+    }
+  ],
+  "chroma": {
+    "key": "#00FF00",
+    "background_removed_by": "bundled extract_cardinal_anchors.py",
+    "edge_despill_applied": false,
+    "note": "Edge-local green fringe is deliberately left for the parent single final full-atlas despill pass."
+  },
+  "provenance": {
+    "generator": "built-in image_gen",
+    "first_attempt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-cardinals-attempt-1.png",
+    "first_attempt_issue": "Good semantic poses, but two wing tips crossed equal-slot extraction boundaries. Saved failing report as qa/cardinal-extraction-attempt-1.json.",
+    "selected_attempt": "Built-in imagegen spacing-only edit completed with broad pure green gutters. No deterministic pose redraw or re-registration.",
+    "effective_prompts": [
+      "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/look-cardinals-effective.md",
+      "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/look-cardinals-repair-spacing.md"
+    ],
+    "extractor": "create-pet/scripts/extract_cardinal_anchors.py",
+    "extraction_report": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/cardinal-extraction.json",
+    "reference_composer": "create-pet/scripts/compose_cardinal_anchor_strip.py"
+  }
+}

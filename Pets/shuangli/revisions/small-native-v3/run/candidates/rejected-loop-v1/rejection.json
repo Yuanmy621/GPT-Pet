@@ -1,0 +1,6 @@
+{
+  "reason": "337.5 final head yaw too strong creates visible snap into000; independent final visual review blocks acceptance",
+  "source_sha256": "289008c0d2ed8cb7f933a150335d9cc89694245a3fa72efdeccd8f8e1ef3910d",
+  "never_uploaded": true,
+  "repair": "Regenerate coherent row10 with finalhead nearfrontalup+shallowleft; preserve first7/bodyregistration/style"
+}

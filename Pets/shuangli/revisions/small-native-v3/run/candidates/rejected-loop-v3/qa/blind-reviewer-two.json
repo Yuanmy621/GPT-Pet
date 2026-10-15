@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v3",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A is almost frontal: both eyes and cheeks remain balanced, and the chin is nearly centered over the neck, leaving too little reliable lateral rotation. B has the chin and visible facial center displaced to the right of the neck, with the rightward cheek/nose contour."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has its chin and eye/face center visibly left of the neck, exposing more of the opposite side of the head. B places the chin and facial center to the right of its neck, with the face opening rightward."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A shows a left-facing nose/chin silhouette, with the near eye on the left and the far side compressed. B independently shows a right-facing nose/chin silhouette and the reverse compression of the eyes and cheeks."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A is in a clear left profile: the nose and chin project left ahead of the neck. B has a clear right profile, with the facial contour projecting right ahead of the neck."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A lowers its face on the right side of the neck; its visible eye, cheek and chin project right. B lowers its face on the left side of its neck, with the visible eye and chin directed left."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a bowed face whose chin and visible eye sit left of the neck center. B has a bowed face shifted right of the neck, with the visible eye and cheek concentrated on that side."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A has its chin and facial mass distinctly left of the neck, with the face turned toward the left edge. B bows almost straight forward: both eyes are visible in a balanced arrangement and its chin remains approximately centered over the neck, so a left/right verdict is unreliable."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a lowered chin close to the upper chest, lowered eye line, and a large visible crown. B lifts the chin away from the chest, exposes more of the neck, and raises the facial plane and eyes."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises the chin and face above the collar with open neck space and elevated eyes. B tucks the chin toward the chest; the crown dominates above the low eye line."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A bends the head forward, dropping the visible eye and chin toward the collar. B lifts its chin and facial plane, showing a longer open neck connection and upward-directed eyes."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A tips the crown forward and tucks its chin close to the collar, with the eye low beneath the bangs. B raises the nose/chin profile and visible eye, leaving more neck visible below the jaw."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A has a raised facial plane and lifted chin, separated from the collar by exposed neck. B has the forehead tipped forward and the chin tucked toward the chest, with the eye line lowered."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A presents a lifted chin and upper-facing eyes above a visible neck connection. B bows its head, lowering the facial features and chin close to the collar while showing more crown."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a downward-pitched facial contour, with chin tucked and eye line lowered beneath the crown. B raises the left-facing nose/chin contour and visible eye, opening the jaw-to-neck angle."
+    }
+  ]
+}

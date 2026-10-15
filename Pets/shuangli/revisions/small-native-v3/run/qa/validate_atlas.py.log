@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/final/spritesheet-extended.png",
+  "encoded_bytes": 3496413,
+  "sha256": "289008c0d2ed8cb7f933a150335d9cc89694245a3fa72efdeccd8f8e1ef3910d",
+  "format": "PNG",
+  "mode": "RGBA",
+  "columns": 8,
+  "rows": 11,
+  "sprite_version_number": 2,
+  "width": 1536,
+  "height": 2288,
+  "transparent_rgb_residue_pixels": 0,
+  "errors": [],
+  "warnings": []
+}
+
+/Users/ymy/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/validate_atlas.py:103: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  visible = [value > 0 for value in alpha.getdata()]
+/Users/ymy/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/validate_atlas.py:116: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  rgba.getdata(), alpha.getdata(), expanded.getdata()

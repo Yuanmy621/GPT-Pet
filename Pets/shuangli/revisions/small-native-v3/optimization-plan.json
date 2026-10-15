@@ -1,0 +1,35 @@
+{
+  "target_id": "pet_6acf4b6e00a88191b8f57f6c09475178",
+  "stage": "Complete: exact final bytes validated, previewed, updated through existing Pets and stored pixels verified",
+  "scope": [
+    "unified character across73frames",
+    "calm consistent animation",
+    "distinguishable status poses"
+  ],
+  "rollback": "inputs/current-spritesheet.png",
+  "library": "Local revision; cloud Library connector unavailable",
+  "selected_scope": "Existing Pets plugin only, confirmed by user",
+  "client_features_status": "Excluded: user chose existing Pets plugin only; current asset API does not expose these features",
+  "accepted": [
+    "canonical",
+    "57_standard_frames",
+    "16_preserved_approved_look_frames",
+    "native_visual_acceptance",
+    "three_independent_blind_reviews",
+    "Pets_preflight",
+    "stable_id_update",
+    "stored_pixel_verification"
+  ],
+  "pending": [],
+  "preview_page": "experience-preview.html",
+  "final_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "final_bytes": 3567404,
+  "completed_at": "2026-10-15T07:58:43.248265+00:00",
+  "unsupported_client_features": [
+    "randomized blink scheduling",
+    "clickable task state",
+    "focus mode",
+    "docking",
+    "display scale preferences"
+  ]
+}

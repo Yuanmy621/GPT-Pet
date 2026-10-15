@@ -1,0 +1,22 @@
+{
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/jumping.png",
+  "generated_source": "/Users/ymy/.codex/generated_images/01a13e1f-5fa7-7b31-bf9f-6cceea9775b0/exec-f73ddfca-66f6-49cb-a7a5-20d12e5dc975.png",
+  "source_sha256": "fa904676c6993098758722d6f6684b0da4a82fe177a18b33cf449d9a4667e613",
+  "built_in_image_gen": true,
+  "frame_count": 5,
+  "extraction": "bundled extract_strip_frames.py --method components --chroma-key #00FF00",
+  "inspection": "bundled inspect_frames.py --require-components",
+  "bundled_inspection_ok": true,
+  "baseline_lift_pixels": [
+    0,
+    15,
+    39,
+    13,
+    0
+  ],
+  "first_last_bottom": 203,
+  "head_scale_review": "Native side-by-side contact with idle: visually coherent literal head size; crouching and knee tuck change silhouette height without whole-sprite shrinking.",
+  "peak_lift_decision": "Parent inspected native-contact.png and accepted39px as an intentional playful hop; no regeneration required solely for20\u201330px nominal target.",
+  "post_extraction_pet_pixels_modified": false,
+  "final_atlas_or_upload_modified": false
+}

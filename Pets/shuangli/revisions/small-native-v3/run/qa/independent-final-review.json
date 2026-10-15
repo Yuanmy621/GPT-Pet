@@ -1,0 +1,66 @@
+{
+  "review_type": "independent native-size final visual acceptance",
+  "candidate": "candidate 4, nine standard rows updated and installed-v2 look rows preserved",
+  "source": "final/spritesheet-extended.png",
+  "source_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "overall": "pass",
+  "upload_blocked_by_visual_defect": false,
+  "decision": "The nine updated standard states pass native-size visual acceptance against the preserved sixteen look states. No new conspicuous identity, proportion, registration, attachment, clipping, or landing defect was found.",
+  "scope": {
+    "changed": "Rows 0 through 8: idle, running-right, running-left, waving, jumping, failed, waiting, running, and review; 57 active frames.",
+    "preserved": "Rows 9 and 10: all sixteen look states from the approved installed v2 artwork. The provided preserved-look-provenance.json records pixel identity to the current downloaded pet. This review inspected their actual final appearance for compatibility with the nine changed rows; redesign of their inherited angular spacing is outside candidate 4 scope.",
+    "excluded": "Rejected regenerated look-row candidates are not the artwork reviewed here."
+  },
+  "method": "Viewed the refreshed native boundary and direction sheets, complete state contact sheet, motion stills, and native actual-cell crops from the exact hashed final PNG. The direct-cell strip compares new idle/wave/running poses against preserved looks and shows the full five-frame jump sequence followed by idle. No numeric continuity threshold was used as a visual acceptance gate. Pixel identity of the preserved look cells is recorded from the provided provenance artifact rather than an independent baseline pixel comparison.",
+  "images_inspected": [
+    "qa/contact-sheet-final.png",
+    "qa/direction-sheet.png",
+    "qa/look-boundaries-native.png",
+    "previews/motion-stills.png",
+    "final/spritesheet-extended.png (native actual-cell crops)"
+  ],
+  "provenance_inspected": "qa/preserved-look-provenance.json",
+  "blockers": [],
+  "warnings": [],
+  "checks": {
+    "nine_state_quality_and_readability": {
+      "status": "pass",
+      "evidence": "The idle and expression states remain clean and readable. Both running directions have a clear sideward moving silhouette, waving exposes the raised hand, and jumping has an unmistakable bent-leg airborne pose."
+    },
+    "same_character_across_new_and_preserved_states": {
+      "status": "pass",
+      "evidence": "Hair color and volume, horns, violet eyes, pale layered robe, wings, scaled curled tail, and temple rosette consistently identify the same character. No conspicuous rendering-style or identity break is visible when comparing new idle and actions to preserved up/down and side looks."
+    },
+    "head_body_proportions_and_practical_scale": {
+      "status": "pass",
+      "evidence": "New standing poses have a consistent practical height, head-to-body balance, and foot placement relative to the preserved look figures. Pose-related face-width changes in the look art remain visible but do not create a new conspicuous whole-pet size change between the updated states and preserved states. The crouched jump has the expected reduced silhouette from bent limbs rather than a scaled-down character."
+    },
+    "wings_tail_robe_continuity": {
+      "status": "pass",
+      "evidence": "Wings remain connected at the upper back, the curled tail keeps the same scaled design, and robe layers remain coherent through front, running, waving, and jump poses. No detached component is conspicuous."
+    },
+    "rosette_anatomical_left": {
+      "status": "pass",
+      "evidence": "The rosette stays attached on anatomical left; side-view visibility and occlusion are consistent with head direction."
+    },
+    "body_and_feet_registration": {
+      "status": "pass",
+      "evidence": "Standing state feet and torso remain centered at a coherent baseline. Running foot placement reads as gait, and the jump moves vertically with consistent centering."
+    },
+    "jump_and_landing_transition": {
+      "status": "pass",
+      "evidence": "The actual five cells show crouch, rise, apex, fall, and crouched landing. The landing returns to the initial grounded crouch shape; recovery into the standing idle reads as extension of the legs and body, not a positional teleport or clipped landing."
+    },
+    "clipping_or_holes": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped horn, hair, wing, tail, robe hem, raised hand, or foot and no accidental transparent hole was found in the active cells."
+    },
+    "compatibility_with_preserved_look_states": {
+      "status": "pass",
+      "evidence": "The new standard poses and preserved looks retain coherent character identity, palette, costume, practical standing scale, and baseline. No new mismatch requires changing the approved look artwork."
+    }
+  },
+  "recommended_source_repairs": [],
+  "inspection_artifact": "qa/independent-final-candidate4-inspection.png",
+  "artwork_mutated": false
+}

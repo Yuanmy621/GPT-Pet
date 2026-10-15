@@ -1,0 +1,6 @@
+{
+  "before_sha256": "2ecfd0e9ba2b1af6d4aa990415078c62daf10053959624cb3bdbd047a09ef1d4",
+  "after_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "source": "Exact encoded atlases; native cell crops, composited backgrounds and labels only",
+  "animation_timing": "Same existing contract timings on both sides; no client FPS claim"
+}

@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "reviewRequired": true,
+  "medianDiffPixels": 1707.0,
+  "warnings": [
+    "337.5->000 diff is a local outlier (3969 pixels vs neighbor average 2066)",
+    "337.5->000 sprite area ratio is high (1.19)"
+  ],
+  "alphaHoles": [],
+  "pairs": [
+    {
+      "from": "000",
+      "to": "022.5",
+      "firstPixels": 16234,
+      "secondPixels": 15519,
+      "diffPixels": 2330,
+      "centerDelta": 1.0,
+      "areaRatio": 1.046072556221406
+    },
+    {
+      "from": "022.5",
+      "to": "045",
+      "firstPixels": 15519,
+      "secondPixels": 15380,
+      "diffPixels": 1680,
+      "centerDelta": 1.118033988749895,
+      "areaRatio": 1.009037711313394
+    },
+    {
+      "from": "045",
+      "to": "067.5",
+      "firstPixels": 15380,
+      "secondPixels": 15127,
+      "diffPixels": 1535,
+      "centerDelta": 1.0,
+      "areaRatio": 1.016725061148939
+    },
+    {
+      "from": "067.5",
+      "to": "090",
+      "firstPixels": 15127,
+      "secondPixels": 14758,
+      "diffPixels": 1445,
+      "centerDelta": 0.7071067811865476,
+      "areaRatio": 1.025003387992953
+    },
+    {
+      "from": "090",
+      "to": "112.5",
+      "firstPixels": 14758,
+      "secondPixels": 14825,
+      "diffPixels": 2152,
+      "centerDelta": 1.5,
+      "areaRatio": 1.004539910556986
+    },
+    {
+      "from": "112.5",
+      "to": "135",
+      "firstPixels": 14825,
+      "secondPixels": 14201,
+      "diffPixels": 1734,
+      "centerDelta": 1.5,
+      "areaRatio": 1.0439405675656643
+    },
+    {
+      "from": "135",
+      "to": "157.5",
+      "firstPixels": 14201,
+      "secondPixels": 14737,
+      "diffPixels": 1899,
+      "centerDelta": 2.5,
+      "areaRatio": 1.0377438208576861
+    },
+    {
+      "from": "157.5",
+      "to": "180",
+      "firstPixels": 14737,
+      "secondPixels": 14709,
+      "diffPixels": 2994,
+      "centerDelta": 3.2015621187164243,
+      "areaRatio": 1.0019035964375553
+    },
+    {
+      "from": "180",
+      "to": "202.5",
+      "firstPixels": 14709,
+      "secondPixels": 13556,
+      "diffPixels": 2564,
+      "centerDelta": 0.7071067811865476,
+      "areaRatio": 1.0850545883741516
+    },
+    {
+      "from": "202.5",
+      "to": "225",
+      "firstPixels": 13556,
+      "secondPixels": 13508,
+      "diffPixels": 1603,
+      "centerDelta": 0.7071067811865476,
+      "areaRatio": 1.0035534498075214
+    },
+    {
+      "from": "225",
+      "to": "247.5",
+      "firstPixels": 13508,
+      "secondPixels": 13410,
+      "diffPixels": 1224,
+      "centerDelta": 0.5,
+      "areaRatio": 1.0073079791200596
+    },
+    {
+      "from": "247.5",
+      "to": "270",
+      "firstPixels": 13410,
+      "secondPixels": 13426,
+      "diffPixels": 1572,
+      "centerDelta": 0.5,
+      "areaRatio": 1.001193139448173
+    },
+    {
+      "from": "270",
+      "to": "292.5",
+      "firstPixels": 13426,
+      "secondPixels": 13483,
+      "diffPixels": 1417,
+      "centerDelta": 0.0,
+      "areaRatio": 1.0042454938179652
+    },
+    {
+      "from": "292.5",
+      "to": "315",
+      "firstPixels": 13483,
+      "secondPixels": 13664,
+      "diffPixels": 1374,
+      "centerDelta": 0.5,
+      "areaRatio": 1.0134243120967144
+    },
+    {
+      "from": "315",
+      "to": "337.5",
+      "firstPixels": 13664,
+      "secondPixels": 13665,
+      "diffPixels": 1803,
+      "centerDelta": 0.0,
+      "areaRatio": 1.0000731850117095
+    },
+    {
+      "from": "337.5",
+      "to": "000",
+      "firstPixels": 13665,
+      "secondPixels": 16234,
+      "diffPixels": 3969,
+      "centerDelta": 1.0,
+      "areaRatio": 1.1879985364068788
+    }
+  ]
+}
+
+/Users/ymy/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/measure_direction_continuity.py:39: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  return sum(1 for alpha in image.getchannel("A").getdata() if alpha > 16)
+/Users/ymy/.codex/plugins/cache/openai-curated-remote/work-pets/0.1.6/skills/create-pet/scripts/measure_direction_continuity.py:63: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  alpha = list(image.getchannel("A").getdata())

@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v4",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the raised nose and chin project left of the neck, with the right cheek and right temple exposed. B: the nose and chin sit right of the neck, with the left ear exposed and the right cheek edge shortened."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the facial plane, nose, and lifted chin turn right, and the left ear is visible behind the jaw. B: the nose and chin shift left of the neck, with the right side of the head and right temple ornament more exposed."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose forms a leftward outline, the chin is left of the neck, and the right eye and cheek dominate. B: the near eye and nose point right, with an exposed left ear and a chin displaced to the right."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose, lips, and chin make a left-facing profile and one eye dominates. B: the facial outline projects right, the chin sits right of the neck, and the left ear and near eye are visible."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the bowed nose and chin still project left of the neck, with the right cheek and temple exposed. B: the nose and chin project right from the neck, and the exposed left ear places the visible face on a rightward plane."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the lowered facial plane shifts left, with the nose left of the dominant eye and the chin left of the neck. B: the lowered face and chin shift right of the neck, with the left ear visible and the nose near the right outline."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: despite the deep bow, the nose, mouth, and chin sit left of the neck, with more right cheek and right temple visible. B: the bowed nose and chin sit right of the neck, with the left ear exposed and the far eye compressed on the right edge."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown and forehead face forward, the eye line drops under the bangs, and the chin tucks into the collar. B: the eyes sit high on an open facial plane, the chin lifts, and a strip of neck shows beneath the jaw."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the facial plane opens upward, the eyes lift, and the chin stands clear of the collar. B: the crown tilts forward, the eyes are low beneath the bangs, and the chin folds toward the neck."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the nose and chin angle upward with a high gaze and exposed neck below the jaw. B: the forehead and bangs dominate the face, the eye line is low, and the chin tucks toward the collar."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the top of the head is exposed, the visible eye sits low under the fringe, and the chin is drawn toward the neck. B: the nose and chin lift on the side-facing plane, with the gaze raised and neck visible beneath the jaw."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown rolls forward, the eye line drops, and the chin is tucked near the collar. B: the forehead recedes behind the lifted facial plane, the nose and chin angle upward, and the throat opens below the jaw."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the gaze is raised, the lower face is open, and the chin is lifted away from the collar with visible neck. B: the bangs and forehead roll forward, the eye line is lowered, and the chin presses toward the neck."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the visible crown, lowered eye line, and chin tucked near the collar indicate downward pitch. B: the eye is high on the side facial plane, the nose and chin lift slightly, and the neck remains exposed beneath the jaw, indicating mild upward pitch."
+    }
+  ]
+}

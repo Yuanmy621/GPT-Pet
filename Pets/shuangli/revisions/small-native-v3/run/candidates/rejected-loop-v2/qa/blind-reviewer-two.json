@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v2",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "ambiguous",
+      "reason": "A has a slight rightward face turn: the nose and chin sit toward screen-right, with more of the screen-left cheek and ear exposed. B presents nearly balanced eyes and cheeks around a centered nose and chin; its obvious change is an upward pitch, so a horizontal direction is not clear."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and raised chin project toward screen-right, and the screen-right eye is foreshortened relative to the near eye. B's nose and chin project toward screen-left, with the screen-left facial edge forming the forward contour and the opposite cheek more visible."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A has a clear screen-right facial profile, with the visible eye, nose tip, and chin grouped along the right edge of the head. B has the corresponding visible facial profile on screen-left, with its nose and chin protruding leftward and the right side of the head and ear exposed."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's face is narrow and exits the hair on the screen-right side; its eye, nose, and chin point right. B's eye and nose face screen-left, and the chin is displaced left of the neck while the screen-right temple and ear remain visible."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A lowers its head with the nose and chin displaced to screen-left and a larger visible screen-right cheek and temple. B lowers its head with the nose and chin displaced to screen-right; the near eye and cheek occupy the right-facing opening below the bangs."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's bowed face points left of the neck, with the nose and chin on the screen-left facial contour and the screen-right temple exposed. B's bowed face points right of the neck, with the nose and chin toward screen-right and the visible cheek extending in that direction."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A has a mild screen-left turn: the low nose and chin fall left of the neck, with more screen-right temple and cheek visible. B's low face is essentially frontal, with both eyes visible at comparable widths and the nose and chin centered above the collar, so horizontal direction is ambiguous."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A shows a large crown and bangs above lowered, partly covered eyes; its chin is tucked close to the collar and neck is hidden. B lifts its chin, exposes more neck beneath the jaw, and places the eyes high on the open face beneath the bangs."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A's chin is raised away from the collar, the underside of the jaw and neck are visible, and the gaze angles upward. B shows more top of the head, low eyes under the bangs, and a chin tucked toward the collar."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A's crown and forehead dominate above a compressed lower face, with the chin close to the collar and little neck visible. B has an elevated chin and a visible neck gap under the jaw; the eyes and nose angle upward."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face points down beneath the bangs, with a lowered eye line and chin tucked into the neck area. B's side view lifts the nose and chin, opening the angle under the jaw and exposing the front of the neck."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts the chin and exposes the neck below the jaw, with eyes looking upward beneath a relatively open forehead. B bows its head: the crown is prominent, the eye line is low under the bangs, and the chin sits close to the collar."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A has lowered eyes partly shaded by the bangs, a prominent top of the head, and a tucked chin that conceals the neck. B raises the nose and chin in profile and exposes a long neck beneath the lifted jaw."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "up",
+      "B": "down",
+      "reason": "A's profile has an elevated nose and chin with a visible stretch of neck beneath the jaw. B's nose and chin angle downward, the forehead and crown are more exposed from above, and the chin approaches the collar."
+    }
+  ]
+}

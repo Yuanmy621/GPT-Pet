@@ -1,7 +1,7 @@
 {
-  "reviewer": "parent final encoded sheet visual review",
-  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
-  "normal_size_sheet": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/qa/direction-sheet.png",
+  "reviewer": "Parent review of preserved prior-approved direction pixels and new neutral/action transitions",
+  "source": "final/spritesheet-extended.png",
+  "normal_size_sheet": "qa/direction-sheet.png",
   "directions": [
     {
       "label": "000",
@@ -119,5 +119,9 @@
   "continuity_review": {
     "157.5->180": "Metric diff outlier reviewed in labeled sheet and ordered preview. Both keep planted dress/feet and comparable head size; change is right yaw returning frontal with the far-side rosette reappearing on its original viewer-right anatomical-left side. No quadrant reversal, clipping or anchor jump observed."
   },
-  "revision_review": "Sixteen approved source poses retained, jointly registered by bundled assembly tool against revised neutral. Final labeled native and zoom rows visually inspected: intended horizontal and vertical landmarks retained. Degree 157.5 to 180 remains a reviewed texture outlier, no reversal or baseline jump."
+  "revision_review": "Sixteen approved source poses retained, jointly registered by bundled assembly tool against revised neutral. Final labeled native and zoom rows visually inspected: intended horizontal and vertical landmarks retained. Degree 157.5 to 180 remains a reviewed texture outlier, no reversal or baseline jump.",
+  "atlas_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "candidate": "standard-v3-preserved-look-v2",
+  "prior_evidence": "Pets/shuangli/revisions/clarity-motion-v2/run/qa/direction-semantics.json",
+  "evidence_reuse_basis": "All16 encoded direction cells were verified pixel-identical to the current downloaded approved pet. Existing semantic evidence is retained for unchanged art; new state-to-look scale/identity is reviewed separately."
 }

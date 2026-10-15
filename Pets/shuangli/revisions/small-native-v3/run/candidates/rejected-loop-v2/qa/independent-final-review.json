@@ -1,0 +1,86 @@
+{
+  "review_type": "independent native-size visual acceptance",
+  "candidate": "loop-v2, complete-row repair attempt 4",
+  "source": "final/spritesheet-extended.png",
+  "source_sha256": "43306a4c644dd9016a054f48f0c8485128d23a6287c0b2e2b99dc47b4e0e3184",
+  "overall": "fail",
+  "upload_blocked_by_visual_defect": true,
+  "decision": "The 337.5-to-000 loop seam is repaired, but a conspicuous head-orientation step remains immediately before it at 315-to-337.5. No other visual blocker was found.",
+  "method": "Reviewed the refreshed native boundary sheet, all sixteen ordered full-body looks and their head crops, the complete state contact sheet, motion stills, and a native strip cropped directly from the hashed final encoded sheet. This is a visual judgment; no numeric continuity thresholds were used for acceptance. The animated GIF was not viewed as motion.",
+  "images_inspected": [
+    "qa/look-boundaries-native.png",
+    "qa/direction-sheet.png",
+    "qa/contact-sheet-final.png",
+    "previews/motion-stills.png",
+    "final/spritesheet-extended.png (actual encoded-cell crop)"
+  ],
+  "blockers": [
+    {
+      "id": "315_to_337_5_head_turn_step",
+      "where": {
+        "from": {
+          "angle": 315,
+          "row_index": 10,
+          "column_index": 6
+        },
+        "to": {
+          "angle": 337.5,
+          "row_index": 10,
+          "column_index": 7
+        }
+      },
+      "evidence": "At 192 by 208 native cell size, 315 remains a strong left three-quarter upward head with a prominent side ear/rosette arrangement and an offset cheek/nose. The 337.5 head abruptly becomes almost frontal, with a symmetric two-eye face and centered chin. The stationary torso makes that head pivot conspicuous. The following 337.5-to-000 change is now small; the large left-to-front step is therefore concentrated one cell earlier rather than distributed through the final upper-left directions.",
+      "smallest_source_repair": "Repair the 315 source head/upper neck into an intermediate left-up three-quarter view between 292.5 and the new 337.5, reducing the side turn while keeping the upward gaze. Keep the existing body, feet, wings, robe, tail, overall scale, and anatomical-left rosette attachment. Re-encode the repaired complete source row without altering the accepted 337.5-to-000 relationship."
+    }
+  ],
+  "boundary_findings": {
+    "337.5_to_000": {
+      "status": "pass",
+      "evidence": "Now a near-frontal upward face followed by a slightly stronger upward tilt. Minor face-width and silhouette change is visible, but this boundary no longer has the former conspicuous profile-to-front snap or a whole-pet size pop."
+    },
+    "157.5_to_180": {
+      "status": "pass",
+      "evidence": "The change to the centered bowed head reads as a natural neighboring tilt; body and feet remain registered."
+    },
+    "315_to_337.5": {
+      "status": "fail",
+      "evidence": "Large left-three-quarter to near-frontal head pivot remains conspicuous at native size."
+    },
+    "other_adjacent_looks": {
+      "status": "pass",
+      "evidence": "Angular spacing is not perfectly uniform, but the other transitions keep a credible ordered direction change without another conspicuous identity, body-scale, or registration break."
+    }
+  },
+  "continuity_checks": {
+    "character_identity_and_rendering": {
+      "status": "pass",
+      "evidence": "The same white/lavender-haired horned character and fine pale rendering remain recognizable across all actions and looks."
+    },
+    "head_body_proportions_and_practical_scale": {
+      "status": "pass",
+      "evidence": "Standing figures retain a consistent practical height and body footprint relative to neutral. The repaired last head is somewhat narrower than 000, but its change into the stronger upward tilt is not a separate conspicuous size-pop blocker."
+    },
+    "wings_tail_and_robe": {
+      "status": "pass",
+      "evidence": "All retain coherent design and attachment; no isolated detached part is visible."
+    },
+    "body_and_feet_registration": {
+      "status": "pass",
+      "evidence": "Standing looks retain their torso/foot placement. Running and jumping changes read as action poses."
+    },
+    "rosette_anatomical_left": {
+      "status": "pass",
+      "evidence": "The ornament remains physically attached at anatomical left; right-facing occlusion is plausible."
+    },
+    "clipping_and_holes": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped extremity or accidental transparent hole is visible."
+    },
+    "cardinals_and_direction_order": {
+      "status": "pass",
+      "evidence": "Up, right, down, and left remain clear, and all four quadrants are represented in the expected order. The outstanding defect is transition spacing in the final upper-left quadrant."
+    }
+  },
+  "inspection_artifact": "qa/independent-final-loop-v2-inspection.png",
+  "artwork_mutated": false
+}

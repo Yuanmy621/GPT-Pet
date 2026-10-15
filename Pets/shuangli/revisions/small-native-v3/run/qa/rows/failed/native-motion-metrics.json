@@ -1,0 +1,35 @@
+{
+  "areas": [
+    16868,
+    16520,
+    16435,
+    16369,
+    16704,
+    16770,
+    16699,
+    16783
+  ],
+  "area_ratio_max_min": 1.0304844523184067,
+  "bbox_heights": [
+    198,
+    198,
+    198,
+    198,
+    198,
+    198,
+    198,
+    198
+  ],
+  "baseline_bottoms": [
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203,
+    203
+  ],
+  "first_last_mean_absolute_rgba_delta": 12.666666666666666,
+  "acceptance_basis": "Visual source/native/idle/wrap inspection; metrics are diagnostic only."
+}

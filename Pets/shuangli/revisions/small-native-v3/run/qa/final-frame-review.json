@@ -1,0 +1,973 @@
+{
+  "ok": true,
+  "frames_root": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "idle",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17143,
+          "bbox": [
+            34,
+            6,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17230,
+          "bbox": [
+            34,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17409,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17450,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17541,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/idle/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17564,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-right",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16836,
+          "bbox": [
+            28,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16237,
+          "bbox": [
+            34,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16244,
+          "bbox": [
+            35,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16609,
+          "bbox": [
+            32,
+            5,
+            160,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16608,
+          "bbox": [
+            28,
+            5,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16285,
+          "bbox": [
+            35,
+            5,
+            157,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16568,
+          "bbox": [
+            34,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-right/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16428,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17429,
+          "bbox": [
+            24,
+            5,
+            168,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15900,
+          "bbox": [
+            33,
+            5,
+            158,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16636,
+          "bbox": [
+            32,
+            5,
+            160,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16554,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17599,
+          "bbox": [
+            21,
+            5,
+            171,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16404,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16824,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17605,
+          "bbox": [
+            22,
+            5,
+            169,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waving",
+      "expected_frames": 4,
+      "actual_frames": 4,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waving/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19057,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waving/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19081,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waving/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19127,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waving/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19007,
+          "bbox": [
+            25,
+            5,
+            166,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "jumping",
+      "expected_frames": 5,
+      "actual_frames": 5,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/jumping/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12439,
+          "bbox": [
+            29,
+            61,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/jumping/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14352,
+          "bbox": [
+            27,
+            29,
+            164,
+            188
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/jumping/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15251,
+          "bbox": [
+            22,
+            5,
+            170,
+            164
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/jumping/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14291,
+          "bbox": [
+            28,
+            23,
+            164,
+            190
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/jumping/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 12495,
+          "bbox": [
+            29,
+            61,
+            162,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "failed",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16868,
+          "bbox": [
+            35,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16520,
+          "bbox": [
+            36,
+            5,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16435,
+          "bbox": [
+            37,
+            5,
+            154,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16369,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16704,
+          "bbox": [
+            35,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16770,
+          "bbox": [
+            35,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 6,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16699,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/failed/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16783,
+          "bbox": [
+            35,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "waiting",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16978,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16911,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17058,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16784,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16805,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/waiting/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16710,
+          "bbox": [
+            36,
+            5,
+            155,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18185,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18147,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18157,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18173,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18172,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 18116,
+          "bbox": [
+            31,
+            5,
+            161,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    },
+    {
+      "state": "review",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": null,
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16943,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16965,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17067,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17194,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17295,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/previews/final-frames/review/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17319,
+          "bbox": [
+            36,
+            5,
+            156,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        }
+      ]
+    }
+  ]
+}

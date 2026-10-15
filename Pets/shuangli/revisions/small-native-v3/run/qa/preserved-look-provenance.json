@@ -1,0 +1,10 @@
+{
+  "decision": "Preserve the existing approved16look cells; rejected regenerated look candidates never uploaded.",
+  "raw_source": "Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended-raw.png",
+  "raw_source_sha256": "a18f060b8be7e7d9927de22fea538dc09917f6f3681a73d8eecc365bbc2467e2",
+  "assembly": "Bundled load_base_rows,paste_look_cells,clear_transparent_rgb. Existing full2look rows preserved without per-cell transforms. Fresh full raw assembly receives one despill pass.",
+  "new_standard_frames": 57,
+  "preserved_look_frames": 16,
+  "final_look_pixels_identical_to_downloaded_current_pet": true,
+  "final_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b"
+}

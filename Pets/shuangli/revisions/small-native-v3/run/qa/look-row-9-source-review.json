@@ -1,0 +1,225 @@
+{
+  "stage": "source visual review only; registration and final acceptance belong to parent",
+  "reviewed_at": "2026-10-15T06:22:59.166562+00:00",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-row-9.png",
+  "preserved_candidate": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-row-9-attempt-1.png",
+  "candidate_relation": "The two paths contain identical original generation pixels; no spacing edit was issued.",
+  "source_sha256": "c0d449f91498498c06ac5505a8108ebf2f4833cfa3b5fde64fed1de559804433",
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_bytes": 2241640,
+  "generator": "built-in image_gen.imagegen",
+  "original_generated_path": "/Users/ymy/.codex/generated_images/01a13e36-11bc-7760-a64a-e30e19f18ed9/exec-28b589b4-8fc6-4bd3-bc0b-eb1052d51118.png",
+  "transparent_background": false,
+  "prompt": {
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/look-row-9-effective.md",
+    "text": "Use case: stylized-concept. Asset: one coherent eight-pose horizontal gaze strip for the existing white/lilac chibi dragon-girl pet 霜璃.\nREFERENCE ROLES: 1 canonical base is authoritative for the NEW larger readable face, exact head size, lavender eye construction, clean linework, pale white-lilac hair/materials, body and costume. 2 grounded identity board preserves original anatomy and identity; historical tiny atlas does not override new face. 3 completed standard contact sheet is authoritative for compact wing spread, frontal body proportions, forward waist-joined clasped hands, skirt and baseline. 4 approved cardinals controls the UP / RIGHT / DOWN head-pitch and yaw families; keep those meanings but use the standard contact's more compact wing spread. 5 is an INVISIBLE eight-slot spacing guide only. Copy absolutely no text, lines, boxes, grids or guide marks.\nProduce EXACTLY EIGHT complete full-body figures in ONE single left-to-right row on absolutely flat pure #00FF00 background. Use a wide landscape canvas and one figure centered within each equal-width eighth. Scale every figure uniformly small enough that each complete silhouette has generous green gutters on both sides, with at least 10% of a slot of green between each wingtip and its slot boundary. The eight silhouettes must NEVER TOUCH. Outer horns, hair locks, shoes, wings, dress trains and attached tails must be entirely inside the image. Plenty of top and bottom margin. Feet all on one shared horizontal baseline.\nCOHERENT FAMILY: Draw all eight together with exactly the same body template, head size, face construction, line/render quality, proportions, lighting, palette, white/lilac materials, silver details, clasped waist hands, frontal torso, dress, feet, compact wings and attached curled tail. Bodies are almost exact duplicates of the frontal standard idle body; only the neck and WHOLE HEAD, hair locks, horns, ears and eyelids move to aim. Keep the head equally large and readable in every pose. No body turntable, whole-sprite tilt, alternate costumes, pose-dependent scale, independent restyling or unrelated character variants.\nEXACT LEFT-TO-RIGHT CLOCKWISE ORDER:\n1. 000 UP: broadly frontal face with unmistakably lifted chin and tilted-back head; raised under-jaw angle and physical lavender eyes gaze ABOVE the viewer. This first pose is UP, never neutral.\n2. 022.5 UP-RIGHT: mostly the same lifted-chin UP family, plus slight head yaw toward the VIEWER'S RIGHT image edge. Clearly keep upward head pitch.\n3. 045 UP-RIGHT: balanced upward pitch and rightward head yaw. Chin lifted, nose points upward-right, lavender eye surfaces look upward-right.\n4. 067.5 UP-RIGHT: stronger rightward head yaw approaching right cardinal, but the chin/head and eyelids still visibly pitch upward.\n5. 090 RIGHT: head yaws toward viewer's RIGHT edge, face surface and nose project RIGHT of head center, eye aims RIGHT. Upright pitch, frontal body.\n6. 112.5 DOWN-RIGHT: mostly right yaw with visible downward head pitch, lower chin and eyes aimed below-right.\n7. 135 DOWN-RIGHT: balanced right yaw and downward pitch, chin tucked, fringe overlaps more forehead, still visible open lavender eyes aimed below-right.\n8. 157.5 DOWN-RIGHT: MOSTLY DOWN with only slight RIGHT yaw, nearly the frontal chin-tucked DOWN cardinal. It must flow naturally one 22.5-degree step into the approved frontal 180 DOWN next. Do not end with a horizontal right profile.\nThe head moves through a continuous smooth arc: upward pitch decreases to RIGHT then downward pitch increases, while yaw peaks at RIGHT and returns almost frontal by final pose. Diagonals need actual vertical head/chin/eyelid pitch, never just pupil sliding.\nANATOMICAL ATTACHMENT: The silver temple rosette belongs to HER ANATOMICAL LEFT, seen viewer-right when frontal. During screen-right yaw it moves to the far side and becomes naturally hidden; never copy it onto the visible near cheek. Grouped hair locks, horns, ears and rosette follow the same physical head turn. Preserve original physical lavender irises, eyelids, pupils and highlights. No replacement/googly eyes, eye patches or pupil-only direction tricks.\nEverything outside the eight complete characters is flat pure #00FF00. No green inside the character, no shadow, floor, detached effects, glow, sparkles, props, scenery, text, labels, arrows, borders, marks, or copied reference/guide graphics.\n"
+  },
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/grounded-identity-board.png",
+      "sha256": "bf6428e256f1b8e3d1268751b60ff072cb991a98e4e55cb279e2e819e16530ee"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/contact-standard.png",
+      "sha256": "d78f21fdfa7404af1ec3222a42ff7b389ccd9724445219b34fcf0f8d1881e1cd"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/approved-cardinals.png",
+      "sha256": "be4d34461c260fa461135dea0ca9e3f512547e0e0dba034f624e65d3b466f0e5"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/layout-guides/look-row-9.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    }
+  ],
+  "source_component_inspection": {
+    "implementation": "Bundled assemble_extended_atlas.remove_chroma_background plus extract_strip_frames.connected_components/component_frame_groups/component_bounds",
+    "chroma_key": "#00FF00",
+    "chroma_threshold": 96,
+    "ordered_pose_group_count": 8,
+    "components_with_area_at_least_128px": 8,
+    "ordered_main_component_areas": [
+      94852,
+      91264,
+      90427,
+      89460,
+      86804,
+      87310,
+      83495,
+      86256
+    ],
+    "ordered_group_bounds": [
+      [
+        10,
+        140,
+        295,
+        611
+      ],
+      [
+        288,
+        139,
+        564,
+        611
+      ],
+      [
+        562,
+        135,
+        836,
+        611
+      ],
+      [
+        832,
+        138,
+        1106,
+        611
+      ],
+      [
+        1101,
+        142,
+        1372,
+        611
+      ],
+      [
+        1369,
+        136,
+        1640,
+        613
+      ],
+      [
+        1639,
+        143,
+        1905,
+        612
+      ],
+      [
+        1902,
+        155,
+        2167,
+        612
+      ]
+    ],
+    "x_bbox_gaps_only": [
+      -7,
+      -2,
+      -4,
+      -5,
+      -3,
+      -1,
+      -3
+    ],
+    "note_on_negative_x_gaps": "Bounding boxes overlap in x because wing tips and skirt edges occupy different y coordinates. All eight main poses are genuinely separate connected components; component-mask extraction isolates them without cutting foreground.",
+    "outer_margins_px": [
+      10,
+      5
+    ],
+    "foot_baseline_bottoms_px": [
+      611,
+      611,
+      611,
+      611,
+      611,
+      613,
+      612,
+      612
+    ],
+    "corner_rgba": [
+      [
+        21,
+        241,
+        13,
+        255
+      ],
+      [
+        16,
+        240,
+        11,
+        255
+      ],
+      [
+        17,
+        242,
+        13,
+        255
+      ],
+      [
+        17,
+        245,
+        12,
+        255
+      ]
+    ]
+  },
+  "source_visual_note": {
+    "frame_count": "Exactly 8 complete full-body figures in one ordered row.",
+    "identity": "Same canonical large white/lilac chibi face, horns, ears, lavender eyelid/iris/highlight construction, pale layered dress, silver details, wings and attached curled tail across the row.",
+    "body": "All torsos remain frontal; hands stay joined in front of the waist; skirt, shoes and planted baseline are near-duplicates. No whole-body turntable. Wing spread is consistent across the row and visually close to standard idle rather than the wider cardinal layout.",
+    "head_arc": "Upward pitch gradually decreases as yaw reaches screen-right at 090; then downward pitch increases while yaw returns nearly frontal by 157.5. Complete heads and chins move; this is not pupil-only gaze.",
+    "rosette": "Anatomical-left silver temple rosette is on viewer-right when near frontal and disappears naturally to the far side during stronger right yaw; it is not flipped onto the near cheek.",
+    "clipping_spacing": "No visible outer-edge clipping or actual touching. Full horns, hair, wings, dress trains, tails and feet remain present. Source outside margins are narrow, so parent should preserve component masks and register with final native margins.",
+    "effects_background": "Flat green background; no text, guide marks, props, shadow, scenery or detached decorative effects observed.",
+    "continuity": "The family is coherent without obvious head-size jumps or direction reversal. 067.5 has a subtle upward component and should be reviewed at final registered size. 157.5 is mostly down with slight right yaw for the 180 boundary."
+  },
+  "directions": [
+    {
+      "expected": "000",
+      "observed": "up",
+      "landmark_evidence": "Frontal head has a strongly lifted chin, visible under-jaw angle, raised face surface and lavender irises aimed upward. This is visibly up rather than neutral.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "022.5",
+      "observed": "up-right",
+      "landmark_evidence": "Chin remains lifted; nose, face surface and eyes yaw slightly toward screen-right. It continues the mostly-up family.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "045",
+      "observed": "up-right",
+      "landmark_evidence": "Head combines clear rightward yaw with raised chin and upward eye direction; both eyes retain canonical construction.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "067.5",
+      "observed": "up-right",
+      "landmark_evidence": "Head yaw approaches right profile while chin and face are still slightly elevated. Upward component is subtle beside 045 but visible in the raised chin relative to 090.",
+      "source_verdict": "warning"
+    },
+    {
+      "expected": "090",
+      "observed": "right",
+      "landmark_evidence": "Nose and readable face surface project toward the screen-right edge; head is at upright pitch. Torso, waist hands and dress stay frontal.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "112.5",
+      "observed": "down-right",
+      "landmark_evidence": "Rightward yaw remains clear, with lowered chin, downward face pitch and lower-looking lavender eyes.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "135",
+      "observed": "down-right",
+      "landmark_evidence": "Downward pitch deepens as yaw returns toward frontal. Fringe overlaps more of forehead and nose/eyes remain slightly rightward.",
+      "source_verdict": "pass"
+    },
+    {
+      "expected": "157.5",
+      "observed": "down-right",
+      "landmark_evidence": "Head is nearly frontal with tucked chin and downward eyes; small residual screen-right yaw remains. It approaches the frontal-down cardinal rather than ending at a horizontal profile.",
+      "source_verdict": "pass"
+    }
+  ],
+  "source_conclusion": "Suitable coherent source for parent registration and full loop review. Final acceptance is not asserted.",
+  "unexecuted_spacing_prompt": {
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/look-row-9-repair-spacing.md",
+    "executed": false,
+    "reason": "Parent clarified that disjoint component masks suffice and narrow x-bounds alone are not visual failures."
+  }
+}

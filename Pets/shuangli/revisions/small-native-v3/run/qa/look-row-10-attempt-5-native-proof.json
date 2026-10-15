@@ -1,0 +1,14 @@
+{
+  "order": [
+    "292.5 candidate5",
+    "315 candidate5",
+    "337.5 candidate5",
+    "000 approved encoded candidate2"
+  ],
+  "purpose": "Native-size provisional source proof only, not a final encoded atlas or official registration.",
+  "shared_source_scale": 0.3680673756724892,
+  "scale_basis": "Parent prior uniform source-density factor times official row9 registration factor.",
+  "component_method": "Bundled component_group_image and normalize_cells_to_reference with one common scale for all eight source poses.",
+  "proof": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/look-row-10-attempt-5-native-proof.png",
+  "head_proof": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/look-row-10-attempt-5-native-head-proof.png"
+}

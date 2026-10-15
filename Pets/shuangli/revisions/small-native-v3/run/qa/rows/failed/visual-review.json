@@ -1,0 +1,62 @@
+{
+  "state": "failed",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/failed.png",
+  "generation_mode": "built-in imagegen",
+  "selected_attempt": 2,
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_sha256": "49d371addbea40d9e99e9167eb0f9287230264a95538358b2b6aef5e763a58b2",
+  "source_corner_rgb": [
+    0,
+    255,
+    0
+  ],
+  "native_panel": "native-panel.png",
+  "native_loop": "native-loop.gif",
+  "idle_comparison": "native-idle-comparison.png",
+  "wrap_panel": "wrap-large.png",
+  "verdict": "pass",
+  "evidence": {
+    "count": "Exactly eight separated complete poses; bundled components extraction selects eight actual pose groups.",
+    "semantics": "Frames 01-03 lower eyelids and chin into a small subdued frown; frames 04-05 hold the gentle deflated reaction, then frames 06-08 reopen eyes and recover to a calm forward gaze. Hands remain joined, shoulders soften subtly, and the body remains upright. Native panel shows a brief readable error/disappointment reaction without exaggerated distress.",
+    "identity": "Same larger native-v3 face/head proportions, lavender eyes, paired ivory horns, pointed ears, viewer-right temple silver knot rosette, attached lavender bat wings and fluffy viewer-right tail, white flowing formal dress and clasped-hands template across all eight. Native idle comparison preserves scale and proportions.",
+    "registration": "All extracted frame bboxes share top 5 and bottom 203; visually stable feet/skirt baseline and head size, with only very small body/hair changes. Wrap panel 07,08,01,02 shows a calm end/start and no visible size or baseline pop.",
+    "spacing_clipping": "Source pose silhouettes have uninterrupted green gaps between neighbors; native cells contain all horns, hair, wings, sleeves, skirt, shoes and tail with no edge pixels.",
+    "attachments_effects": "No crying, water, smoke, stars, X/symbols, shadows, new props or loose effects. Wings, tail, hands and dress remain connected.",
+    "style": "Consistent clean small-scale anime white/lavender rendering and subtle expression changes, grounded in canonical and approved idle references."
+  },
+  "diagnostics": {
+    "bundled_review_ok": true,
+    "bundled_errors": [],
+    "bundled_warnings": [],
+    "extraction": "components; shared scale and registration",
+    "baseline_bottoms": [
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203,
+      203
+    ],
+    "area_ratio_max_min": 1.0304844523184067
+  },
+  "repairs": {
+    "attempt_1": "Rejected source for neighboring wingtip contact producing merged groups and sparse cells. Retained under rejected-touching/.",
+    "attempt_2": "Reduced whole-character source occupancy and strengthened green gutters. Actual source connectivity defect repaired through imagegen."
+  },
+  "background_normalization": {
+    "operation": "Normalize only pixels the bundled extractor already treats as chroma to exact #00FF00",
+    "threshold": 96,
+    "normalized_pixels": 986063,
+    "raw_source": "source-attempt-2.png",
+    "source": "decoded/failed.png",
+    "source_sha256": "49d371addbea40d9e99e9167eb0f9287230264a95538358b2b6aef5e763a58b2",
+    "artwork_pixels_redrawn": false,
+    "despill_performed": false
+  },
+  "remaining_pipeline_note": "Thin chroma edge fringe visible before parent final exactly-once despill. No despill, shared-manifest edit, atlas assembly, upload, or selection performed."
+}

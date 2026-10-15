@@ -1,0 +1,43 @@
+{
+  "source": "decoded/waving.png",
+  "source_sha256": "410480b362d77d2ee0d466b9a2ee19567246f42ca52aa5033370f02a6d333733",
+  "frame_count": 4,
+  "native_cell_size": [
+    192,
+    208
+  ],
+  "extraction": "bundled extract_strip_frames.py --method components",
+  "frame_bounds": [
+    [
+      25,
+      5,
+      166,
+      203
+    ],
+    [
+      25,
+      5,
+      166,
+      203
+    ],
+    [
+      25,
+      5,
+      166,
+      203
+    ],
+    [
+      25,
+      5,
+      166,
+      203
+    ]
+  ],
+  "adjacent_rgb_mae": [
+    4.325462406517094,
+    2.9280181623931623,
+    4.847806490384616,
+    5.48823951655983
+  ],
+  "note": "Diagnostic pre-final-despill previews. Adjacent-pixel error is not a smoothness score. Native cells use one shared extractor transform."
+}

@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's nose and chin project to screen-right, with a broad screen-left eye surface and exposed screen-left ear. B's nose and chin project to screen-left, with the screen-right eye and ear more exposed."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A shows the broad screen-right cheek and eye while its nose projects left. B shows the broad screen-left eye and cheek, with the nose and chin displaced right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a clear left-facing facial silhouette, with the far screen-left eye compressed. B's nose and chin extend right and the far screen-right eye is compressed."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and flattened chin contour point left, with one dominant screen-right eye. B has the corresponding visible right-facing nose/chin silhouette and a dominant screen-left eye; each was judged from its own facial outline."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "Despite the downward pitch, A's nose/chin shift right and its screen-right eye is foreshortened. B's nose/chin shift left and its screen-left eye is mostly obscured while the screen-right eye remains broad."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A's downward-facing chin and nose lie to the right of the crown/neck, with the screen-right eye narrowed by yaw. B's face extends left from the neck, with a broad screen-right eye and exposed screen-right ear."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A's nose and chin lean left of its neck, and the screen-left eye is the compressed far eye. B has a subtler right turn: the nose/chin sit rightward, its screen-left eye surface is broader, and its screen-left ear is exposed."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A shows much of the crown, with bangs over narrowed eye surfaces and the chin tucked toward the chest. B raises the nose and chin, exposes the lower face and neck, and shows larger upward-tilted eye surfaces."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A's lifted chin and nose open the throat and lower facial plane beneath the eyes. B's crown is prominent, eye surfaces are compressed beneath the bangs, and the chin is tucked low."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts its nose and projects the chin away from the collar, exposing the throat. B bows its face, showing more crown and placing narrowed eyes and chin low near the collar."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A clearly bows its crown over the eyes and tucks its chin. B's side-facing nose and nearly level chin show strong yaw, but the physical eye, nose and chin contours do not give a sufficiently clear upward or downward pitch at this scale."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A shows the crown and lowered eye line, with a tucked chin. B visibly lifts its nose/chin and stretches the exposed neck below the jaw, giving a clear upward pitch."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A's face descends toward the chest beneath a prominent crown, with compressed eyes. B's nose and chin are raised, the lower face opens toward the viewer, and the throat remains exposed below the lifted jaw."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A's crown, lowered eyelids and chin close to the chest indicate a downward pitch. B has a clear left yaw, but its nose/chin profile is near level and the eye surface does not independently establish a definite upward or downward tilt."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "operation": "Uniform whole-source density adjustment before shared look registration. No per-cell transforms or pose edits.",
+  "source": "decoded/look-row-10.png",
+  "source_sha256": "68d1596289b4b3981ecc76b79029bcc41dcc7a00a7612cde794224e0a831e1d5",
+  "output": "decoded/look-row-10-density-normalized.png",
+  "row9_group_heights": [
+    471,
+    472,
+    476,
+    473,
+    469,
+    477,
+    469,
+    457
+  ],
+  "row10_group_heights": [
+    514,
+    518,
+    520,
+    522,
+    521,
+    521,
+    521,
+    522
+  ],
+  "scale": 0.9049904030710173,
+  "original_size": [
+    2171,
+    724
+  ],
+  "normalized_size": [
+    1965,
+    655
+  ],
+  "registration_scale": 0.40670859538784065
+}

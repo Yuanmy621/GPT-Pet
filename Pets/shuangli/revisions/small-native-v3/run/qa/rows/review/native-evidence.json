@@ -1,0 +1,138 @@
+{
+  "state": "review",
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/review.png",
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_sha256": "54e75661ecea772533c6edd25b49846465da995e4660c4ca521ea7b4e47d38ff",
+  "corner_rgb": [
+    [
+      0,
+      255,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ],
+    [
+      0,
+      255,
+      0
+    ]
+  ],
+  "native_cell": [
+    192,
+    208
+  ],
+  "frame_bboxes": [
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ],
+    [
+      36,
+      5,
+      156,
+      203
+    ]
+  ],
+  "frame_sha256": [
+    "07de8579dc367c601b9fff2785dfd901596e03c4abded2ccb962dd01836632f9",
+    "126a94da12efeb1b0dab086da3f6210b5ac7acc10125a55e1d3bf9db9a83a89e",
+    "626aa7661345acefb1dfd686ccda3b8b69337c2234599b41fa63ce06346597c9",
+    "c238932735ad5deb77cfdc543ed9bbe39212ff16e03ba82542efe0b7c8912baa",
+    "fd6e2bf0b193fe8832ea400e4ac8eb33e4d6f12a7488bd24c58a2ab9108b775d",
+    "d24a086dd3896081eebc25149279ae593cce0714e755e27190a349b45ee1b83f"
+  ],
+  "native_alpha_pixel_count": [
+    16943,
+    16965,
+    17067,
+    17194,
+    17295,
+    17319
+  ],
+  "adjacent_rgb_mae": [
+    {
+      "from": 0,
+      "to": 1,
+      "rgb_mae": 8.1331
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "rgb_mae": 5.7087
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "rgb_mae": 6.912
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "rgb_mae": 5.1231
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "rgb_mae": 8.7656
+    },
+    {
+      "from": 5,
+      "to": 0,
+      "rgb_mae": 8.6131
+    }
+  ],
+  "comparison_state_order": [
+    "idle",
+    "running",
+    "waiting",
+    "review"
+  ],
+  "loop_duration_ms": [
+    150,
+    150,
+    150,
+    150,
+    150,
+    280
+  ],
+  "metrics_are_diagnostic_only": true,
+  "bundled_review_ok": true,
+  "despill_performed": false
+}

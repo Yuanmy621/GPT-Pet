@@ -1,0 +1,79 @@
+{
+  "idle_bbox": [
+    34,
+    6,
+    157,
+    203
+  ],
+  "jump": [
+    {
+      "frame": 0,
+      "bbox": [
+        29,
+        61,
+        163,
+        203
+      ],
+      "visible_width": 134,
+      "visible_height": 142,
+      "bottom": 203
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        27,
+        29,
+        164,
+        188
+      ],
+      "visible_width": 137,
+      "visible_height": 159,
+      "bottom": 188
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        22,
+        5,
+        170,
+        164
+      ],
+      "visible_width": 148,
+      "visible_height": 159,
+      "bottom": 164
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        28,
+        23,
+        164,
+        190
+      ],
+      "visible_width": 136,
+      "visible_height": 167,
+      "bottom": 190
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        29,
+        61,
+        162,
+        203
+      ],
+      "visible_width": 133,
+      "visible_height": 142,
+      "bottom": 203
+    }
+  ],
+  "baseline_lift_pixels": [
+    0,
+    15,
+    39,
+    13,
+    0
+  ],
+  "landing_vs_start_bottom": 0,
+  "notes": "Metrics are from original bundled extracted cells. No cells were translated or resized after extraction."
+}

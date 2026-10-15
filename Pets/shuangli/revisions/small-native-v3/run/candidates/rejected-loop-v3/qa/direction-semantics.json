@@ -1,0 +1,119 @@
+{
+  "candidate": "loop-v3, complete-row source attempt7",
+  "atlas_sha256": "c0790a113efeca10836daa3cdb45305a2bff1bf9076454b4c367b628d30a355a",
+  "method": "Parent visual review of exact encoded native direction sheet and boundary proof; observed head/neck/face geometry, not prompts or labels alone. Intermediate uncertainties are explicitly retained.",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "verdict": "pass",
+      "observed": "Frontal raised face, lifted chin and open throat; nose and eyes on an upward facial plane.",
+      "reason": "Compared with neutral, the lower jaw lifts away from the collar and the face tilts upward."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "Raised chin with a small rightward nose/face offset and broader screen-left eye.",
+      "reason": "Physical head yaw and eye surfaces point right while the lifted lower face retains up pitch."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "verdict": "pass",
+      "observed": "Clear rightward face plane and raised chin, with near ear exposed and far eye narrower.",
+      "reason": "Nose projects right of the neck and the jaw remains lifted."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "verdict": "warning",
+      "observed": "Mostly right-facing head with a subtle upward chin angle.",
+      "reason": "Nose and chin project right; upward pitch is weaker than at045 but jaw/neck remain more lifted than090. Reviewed as a shallow upper-right intermediate."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "verdict": "pass",
+      "observed": "Right-facing near profile with nose and chin projecting screen-right.",
+      "reason": "The dominant visible eye and projecting facial silhouette unambiguously face right."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "Right-facing bowed head, prominent crown and low eye line.",
+      "reason": "Chin moves toward collar while the face/nose remain right of the neck."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "verdict": "pass",
+      "observed": "Downward face plane with right yaw and foreshortened far eye.",
+      "reason": "Bangs and crown expose the downward tilt, nose/chin stay rightward."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "verdict": "warning",
+      "observed": "Strong downward pitch and nearly frontal head with a small right bias.",
+      "reason": "Crown and tucked chin clearly show down. Nose/face offset is subtly right, smaller than135; horizontal cue can be ambiguous in isolated blind viewing. Reviewed against135 and180 rather than asserting a strong right turn."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "verdict": "pass",
+      "observed": "Centered bowed head with crown visible, eyelids lowered and chin tucked.",
+      "reason": "Head pitch lowers the face toward the waist-clasped hands; no competing side yaw."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Bowed face with slight left nose/chin projection and near screen-right cheek exposed.",
+      "reason": "Lowered eyes and shortened neck show down while the face shifts left."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Left-facing downward three-quarter head with crown visible and low near eye.",
+      "reason": "Nose/chin lie left of the neck and jaw approaches the collar."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "verdict": "pass",
+      "observed": "Strong left yaw with a downward chin angle and lowered eye plane.",
+      "reason": "Face silhouette points left; head is visibly more bowed than270."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "verdict": "pass",
+      "observed": "Left-facing near profile with nose/chin projecting left and one dominant near eye.",
+      "reason": "Physical face outline clearly points screen-left; rosette remains attached on the near anatomical-left temple."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "Left-facing head with raised chin and exposed neck under the jaw.",
+      "reason": "Upward facial plane and lifted nose distinguish it from270 while preserving left yaw."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "verdict": "pass",
+      "observed": "Moderate left-up three-quarter head, both eyes visible with narrower far eye.",
+      "reason": "Nose/chin shift left of skull center, broader frontal face bridges292.5 profile and337.5 near-frontal up."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "verdict": "warning",
+      "observed": "Mostly frontal upward face with a shallow residual left bias.",
+      "reason": "Lifted chin and throat clearly show up; left yaw is deliberately slight to approach000. Nose/face offset is weak at native size and may be ambiguous in blind horizontal viewing; full sequence retains its left-to-up progression."
+    }
+  ]
+}

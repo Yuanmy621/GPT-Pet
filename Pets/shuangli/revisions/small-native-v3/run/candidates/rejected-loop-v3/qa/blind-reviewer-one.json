@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v3",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A: both eyes and cheeks appear nearly symmetric around a centered chin; I cannot resolve head yaw. B: the chin and facial center sit to the right of the neck, with the left ear and left side of the head exposed and the right cheek compressed."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: chin and nose shift slightly left of the neck, with more of the right cheek and right side ornament visible. B: the nose and chin project to the right of the neck, and the left ear and left cheek are more exposed."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the face forms a leftward three-quarter plane, with nose and chin projecting left and the far eye narrowed. B: the nose and chin project right, and the visible left ear and near eye define a rightward three-quarter face."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose, mouth, and chin form a leftward profile with one dominant eye. B: the facial outline and chin project right, with a dominant left eye and exposed left ear."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: despite the lowered chin, the facial plane and chin sit right of the neck, with the left ear exposed and the near eye toward the right edge of the face. B: the bowed face and chin point left of the neck, with the right side of the head and ornament more visible."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the lowered nose and chin project left of the neck and the right eye is the dominant visible eye. B: the bowed facial plane sits right of the neck, with the left ear exposed and the visible eye on the right-facing plane."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A: the bowed chin and mouth shift left of the neck, and the right cheek and right temple are the more exposed side. B: the chin is lowered, but both eyes remain similarly visible and the face is nearly centered; horizontal yaw is too weak to resolve confidently."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown and bangs dominate, the eyes are low and partly closed, and the chin tucks toward the collar. B: the eyes sit high on an open facial plane, the chin lifts away from the collar, and the neck is exposed."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the face lifts with a raised chin, high eyes, and visible neck beneath the jaw. B: the large visible crown, low eyes under the bangs, and tucked chin indicate a downward head pitch."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the forehead and crown face the viewer, the near eye sits low under the bangs, and the chin tucks toward the neck. B: the facial plane opens upward, with the chin lifted and the neck visible below the jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the bowed forehead, low eye line, and chin pressed toward the collar show downward pitch. B: the side-view chin and nose lift, opening the neck below the jaw and raising the gaze."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the eyes look high on the face and the chin is lifted above an exposed neck, producing a mild upward pitch. B: the visible crown and lowered eyelids accompany a tucked chin and shortened visible neck."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the eye line is high, the lower face is open, and the chin lifts away from the collar; the pitch is mild but reads upward. B: the bangs and crown tilt forward, the eye line drops, and the chin tucks into the neck."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the forehead rolls forward, the visible eye is low under the bangs, and the chin folds toward the collar. B: the side facial plane and chin lift with the gaze, exposing the neck below the jaw."
+    }
+  ]
+}

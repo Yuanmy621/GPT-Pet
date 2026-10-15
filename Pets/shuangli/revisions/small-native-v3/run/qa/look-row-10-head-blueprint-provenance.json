@@ -1,0 +1,133 @@
+{
+  "purpose": "Reference-only presentation collage, not a final sprite row or cell splice. No old315 source crop is included.",
+  "source_order": "acceptedattempt4heads1–6, newpassedmoderateyawanchorat7, acceptedattempt4head8",
+  "tiles": [
+    {
+      "position": 1,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 0,
+      "source_crop": [
+        27,
+        100,
+        277,
+        330
+      ],
+      "display_only_size": [
+        240,
+        200
+      ]
+    },
+    {
+      "position": 2,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 1,
+      "source_crop": [
+        304,
+        100,
+        554,
+        330
+      ],
+      "display_only_size": [
+        230,
+        212
+      ]
+    },
+    {
+      "position": 3,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 2,
+      "source_crop": [
+        574,
+        100,
+        824,
+        330
+      ],
+      "display_only_size": [
+        227,
+        213
+      ]
+    },
+    {
+      "position": 4,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 3,
+      "source_crop": [
+        840,
+        100,
+        1090,
+        330
+      ],
+      "display_only_size": [
+        225,
+        214
+      ]
+    },
+    {
+      "position": 5,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 4,
+      "source_crop": [
+        1108,
+        100,
+        1358,
+        330
+      ],
+      "display_only_size": [
+        227,
+        213
+      ]
+    },
+    {
+      "position": 6,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 5,
+      "source_crop": [
+        1375,
+        100,
+        1625,
+        330
+      ],
+      "display_only_size": [
+        229,
+        213
+      ]
+    },
+    {
+      "position": 7,
+      "source": "references/moderate-up-left-yaw-anchor.png",
+      "source_frame_index": null,
+      "source_crop": [
+        260,
+        0,
+        1230,
+        820
+      ],
+      "display_only_size": [
+        240,
+        196
+      ]
+    },
+    {
+      "position": 8,
+      "source": "decoded/candidates/look-row-10/attempt-4-middle-snap.png",
+      "source_frame_index": 7,
+      "source_crop": [
+        1907,
+        100,
+        2157,
+        330
+      ],
+      "display_only_size": [
+        240,
+        213
+      ]
+    }
+  ],
+  "original_identity_crop": [
+    0,
+    0,
+    2048,
+    740
+  ],
+  "original_identity_crop_reason": "Exclude the historical gaze atlas including its old315; preserve original character references only."
+}

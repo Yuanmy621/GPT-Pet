@@ -4,7 +4,9 @@
 
 角色采用日系 Q 版比例：银白长发、紫色眼睛、双龙角、尖耳、淡紫薄翼、蓬松龙尾，搭配白色长裙、紫灰褶边和银色花结饰品。
 
-当前成品已应用待机与工作动画修订：固定身体和衣裙姿态，减少循环接缝跳变，并加强眼睛与轮廓的原生尺寸可读性。源图、前后对比和验证记录见 [修订说明](Pets/shuangli/revisions/clarity-motion-v2/README.md)。
+当前版本已通过现有 Pets 插件更新：重绘九组标准动作的 57 帧，改善眼睛与轮廓在小尺寸下的辨认，减少待机中的频繁完整闭眼，并区分工作、等待与检查结果的姿势。十六方向保留原有通过检查的 16 帧，已确认像素完全一致。源图、前后对比和验证记录见 [本轮修订说明](Pets/shuangli/revisions/small-native-v3/README.md)。
+
+[打开实际尺寸对比页](Pets/shuangli/revisions/small-native-v3/experience-preview.html)，可切换动作、底色及显示大小；这些控制项仅用于检查素材。
 
 ![霜璃九组动作预览](Pets/shuangli/previews/all-states.gif)
 
@@ -22,7 +24,7 @@
 
 ## 下载与查看
 
-可以直接打开以下文件，或使用 GitHub 的 **Code → Download ZIP** 下载整个项目：
+可以直接打开以下本地文件：
 
 | 文件 | 用途 |
 | --- | --- |
@@ -33,11 +35,6 @@
 | [待机 → 跳跃 → 待机](Pets/shuangli/previews/idle-jump-idle.gif) | 检查离地、落地与动作衔接 |
 | [全部帧检查图](Pets/shuangli/qa/contact-sheet-final.png) | 查看每个有效格与透明空白格 |
 | [带标签的方向检查图](Pets/shuangli/qa/direction-sheet.png) | 对照视线方向与头部细节 |
-
-```bash
-git clone https://github.com/Yuanmy621/GPT-Pet.git
-cd GPT-Pet
-```
 
 ## 精灵图规格
 
@@ -51,9 +48,9 @@ cd GPT-Pet
 | 3 | `waving` | 4 | 通过手部动作打招呼 |
 | 4 | `jumping` | 5 | 蓄力、上升、腾空、下降、落地 |
 | 5 | `failed` | 8 | 低头、失落表情与恢复 |
-| 6 | `waiting` | 6 | 合掌、张掌与期待回应 |
+| 6 | `waiting` | 6 | 双手张掌、期待眼神与轻微歪头 |
 | 7 | `running` | 6 | 站定思考与专注工作 |
-| 8 | `review` | 6 | 查看结果、歪头、眨眼与满意点头 |
+| 8 | `review` | 6 | 向下侧视、轻点头后回正 |
 | 9 | `look-row-9` | 8 | 000° 至 157.5° 的右半圈视线 |
 | 10 | `look-row-10` | 8 | 180° 至 337.5° 的左半圈视线 |
 
@@ -104,7 +101,7 @@ GPT-Pet/
     └── qa/                        # 质量报告、盲检、检查图与预览工具
 ```
 
-`decoded/` 中名称包含 `rejected` 或 `v1` 的文件用于记录修订过程。使用时以 `final/spritesheet-extended.png` 为准。`previews/final-frames/` 是最终边缘清理后重新裁切的帧。
+`decoded/`、`frames/`、`prompts/`、`references/` 及根部作业记录保留早期制作过程；当前标准动作的源图、提示与检查记录位于 `revisions/small-native-v3/run/`。被否决版本没有上传。使用时以 `final/spritesheet-extended.png` 为准，版本索引为 `current-version.json`；`previews/final-frames/` 是当前最终边缘清理后重新裁切的帧。
 
 ## 在本地重新导出预览
 
@@ -147,7 +144,7 @@ python Pets/shuangli/qa/render_final_previews.py --output-dir output/previews --
 6. 对视线进行共享比例与基线登记，检查两个半圈的边界衔接。
 7. 合成 v2 精灵图，执行一次最终绿边清理，验证透明度、布局和精确文件字节。
 8. 进行方向语义检查、连续性检查和三位独立评审的随机 A/B 盲检。
-9. 从最终编码精灵图导出动画，完成 Pets 文件预检后创建宠物。
+9. 从最终编码精灵图导出动画，完成 Pets 文件预检后创建或更新宠物；本次保持现有宠物 ID 和活动选择，下载保存版本核对像素。
 
 生成过程使用绿色 `#00FF00` 作为抠图背景，因此源图可能仍带绿底。最终精灵图及成品预览使用透明背景。新的角色或视觉修订仍需要 imagegen 与 Pets 技能；本仓库没有复制这些外部生成服务或完整合成工具。
 
@@ -164,14 +161,14 @@ python Pets/shuangli/qa/render_final_previews.py --output-dir output/previews --
 | 最终综合质量检查 | [pet-quality.json](Pets/shuangli/qa/pet-quality.json) |
 | Pets 文件预检 | [pets-preflight.json](Pets/shuangli/qa/pets-preflight.json) |
 
-最终尺寸为 `1536 × 2288`，文件大小为 **3,505,211 字节**。跳跃峰值离地 **27 px**，落点与待机相同。左右移动分别绘制，保留非对称发饰的正确侧别。
+当前最终尺寸为 `1536 × 2288`，文件大小为 **3,567,404 字节**。最终质量检查按 alpha > 16 的可见边界测得跳跃峰值离地 **40 px**，落点与待机相同。左右移动分别绘制，保留非对称发饰的正确侧别。三位独立盲检均确认全部方向；独立视觉复核及 Pets 预检通过。
 
 连续性检查在 `157.5° → 180°` 处报告了一个像素差异统计提示，已结合正常尺寸方向图与完整循环复核；动作方向、下半身锚点和发饰显露关系通过检查。
 
 成品 SHA-256：
 
 ```text
-6daae254b0eae8e7ddff1c194970d170e99fa529de8b7e75383095e2a45205ee
+23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b
 ```
 
 可以在克隆后核对文件：
@@ -180,11 +177,13 @@ python Pets/shuangli/qa/render_final_previews.py --output-dir output/previews --
 python -c "import hashlib; from pathlib import Path; print(hashlib.sha256(Path('Pets/shuangli/final/spritesheet-extended.png').read_bytes()).hexdigest())"
 ```
 
-报告记录的是本次制作完成时的检查结果，重新生成图像后需要重新执行对应质量检查。公开资料中的本机绝对路径已改为仓库相对路径，账号专属的安装记录保留在本地。
+报告记录的是本次制作完成时的实际检查结果，重新生成图像后需要重新执行对应质量检查。上传后的图像可能重新编码，已按解码后的 RGBA 逐像素核对一致，见 [保存验证](Pets/shuangli/qa/stored-verification.json)。本地制作报告可能含本机路径，账号专属的安装记录在被忽略的 `pet-record.json` 中。
 
 ## 在 Pets 中使用
 
-将最终透明精灵图用于你自己的 Pets 创建流程。流程需要先完成文件验证，再准备上传会话并创建宠物。仓库中的素材文件本身不会自动安装或切换账号里的活动宠物。
+将最终透明精灵图用于 Pets 创建或更新流程：先验证文件，再准备上传会话，随后创建或更新现有宠物。本次已通过插件更新原有「霜璃」，活动选择保持不变。素材归档本身不会自动安装宠物。
+
+Pets 每格固定为 `192 × 208` 像素；现有素材接口不提供客户端帧率、插值、随机动作调度、点击任务入口、专注模式或停靠设置。本轮改善的是画面和动作表现，不把素材变更当作客户端性能提升。
 
 ## 素材与许可
 

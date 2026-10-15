@@ -1,0 +1,6 @@
+{
+  "candidate": "loop-v3",
+  "atlas_sha256": "c0790a113efeca10836daa3cdb45305a2bff1bf9076454b4c367b628d30a355a",
+  "never_uploaded": true,
+  "reason": "Regenerated look row10 narrower than approved row9; head pivot still concentrated. Preserve existing approved16look cells instead."
+}

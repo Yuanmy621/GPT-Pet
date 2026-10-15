@@ -1,0 +1,79 @@
+{
+  "state": "running-right",
+  "selected_artifact": "decoded/running-right.png",
+  "generation": "built-in imagegen identity-preserve edit",
+  "reviewed_artifacts": [
+    "decoded/running-right.png",
+    "qa/rows/running-right/native.png"
+  ],
+  "frame_count": 8,
+  "native_frame_size": [
+    192,
+    208
+  ],
+  "bbox": [
+    [
+      28,
+      5,
+      164,
+      203
+    ],
+    [
+      34,
+      5,
+      157,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ],
+    [
+      32,
+      5,
+      160,
+      202
+    ],
+    [
+      28,
+      5,
+      164,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ],
+    [
+      34,
+      5,
+      158,
+      203
+    ],
+    [
+      32,
+      5,
+      160,
+      203
+    ]
+  ],
+  "pass": true,
+  "evidence": {
+    "direction": "All eight faces in screen-right profile; nose, gaze and front shoe point screen-right. Attached hair, wings and tail trail screen-left.",
+    "cadence": "Near visible shin advances in frames 0/4, is planted nearly vertical in frames 1/5, passes in frames 2/6, bends back with heel lifting to screen-left in frames 3/7. Both shoes visible at passing/back phases; far leg is partially obscured by long skirt. This is visible at native size, unlike rejected initial near-static forward stride.",
+    "identity": "White-lavender dragon girl with paired ivory horns, clear purple eye, attached pale lavender wing and fluffy tail; no near-side temple rosette, honoring anatomical-left far-side occlusion. New canonical enlarged-face compact proportions retained.",
+    "continuity": "First and last are successive foot-contact phases, with same head height and face angle, no dramatic state change. Hair/tail shapes remain in same region and scale.",
+    "geometry": "Extracted by bundled components with one shared scale; all horns/wing/tail/dress/shoes complete and separated; no guide pixels, detached effect, shadow or clipping."
+  },
+  "concerns": [
+    "Green edge fringe remains on extracted cells; parent must run the mandatory final shared-atlas despill exactly once.",
+    "Extracted baselines 202 or203 exclusive-bottom (1 px spread); apparent head scale consistent.",
+    "Frame widths vary with foot stride and shared horizontal centering, so final animation review should check small lateral body shifts. Far leg is naturally partially hidden by formal long dress."
+  ],
+  "rejected_attempt": "qa/rows/running-right/rejected-static-gait/running-right.png",
+  "effective_prompt": "prompts/rows/running-right-gait-repair.md"
+}

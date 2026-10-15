@@ -1,0 +1,44 @@
+{
+  "state": "waiting",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/waiting.png",
+  "generation_mode": "built-in imagegen",
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_sha256": "5ccc94c5f7a9138bd14d552d23adc23270db0733920ee331c2e7b27dfba9e300",
+  "source_corner_rgb": [
+    0,
+    255,
+    0
+  ],
+  "native_panel": "native-panel.png",
+  "native_loop": "native-loop.gif",
+  "wrap_panel": "wrap-large.png",
+  "verdict": "pass",
+  "evidence": {
+    "count": "Exactly six separated complete poses; bundled component extraction selected all six.",
+    "semantics": "Both hands remain forward with upward open palms at lower chest/waist in all six; slight patient head tilt and expectant lavender eyes, with one gentle blink. Clearly distinct from hand-at-chin working row.",
+    "identity": "White/lavender formal dress, large readable face, paired horns and pointed ears, viewer-right silver temple rosette, attached lavender wings and fluffy viewer-right tail persist across all six.",
+    "registration": "Native 192x208 cells have a stable hem/shoe baseline, fixed body template and visually near-identical first/last frames. Native wrap-large panel shows frame 4,5,0,1 for seam inspection.",
+    "spacing_clipping": "Source poses are separate; native cells contain full horns, hair, wing tips, skirt, shoes and tail with no edge pixels.",
+    "attachment": "Hands attach to forearms/sleeves; wings and tail attach to body. No props, icons, floating marks, effects or visible loose fragments.",
+    "style": "Consistent clean white/lavender anime linework and simplified dress/hair template matching canonical identity."
+  },
+  "diagnostics": {
+    "bundled_review_ok": true,
+    "bundled_errors": [],
+    "bundled_warnings": [],
+    "extraction": "components; shared scale and registration"
+  },
+  "remaining_pipeline_note": "Thin green chroma fringe remains around extracted contours, as expected before the parent final exactly-once despill pass. No despill or shared assembly performed here.",
+  "background_normalization": {
+    "operation": "Normalize only pixels the bundled extractor already treats as chroma to exact #00FF00",
+    "threshold": 96,
+    "normalized_pixels": 695152,
+    "raw_source": "source-attempt-1.png",
+    "source": "decoded/waiting.png",
+    "artwork_pixels_redrawn": false,
+    "despill_performed": false
+  }
+}

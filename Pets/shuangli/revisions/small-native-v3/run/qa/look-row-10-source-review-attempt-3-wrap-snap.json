@@ -1,0 +1,395 @@
+{
+  "stage": "Source visual review only. Parent owns registration, full assembly, native-size semantic review and final acceptance.",
+  "reviewed_at": "2026-10-15T06:42:01.117731+00:00",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-row-10.png",
+  "preserved_candidate": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/candidates/look-row-10/attempt-3-selected.png",
+  "candidate_relation": "Identical original generation pixels; no visual edits, per-cell scaling, normalization, registration or final despill have been applied.",
+  "source_sha256": "3317f2522395d590d52fd1e172ca8c7196a361647be084b6eed2626860b67ead",
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_bytes": 2348885,
+  "generator": "built-in image_gen.imagegen",
+  "transparent_background": false,
+  "original_generated_path": "/Users/ymy/.codex/generated_images/01a13e3c-920d-71f2-97d1-2d77f71fa053/exec-47b47ac2-ce50-4cb7-bf66-bbddf6249eda.png",
+  "prompt": {
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/rows/look-row-10-effective.md",
+    "text": "Use case: identity-preserve. Make ONE final horizontal full-body sprite strip for 霜璃, EXACTLY EIGHT separate complete figures, solid uniform #00FF00 background, no labels.\n\nREFERENCE ROLES:\n1. PRIMARY HEAD-DIRECTION REFERENCE: the previously approved row10 direction board. The eight top figures and enlarged heads below show the CORRECT head angles in the CORRECT order. Match these eight physical head directions, especially the LEFT-facing profile at position 5 and UP-LEFT face at position 8. Do not copy its background, labels, closeup row, old small face or faint rendering.\n2. AUTHORITATIVE NEW IDENTITY: reproduce this new canonical face and cleaner linework, body, white-lilac hair, lavender eyes, horns, white dress and silver rosette.\n3. BODY GEOMETRY EDIT TARGET: accepted row9 at 2172x724. Preserve its eight frontal bodies, same raw figure height about 470 px, original planted feet at y611–613, waist-clasped hands, exact dress/slit/fold family, compact wings, attached tail, body positions and baseline. Its HEAD ANGLES are the WRONG HALF of the sweep for this task: do not copy those head angles. Use Image 1 for head orientation.\n4. Supporting original identity references only.\n5. Approved cardinal anchors (top, fourth is LEFT) and standard body contact sheet; preserve those new proportions and compact wings.\n\nOutput one coherent row of EIGHT full-body figures, with the same body scale, large readable face construction, linework, lighting and planted posture. All torsos remain FRONTAL. ONLY heads/necks/eyes and their attached hair, ears, horns and rosette turn. Do not mirror or turn any torso, dress, wings or tail.\n\nEXACT LEFT-TO-RIGHT DIRECTIONS, copy Image 1's poses:\n1 DOWN: front head with strong tucked chin, lowered physical eyes.\n2 DOWN-LEFT: down pitch plus subtle LEFT yaw.\n3 DOWN-LEFT: balanced LEFT yaw/down pitch.\n4 DOWN-LEFT: mostly LEFT yaw, some down pitch.\n5 LEFT: unmistakable nose and front facial surface project to the LEFT IMAGE EDGE, level chin. Follow reference1 head5 and reference5 fourth cardinal.\n6 UP-LEFT: LEFT yaw with up pitch.\n7 UP-LEFT: balanced LEFT yaw/up pitch.\n8 UP-LEFT: MOSTLY UP but slight unmistakable LEFT yaw, following reference1 head8. Lift chin and physical eye surfaces; nose must remain LEFT of head center. Do not draw an up-RIGHT face here.\n\nEvery face from position2 through position8 aims toward the LEFT EDGE OF THE OUTPUT. Position8 retains a visible near-side silver rosette, as in reference1 head8. The head turns via neck, chin, whole face and physical lavender eyes with original eyelids/irises/highlights, not pupil-only sliding. Keep faces readable, no back-of-head view.\nThe silver temple rosette belongs to anatomical LEFT, viewer RIGHT in front view; on LEFT head yaw it remains on the VISIBLE NEAR TEMPLE, on the RIGHT side of that head. Never switch its attachment.\nPreserve boundary continuity with Image3: new figure1 follows its last down-right figure through DOWN; new figure8 leads smoothly into its first UP figure.\nKeep exactly eight ordered connected complete pose groups with pure-green separation and safe outer padding. No copied labels, numbers, closeups, diagrams or guide marks. No text, extra heads, effects, props, shadows, detached fragments, green inside figures, whole-character rotation or body rescaling.",
+    "sha256": "4d6e3abe70855f055f01a75ded640cc0e8df54733812eef37a51adc6820e0c45"
+  },
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/previous-look10-direction-board.png",
+      "sha256": "6668461ceb5e209d92de69d172dbb3bd60bcfc1ad5f5a04a7401e00d49bf0d39",
+      "role": "Primary approved old-row10 pose/orientation reference only; labels and old rendering must not be copied."
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7",
+      "role": "Authoritative new canonical identity and face."
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-row-9.png",
+      "sha256": "c0d449f91498498c06ac5505a8108ebf2f4833cfa3b5fde64fed1de559804433",
+      "role": "Accepted row9 frontal body geometry, palette and family continuity; head angles explicitly forbidden for this left half."
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/grounded-identity-board.png",
+      "sha256": "bf6428e256f1b8e3d1268751b60ff072cb991a98e4e55cb279e2e819e16530ee",
+      "role": "Original identity grounding."
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/look-support-board.png",
+      "sha256": "0ec6300d5ce8faa11f467074084fafbca0ae544e81a490118bdb50f4fee389f9",
+      "role": "Approved cardinals and standard body contact sheet."
+    }
+  ],
+  "reference_strategy_change": "After two wrong-yaw drafts, the approved old row10 direction board became the dominant head-direction reference. This was a complete coherent eight-pose regeneration, not a splice.",
+  "attempts": [
+    {
+      "attempt": 1,
+      "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/candidates/look-row-10/attempt-1-wrong-yaw.png",
+      "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/rows/look-row-10-attempt-1.md",
+      "selected": false,
+      "rejection": "270 cardinal and upper-left sector copied screen-right yaw from row9 geometry scaffold."
+    },
+    {
+      "attempt": 2,
+      "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/candidates/look-row-10/attempt-2-final-wrong-yaw.png",
+      "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/rows/look-row-10-attempt-2.md",
+      "selected": false,
+      "rejection": "270 and middle left family corrected, but final337.5 remained up-right with far-side rosette occlusion."
+    },
+    {
+      "attempt": 3,
+      "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/look-row-10.png",
+      "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/rows/look-row-10-attempt-3.md",
+      "selected": true,
+      "result": "Correct left-half quadrant family; source-density mismatch remains for deterministic parent registration review."
+    }
+  ],
+  "source_component_inspection": {
+    "look-row-9": {
+      "source_size": [
+        2172,
+        724
+      ],
+      "ordered_pose_group_count": 8,
+      "components_with_area_at_least_128px": 8,
+      "ordered_group_bounds": [
+        [
+          10,
+          140,
+          295,
+          611
+        ],
+        [
+          288,
+          139,
+          564,
+          611
+        ],
+        [
+          562,
+          135,
+          836,
+          611
+        ],
+        [
+          832,
+          138,
+          1106,
+          611
+        ],
+        [
+          1101,
+          142,
+          1372,
+          611
+        ],
+        [
+          1369,
+          136,
+          1640,
+          613
+        ],
+        [
+          1639,
+          143,
+          1905,
+          612
+        ],
+        [
+          1902,
+          155,
+          2167,
+          612
+        ]
+      ],
+      "ordered_group_heights_px": [
+        471,
+        472,
+        476,
+        473,
+        469,
+        477,
+        469,
+        457
+      ],
+      "median_group_height_px": 471.5,
+      "ordered_main_component_areas": [
+        94852,
+        91264,
+        90427,
+        89460,
+        86804,
+        87310,
+        83495,
+        86256
+      ],
+      "foot_baseline_bottoms_px": [
+        611,
+        611,
+        611,
+        611,
+        611,
+        613,
+        612,
+        612
+      ],
+      "x_bbox_gaps_only": [
+        -7,
+        -2,
+        -4,
+        -5,
+        -3,
+        -1,
+        -3
+      ],
+      "outer_margins_px": [
+        10,
+        5
+      ],
+      "corner_rgba": [
+        [
+          21,
+          241,
+          13,
+          255
+        ],
+        [
+          16,
+          240,
+          11,
+          255
+        ],
+        [
+          17,
+          242,
+          13,
+          255
+        ],
+        [
+          17,
+          245,
+          12,
+          255
+        ]
+      ]
+    },
+    "look-row-10": {
+      "source_size": [
+        2172,
+        724
+      ],
+      "ordered_pose_group_count": 8,
+      "components_with_area_at_least_128px": 8,
+      "ordered_group_bounds": [
+        [
+          9,
+          122,
+          295,
+          636
+        ],
+        [
+          293,
+          119,
+          565,
+          636
+        ],
+        [
+          565,
+          117,
+          834,
+          637
+        ],
+        [
+          832,
+          117,
+          1099,
+          638
+        ],
+        [
+          1097,
+          117,
+          1370,
+          638
+        ],
+        [
+          1367,
+          117,
+          1635,
+          638
+        ],
+        [
+          1633,
+          117,
+          1906,
+          637
+        ],
+        [
+          1901,
+          115,
+          2167,
+          637
+        ]
+      ],
+      "ordered_group_heights_px": [
+        514,
+        517,
+        520,
+        521,
+        521,
+        521,
+        520,
+        522
+      ],
+      "median_group_height_px": 520.5,
+      "ordered_main_component_areas": [
+        104516,
+        97003,
+        96251,
+        95841,
+        95531,
+        95906,
+        97535,
+        97693
+      ],
+      "foot_baseline_bottoms_px": [
+        636,
+        636,
+        637,
+        638,
+        638,
+        638,
+        637,
+        637
+      ],
+      "x_bbox_gaps_only": [
+        -2,
+        0,
+        -2,
+        -2,
+        -3,
+        -2,
+        -5
+      ],
+      "outer_margins_px": [
+        9,
+        5
+      ],
+      "corner_rgba": [
+        [
+          20,
+          243,
+          14,
+          255
+        ],
+        [
+          17,
+          244,
+          10,
+          255
+        ],
+        [
+          19,
+          244,
+          14,
+          255
+        ],
+        [
+          17,
+          244,
+          12,
+          255
+        ]
+      ]
+    },
+    "implementation": "Bundled assemble_extended_atlas.remove_chroma_background + extract_strip_frames.connected_components/component_frame_groups/component_bounds, chroma #00FF00 threshold96; source metrics only, no raster changes.",
+    "row10_over_row9_median_height_ratio": 1.1039236479321315,
+    "row10_to_row9_provisional_uniform_scale_ratio": 0.9058597502401537
+  },
+  "source_visual_note": {
+    "frame_count": "Exactly eight complete full-body figures in one ordered row, with eight distinct main connected components after bundled chroma masking.",
+    "identity": "New white/lilac chibi face, physical lavender iris/eyelid/highlight construction, horns, ears, long pale hair, white layered dress, silver details, compact wings and attached curled tail are consistent across the row.",
+    "body": "Torso, waist-clasped hands, dress, feet, compact wings and tail stay frontal. No whole-body mirror or turntable is observed. Body template is coherent within row10.",
+    "head_arc": "Down pitch eases into screen-left yaw, then chin lift increases while face/nose remain in the left half. Heads, necks, hair locks, horns, ears and rosette move together; no pupil-only trick or hidden back-of-head face.",
+    "rosette": "Anatomical-left rosette remains on the visible near temple throughout left yaw, on image-right side of the head. No side flip observed.",
+    "clipping_spacing": "No visible foreground clipping, touching or detached effects. Narrow source outer margins are9px left/5px right. Overlapping x-bounds are interleaved shapes at different y, not connected neighboring figures.",
+    "effects_background": "Green background is visually uniform but not literally exact RGB00FF00 at every pixel; measured corner samples are recorded. Bundled threshold96 chroma removal finds all eight distinct figures. No text, copied labels/guides, props or shadows observed.",
+    "cross_row_geometry_concern": "Source canvas matches row9 at2172x724, but total silhouette heights are514–522px (median520.5) versus row9 457–477px (median471.5), and bottoms636–638 versus611–613. Full-height ratio1.10392365. Widths remain similar to row9, so this is not proof of a simple isotropic scale change; parent should compare head/body proportions after any single uniform source-density normalization. No per-cell resizing has been applied.",
+    "continuity_concern": "180 is directionally compatible with row9last157.5. 337.5 is correctly up-left, but has stronger left yaw than ideal near-up; final registered loop should assess its transition into row9first000. Source geometry density difference is the main outstanding registration concern."
+  },
+  "directions": [
+    {
+      "expected": "180",
+      "observed": "down",
+      "source_verdict": "pass",
+      "landmark_evidence": "Frontal head has a clearly tucked chin, lowered eyelids/irises and fringe overlapping the forehead. There is no dominant horizontal yaw."
+    },
+    {
+      "expected": "202.5",
+      "observed": "down-left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Down pitch remains strong; nose and face turn slightly toward screen-left, with the near-side rosette visible on image-right. The horizontal component is subtle as appropriate near DOWN."
+    },
+    {
+      "expected": "225",
+      "observed": "down-left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Face and nose project screen-left while chin and physical eye surfaces angle downward. Visible rosette stays on the near temple."
+    },
+    {
+      "expected": "247.5",
+      "observed": "down-left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Head approaches the left cardinal with a readable leftward nose silhouette while chin/eyes remain below the level-pitch 270 neighbor."
+    },
+    {
+      "expected": "270",
+      "observed": "left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Unmistakable screen-left head yaw: nose tip and facial front project toward the left image edge; chin pitch is level. Rosette is visible on the near image-right temple. Torso stays frontal."
+    },
+    {
+      "expected": "292.5",
+      "observed": "up-left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Leftward yaw remains clear while chin is slightly lifted and physical eye surfaces aim upward relative to 270. This is not the right-facing copied head present in rejected attempt 1."
+    },
+    {
+      "expected": "315",
+      "observed": "up-left",
+      "source_verdict": "pass",
+      "landmark_evidence": "Nose and face continue projecting left, with a more lifted chin and upward-facing eyes than 292.5. The rosette remains on the visible near temple."
+    },
+    {
+      "expected": "337.5",
+      "observed": "up-left",
+      "source_verdict": "warning",
+      "landmark_evidence": "Head is pitched strongly upward, with nose/face still projecting screen-left and near-side rosette clearly visible. Leftward yaw is somewhat stronger than the ideally subtle near-vertical 337.5, so parent should inspect the final 337.5-to-000 boundary at registered size; there is no wrong-quadrant reversal."
+    }
+  ],
+  "source_conclusion": "Suitable semantic source for parent registration and full loop review, with explicit source-density mismatch and near-up yaw warning. Final acceptance is not asserted."
+}

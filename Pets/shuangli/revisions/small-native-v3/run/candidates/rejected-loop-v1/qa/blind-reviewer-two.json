@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose and chin project toward screen-right; the screen-left eye and cheek occupy the broader visible face surface. B: the nose silhouette projects screen-left, with the near eye and ear on the screen-right side of the head."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose and lower-face outline protrude screen-left and the far eye is compressed at that edge. B: the nose and chin lead screen-right, while the screen-left eye and cheek show more surface."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the forehead, nose, lips and chin form a screen-left-facing profile, with the visible ear behind them on the right. B: the profile nose and chin project screen-right, with the visible ear behind them on the left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose is the leftmost face landmark and the visible eye and ear recede toward screen-right. B: the nose is the rightmost face landmark and the visible eye and ear recede toward screen-left."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: despite the lowered head, the nose and chin project screen-right; the screen-left eye surface and ear are more exposed. B: the nose and chin sit toward the screen-left edge of the face, and the larger visible eye and ear lie on the screen-right side."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the lowered face is displaced screen-right, with a broader screen-left cheek and eye surface and a narrow far eye near the right contour. B: the nose and chin protrude screen-left, and the screen-right eye and cheek form the broad near surface."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose lies left of the chin/face center and the screen-right eye surface is wider than the compressed screen-left eye. B: the yaw is shallow, but the screen-left eye surface is broader, the far screen-right eye is narrower, and the nose/chin shift toward screen-right."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown and forehead dominate, the eyes are compressed beneath the bangs, and the chin is tucked into the neck. B: the lower face and chin are exposed, the nose is raised, and the neck extends beneath a lifted jaw."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the nose is elevated and the enlarged lower-face/chin surface meets an exposed neck below the lifted jaw. B: the crown and bangs dominate over a shortened face, with lowered eye surfaces and a chin tucked toward the chest."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the nose and chin tilt upward with the lower cheek and underside of the jaw exposed above the neck. B: the face points toward the chest, the eyes sit low beneath the fringe, and the forehead/crown are more visible than the lower face."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the chin is tucked low, the forehead is prominent, and the visible eye is compressed under the lowered brow. B: the profile nose is raised, the eye surface sits high relative to the ear, and the chin projects forward above an exposed neck."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the nose and chin point down toward the chest and the top of the head is prominent. B: the nose points diagonally upward, the lower cheek and chin are exposed, and the jaw lifts away from the neck."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the visible eye is low under the fringe, the crown is prominent, and the chin is tucked down. B: the nose points upward, the lower face is broad and exposed, and the lifted chin leaves a visible length of neck underneath."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "ambiguous",
+      "reason": "A: the bowed crown and forehead dominate, the eye is compressed below the bangs, and the chin angles toward the chest. B: the screen-left-facing profile is clear, but its nose-to-chin contour and nearly horizontal jaw do not establish upward pitch confidently; it could read as a level head."
+    }
+  ]
+}

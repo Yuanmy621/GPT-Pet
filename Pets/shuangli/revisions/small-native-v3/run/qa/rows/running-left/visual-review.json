@@ -1,0 +1,86 @@
+{
+  "state": "running-left",
+  "selected_artifact": "decoded/running-left.png",
+  "generation": "built-in imagegen, independently generated from five grounded references; not mirrored",
+  "generator_source": "/Users/ymy/.codex/generated_images/01a13e1e-a764-7b11-a613-b8982287bc8f/exec-02701929-0370-4dcd-9628-526c41091789.png",
+  "effective_prompt": "qa/rows/running-left/effective-prompt.md",
+  "reviewed_artifacts": [
+    "decoded/running-left.png",
+    "qa/rows/running-left/native.png"
+  ],
+  "motion_preview": "qa/rows/running-left/native-loop.gif",
+  "source_size": [
+    2172,
+    724
+  ],
+  "frame_count": 8,
+  "native_frame_size": [
+    192,
+    208
+  ],
+  "extraction": "bundled extract_strip_frames.py --method components --chroma-key #00FF00, one shared scale",
+  "bundled_inspection_ok": true,
+  "bbox": [
+    [
+      24,
+      5,
+      168,
+      203
+    ],
+    [
+      33,
+      5,
+      158,
+      203
+    ],
+    [
+      32,
+      5,
+      160,
+      203
+    ],
+    [
+      31,
+      5,
+      161,
+      203
+    ],
+    [
+      21,
+      5,
+      171,
+      203
+    ],
+    [
+      31,
+      5,
+      161,
+      203
+    ],
+    [
+      31,
+      5,
+      161,
+      203
+    ],
+    [
+      22,
+      5,
+      169,
+      203
+    ]
+  ],
+  "pass": true,
+  "evidence": {
+    "direction": "All eight faces, nose tips, gaze and forward shoes point screen-left. Hair, lavender bat wings and attached fluffy tail trail screen-right.",
+    "cadence": "Clear contact/plant/passing/heel-lift phases: frames 0/4/7 show a shoe reaching left; 1/5 show planted near-vertical shin plus a separate shoe lifted behind; 2/6 show a narrow passing shape; 3 shows a bent rear shin with heel lifted right. The second foot is clearest in plant and bent phases. The long dress occludes much of the far leg, so contact-leg identity is less explicit than the shoe/hem cadence. The row visibly changes lower-body silhouette rather than repeating a static step.",
+    "identity": "Canonical larger face and compact head/body proportions retained with purple eye, ivory horn pair, pointed ear, white/lavender hair, thin lavender wings, full flowing white formal dress and attached fluffy tail. Silver knot temple rosette appears consistently on the visible near-side anatomical-left temple. Matches approved new right row style.",
+    "geometry": "Exactly eight separated complete pose components. Bundled inspection reports no errors or warnings, no native edge contacts, and a stable common 203-pixel exclusive bottom baseline. Horns, tail, wings, dress and shoes remain complete; no guide pixels, shadow, new props or detached effects.",
+    "continuity": "Head height and angle remain stable through contact and passing phases; no expression or gesture switches. Native panel uses actual 192x208 extracted cells without further scaling."
+  },
+  "concerns": [
+    "Extracted cells retain green edge fringe; parent should apply the single mandatory shared-atlas chroma despill at final assembly.",
+    "The flowing dress naturally hides portions of the far leg. Shoe and knee/hem changes remain visible at native size; no claim that both full legs are visible throughout.",
+    "Component bounding-box centering shifts the head laterally slightly when stride width changes; final animation review should check the combined row registration, as with approved running-right."
+  ]
+}

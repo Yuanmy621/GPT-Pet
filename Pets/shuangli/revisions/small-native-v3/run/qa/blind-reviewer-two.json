@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v4",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has its chin, nose and eye center to the left of the neck, with the face opening toward the left. B has its chin and facial center to the right of the neck, and the visible cheek/nose contour opens right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A projects its jaw and chin rightward beyond the neck connection; its eyes and cheek are concentrated to the right. B projects its chin leftward, with the face visibly displaced left of the neck."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A shows a left-directed nose/chin silhouette and a compressed far side of the face. B shows a right-directed nose/chin silhouette with its visible eye and cheek on the right side of the neck."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A is strongly left-facing: the nose and jaw extend left in front of the neck and only one eye is prominent. B is strongly right-facing: its nose and jaw extend right and the eye is positioned on that outward face contour."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A bows with the visible eye and pointed chin left of the neck, and its nose contour points left. B bows with the chin and visible eye right of the neck, and the cheek/jaw contour projects right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A has a downward-slanting head whose facial center and chin lie left of the neck connection. B has a lowered face shifted to the right of the neck, with its chin and visible eye clearly rightward."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A lowers its chin on the left side of the neck and shows the facial plane angled left. B lowers its chin to the right of the neck; the visible eyes and cheek converge toward that rightward chin rather than a centered forward jaw."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a forward-tipped crown, a low eye line, and the chin tucked close to the collar. B raises the face and chin, leaving open neck space below the jaw and an elevated eye line."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A lifts its chin and facial plane above the neck with the eyes directed upward. B pitches the forehead forward and lowers the chin toward the chest; the eyes sit low beneath the bangs."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A raises its right-facing chin and exposes the neck under the jaw. B turns the crown forward and drops the facial center and chin toward the collar."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A has a low chin close to the collar, with its eye looking beneath the lowered brow and crown. B lifts the nose/chin profile and opens the space between jaw and collar."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "down",
+      "B": "up",
+      "reason": "A tucks the chin into the neck area and tilts the forehead forward, lowering the visible eye. B tilts the face upward, lifting the chin away from the collar and showing more neck beneath it."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A holds the left-facing jaw forward and high above the collar, with a raised eye line. B bends the crown forward and lowers the chin, bringing the face closer to the chest."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A lowers the eye and chin beneath a forward-sloping crown, with the jaw tucked at the collar. B holds the chin higher and farther forward from the neck, raising the visible eye and opening the jaw-to-neck angle."
+    }
+  ]
+}

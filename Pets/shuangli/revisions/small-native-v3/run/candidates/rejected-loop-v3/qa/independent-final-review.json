@@ -1,0 +1,90 @@
+{
+  "review_type": "independent native-size final visual acceptance",
+  "candidate": "loop-v3, whole-row source attempt 7",
+  "source": "final/spritesheet-extended.png",
+  "source_sha256": "c0790a113efeca10836daa3cdb45305a2bff1bf9076454b4c367b628d30a355a",
+  "overall": "fail",
+  "upload_blocked_by_visual_defect": true,
+  "decision": "Two visible continuity defects remain: the side-to-front head jump is now at 292.5-to-315, and the regenerated second look row is visibly slimmer than the first row, producing a width/proportion pop at the row boundaries.",
+  "method": "Inspected the refreshed native direction and boundary sheets, complete state contact sheet, motion stills, and exact encoded final cells in a native strip with head enlargements for confirmation. All adjacent looks were considered in order. Acceptance was judged visually at the native 192 by 208 cell size; uniform mathematical yaw spacing was not required and numeric continuity metrics were not used as a gate.",
+  "images_inspected": [
+    "qa/direction-sheet.png",
+    "qa/look-boundaries-native.png",
+    "qa/contact-sheet-final.png",
+    "previews/motion-stills.png",
+    "final/spritesheet-extended.png (actual encoded-cell crops)"
+  ],
+  "blockers": [
+    {
+      "id": "292_5_to_315_head_turn_jump",
+      "where": {
+        "from": {
+          "angle": 292.5,
+          "row_index": 10,
+          "column_index": 5
+        },
+        "to": {
+          "angle": 315,
+          "row_index": 10,
+          "column_index": 6
+        }
+      },
+      "evidence": "292.5 is still a strong sideward left-up head: the nose and chin sit well left and the side temple/rosette and ear dominate the silhouette. 315 presents a nearly frontal two-eye face with a centered chin. This reads as one conspicuously large head pivot at native size rather than a moderate neighboring head pose. The new 315 is different from the rejected source, but is too frontal to bridge the visible side view to the frontal-up end.",
+      "smallest_source_repair": "Revise the 315 source head/upper neck into a visible intermediate left-up three-quarter view between the actual 292.5 and 337.5 cells. Keep both eyes visible, but make the far eye narrower and retain a clear leftward nose/cheek turn. Preserve the anatomical-left rosette attachment and the body registration."
+    },
+    {
+      "id": "second_look_row_lateral_scale_pop",
+      "where": {
+        "row_index": 10,
+        "most_obvious_boundary": "337.5 to 000",
+        "also_visible_at": "157.5 to 180"
+      },
+      "evidence": "The new row keeps approximately the same height and foot baseline, but the figure is visibly narrower through the face, chest/arms, wing spread, robe, and tail. At 337.5-to-000 these features expand together into the broader first-row figure. The head orientation at that seam is now credible, but the simultaneous whole-figure width change is visible at native size and cannot be explained by the small head tilt alone.",
+      "smallest_source_repair": "Match the complete second source look row to the accepted first-row body and head footprint, using the actual 000/neutral figure as the proportion reference. Preserve the registered height and feet; correct the source figure width and component scale before re-encoding rather than stretching or patching the final encoded PNG."
+    }
+  ],
+  "checks": {
+    "same_character_and_rendering": {
+      "status": "pass",
+      "evidence": "The white/lavender hair, horns, violet eyes, pale robe, wings, curled scaled tail, and rosette remain recognizable as the same character. No separate art-style change is conspicuous."
+    },
+    "head_body_proportions_and_practical_scale": {
+      "status": "fail",
+      "evidence": "The regenerated second look row is consistently slimmer at a similar height, causing the lateral proportion discontinuity documented above."
+    },
+    "wings_tail_robe_attachment": {
+      "status": "pass",
+      "evidence": "Components stay attached and retain coherent design within the new row; their cross-row scale change is covered by the proportion blocker."
+    },
+    "body_and_feet_registration": {
+      "status": "pass",
+      "evidence": "Standing feet and torso remain centered and at a consistent baseline. Running and jumping changes read as intended actions."
+    },
+    "rosette_anatomical_left": {
+      "status": "pass",
+      "evidence": "The rosette remains physically attached on anatomical left, including the new final heads."
+    },
+    "clipping_or_holes": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped horn, wing, tail, robe hem, or foot, and no accidental transparent hole was found."
+    },
+    "cardinal_semantics": {
+      "status": "pass",
+      "evidence": "000 up, 090 right, 180 down, and 270 left remain recognizable. The final quadrant heads point upward, although the large yaw change into 315 remains a visual transition defect."
+    },
+    "337_5_to_000_head_orientation": {
+      "status": "pass",
+      "evidence": "Both heads are near frontal and upward; there is no remaining profile-to-front head snap at this exact seam."
+    },
+    "157_5_to_180_head_orientation": {
+      "status": "pass",
+      "evidence": "The bowed head transition reads naturally. The narrowing of the figure on entering the new row is covered by the lateral-scale blocker."
+    },
+    "other_adjacent_head_transitions": {
+      "status": "pass",
+      "evidence": "Uneven pose spacing elsewhere does not by itself create another conspicuous identity or head-turn break."
+    }
+  },
+  "inspection_artifact": "qa/independent-final-loop-v3-inspection.png",
+  "artwork_mutated": false
+}

@@ -1,0 +1,17 @@
+{
+  "source": "final/spritesheet-standard.png",
+  "reviewer": "parent, native complete contact and per-row ordered panels",
+  "gates_report": "qa/review.json",
+  "observations": {
+    "identity": "All9 rows retain new canonical grouped white hair, larger clean lavender eyes, horns, anatomical-left silver temple rosette, lavender bat wings, attached fluffy tail and white/lavender formal dress.",
+    "idle": "Mostly open eyes with subtle eyelid and breathing variation, hands remain low and calm.",
+    "movement": "Right and left have visible alternate leg cadence; right temple ornament is far-side occluded, left near-side ornament remains attached.",
+    "waving": "Attached raised hand readable, returns low; broader wing pose changes width rather than body scale.",
+    "jump": "Crouch and knee tuck reserve headroom. Peak foot baseline lifts39px; both ends match idle baseline. No post-extraction translation or independent pose scaling.",
+    "failed": "Brief softened disappointed face and shoulder posture; returns calm without loose effects.",
+    "waiting": "Open upward palms and expectant head tilt differ from work.",
+    "running": "Hand stays at chin through continuous eyelid changes.",
+    "review": "Waist-folded hands, lowered side glance and small nod distinguish from chin-hand working and open-palmed asking.",
+    "pending": "Final complete-atlas edge cleanup, exact encoded-byte QA, look semantics, final motion comparison and stored-byte verification not yet done."
+  }
+}

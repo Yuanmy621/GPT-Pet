@@ -1,0 +1,127 @@
+{
+  "reviewer": "Parent review of preserved prior-approved direction pixels and new neutral/action transitions",
+  "source": "final/spritesheet-extended.png",
+  "normal_size_sheet": "qa/direction-sheet.png",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "up",
+      "verdict": "pass",
+      "evidence": "Frontal chin lifted; visible underside of chin, lavender irises elevated under upper eyelids."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Chin raised while nose projects right and irises aim toward upper-right, with frontal torso."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Right yaw increases; nose is right of skull center and raised chin/upper irises maintain upward pitch."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "verdict": "pass",
+      "evidence": "Strong right head yaw, right-projecting nose, small lifted chin and upper eye gaze."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "right",
+      "verdict": "pass",
+      "evidence": "Right-facing profile nose and visible iris project toward right edge with level head pitch."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Nose stays right-projecting; tucked chin and lowered visible iris add downward pitch."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Face and nose remain on right side of skull; lowered brow/eye/chin aim downward."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "down-right",
+      "verdict": "pass",
+      "evidence": "Small right yaw remains through nose/eye displacement; deeply tucked chin gives downward gaze."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "down",
+      "verdict": "pass",
+      "evidence": "Frontal face aimed low; chin tucked, lowered lids and irises below eye center."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Small left yaw puts nose and face left of skull center; chin and eyelids tilt downward."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Clear left nose projection and leftward eyes combined with lowered face/chin."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "down-left",
+      "verdict": "pass",
+      "evidence": "Left profile and nose point left, lowered iris/eyelid slope retain downward pitch."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "left",
+      "verdict": "pass",
+      "evidence": "Unmistakable left-pointing profile nose and visible eye face left with level gaze."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Nose projects left; lifted chin and iris/eyelid relationship aim above left horizon."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Left yaw remains while chin rises farther and lavender irises aim upper-left."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "verdict": "pass",
+      "evidence": "Near-frontal but nose/eyes still displaced left; highly lifted chin and raised irises aim up-left."
+    }
+  ],
+  "continuity_review": {
+    "157.5->180": "Metric diff outlier reviewed in labeled sheet and ordered preview. Both keep planted dress/feet and comparable head size; change is right yaw returning frontal with the far-side rosette reappearing on its original viewer-right anatomical-left side. No quadrant reversal, clipping or anchor jump observed."
+  },
+  "revision_review": "Sixteen approved source poses retained, jointly registered by bundled assembly tool against revised neutral. Final labeled native and zoom rows visually inspected: intended horizontal and vertical landmarks retained. Degree 157.5 to 180 remains a reviewed texture outlier, no reversal or baseline jump.",
+  "atlas_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "candidate": "standard-v3-preserved-look-v2",
+  "prior_evidence": "Pets/shuangli/revisions/clarity-motion-v2/run/qa/direction-semantics.json",
+  "evidence_reuse_basis": "All16 encoded direction cells were verified pixel-identical to the current downloaded approved pet. Existing semantic evidence is retained for unchanged art; new state-to-look scale/identity is reviewed separately."
+}

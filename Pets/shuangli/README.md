@@ -1,33 +1,31 @@
 # 霜璃
 
-## 成品
+当前成品为小尺寸体验优化版，已通过现有 Pets 插件更新，保留原宠物 ID 和活动选择。
 
-- `final/spritesheet-extended.png`：1536×2288 透明 v2 精灵图，九组标准动画与十六方向视线，共 73 帧。
-- `previews/all-states.gif`、`previews/all-states.mp4`：全部动作预览。
-- `previews/look-loop.gif`：十六方向视线循环。
-- `previews/idle-jump-idle.gif`：待机、跳跃、落地衔接。
-- `qa/contact-sheet-final.png`、`qa/direction-sheet.png`：全部帧及方向检查图。
+## 成品与对比
 
-## 生成提示
+- [透明 v2 精灵图](final/spritesheet-extended.png)：1536×2288，九组动作、十六方向，共 73 帧。
+- [全部动作 GIF](previews/all-states.gif) / [MP4](previews/all-states.mp4)
+- [工作前后对比](previews/comparisons/running-before-after.gif) / [待机前后对比](previews/comparisons/idle-before-after.gif)
+- [实际尺寸交互对比](revisions/small-native-v3/experience-preview.html)
+- [视线循环](previews/look-loop.gif) / [跳跃衔接](previews/idle-jump-idle.gif)
 
-原始提示集合在 `prompts/`，输入引用与作业状态在 `imagegen-jobs.json`。使用 `references/identity-board.png` 合并三张原始参考的完整画面，以满足单次图像生成输入数量限制；它没有改变参考中的角色设计。各动作修订提示保存在对应 `qa/rows/` 中。
+## 本轮变化
 
-视线生成补充约束：下半身、裙摆、脚、翼与尾保持前向锚定，头颈与原始紫瞳协调转向。第一半圈顺序为向上、三个右上、向右、三个右下；第二半圈为向下、三个左下、向左、三个左上。每组采用统一比例、落点与独立间距。向右转头时，解剖左侧发饰藏到远侧；向左转头时发饰保留在近侧的屏幕右边。
+重绘九组标准动作的 57 帧，加强眼睛与紫灰轮廓，整理发丝与衣裙细节。待机以睁眼和小幅眼睑变化为主；工作保留托腮，等待打开双手，检查结果向下侧视并点头。左右移动分别生成，跳跃保留角色头部大小，通过屈膝与收腿表达离地。
 
-保留已否决版本以便追溯：初版右移动发饰侧别错误，初版等待比例偏细长，初版沮丧过深蹲下，首个左视线锚朝向错误，首版视线行间距与右下朝向错误，第二版视线行发饰翻侧。均通过 imagegen 修复受影响完整源行，并重新执行对应提取与检查。
+新视线候选在独立复核中出现转头和比例跳变，均未上传。最终保留原有通过检查的十六方向，其成品像素与本轮开始时下载的宠物完全一致。最终标准动作与保留视线之间的比例和身份衔接已通过独立复核。
+
+当前源图、有效提示、被否决候选及实际报告见 [本轮完整记录](revisions/small-native-v3/README.md)。根部 decoded、frames、prompts 与原有作业记录保留早期制作过程。
 
 ## 验证
 
-当前最终 PNG 3,528,335 字节，SHA-256：`ae8a172992e425c540badb74b330673d3564ee57b6803e4420e677f14646ae5e`。
+最终 PNG 3,567,404 字节，SHA-256：`23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b`。
 
-`final/validation-extended.json`、`qa/pet-quality.json`、`qa/blind-validation.json`、`qa/pets-preflight.json` 均通过。三位独立盲检评审确认所有左右和上下方向。方向连续性在 157.5→180 边界有一个像素差异统计提示，已通过正常尺寸复核：下半身锚定、方向衔接和发饰自然显露均正确。跳跃峰值离地 27 px，落点与待机相同。
+结构和透明格、边缘去色、标准帧、方向语义、三位独立盲检、综合质量以及 Pets 预检均通过。最终跳跃可见边界峰值离地 40 px，落地基线差 0 px。保留视线在 157.5→180 处仍有一个像素差异统计提示，已通过原生尺寸视觉复核。
 
-全部动画从最终已验证的编码精灵图导出。上传后核对保存版本的解码像素；服务可能重新编码 PNG，因此以像素一致性为准。稳定宠物元数据保存在 `pet-record.json`，不保存短期上传会话或下载链接。
+[保存验证](qa/stored-verification.json)确认服务保存的图像与本地成品解码像素一致；PNG 编码字节可因服务重新编码而不同。旧版本保存在 revisions/clarity-motion-v2，本轮开始时下载的精灵图在 revisions/small-native-v3/inputs/current-spritesheet.png，可用于回退。
 
-## 待机与工作动画修订
+Pets 每格固定为 192×208。素材接口不提供客户端帧率、插值、点击任务、专注模式或停靠逻辑。实际尺寸对比页只用于素材检查。
 
-当前版本重绘了待机和专注工作两组完整六帧动画。待机保持身体模板并逐步眨眼；工作保持托腮动作，让眼睑连续变化。原生尺寸下的眼睛与紫灰轮廓也更清楚。其余动作及十六方向沿用已批准的形象，合成后统一进行一次边缘清理。
-
-在相同底色上，待机循环首尾的 RGB 平均绝对差异从 7.054 降至 2.897（减少 58.9%），工作从 6.995 降至 3.202（减少 54.2%）。衣裙区域的平均帧间差异分别减少 44.3% 和 42.6%。这些指标衡量画面变化，不是应用帧率。
-
-见 [完整修订记录](revisions/clarity-motion-v2/README.md)。Pets 固定为每格 192×208 像素，资产接口不提供播放帧率、客户端插值或 Retina 缩放控制。
+历史：[上轮待机与工作修订](revisions/clarity-motion-v2/README.md)。上轮的画面差异指标不代表本轮的客户端帧率。

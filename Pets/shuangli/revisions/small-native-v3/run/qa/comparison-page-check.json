@@ -1,0 +1,17 @@
+{
+  "scope": "Local asset QA viewer; not an implemented Pets client feature",
+  "actual_checks": [
+    "Both source atlases loaded in in-app browser",
+    "100 percent native idle rendering",
+    "75 percent work on dark background",
+    "Pause then next frame advanced5of6to6of6",
+    "Waiting state on white background",
+    "Play resumed; frame changed",
+    "No browser console warning or error observed",
+    "Final candidate reloaded after source change; source load status successful"
+  ],
+  "candidate": "standard-v3-preserved-look-v2",
+  "final_candidate_reload_pending": false,
+  "final_candidate_reloaded": true,
+  "final_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b"
+}

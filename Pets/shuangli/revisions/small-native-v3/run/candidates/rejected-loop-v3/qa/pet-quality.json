@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "atlas": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/final/spritesheet-extended.png",
+  "encoded_bytes": 3484091,
+  "sha256": "c0790a113efeca10836daa3cdb45305a2bff1bf9076454b4c367b628d30a355a",
+  "jump": {
+    "idle_baseline": 202,
+    "jump_baselines": [
+      202,
+      186,
+      162,
+      187,
+      202
+    ],
+    "airborne_lift_pixels": 40,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 95.5,
+    "look_centers_x": [
+      96.0,
+      95.0,
+      95.5,
+      95.5,
+      95.0,
+      95.0,
+      95.0,
+      95.0,
+      96.0,
+      97.5,
+      97.0,
+      97.5,
+      97.0,
+      97.5,
+      96.5,
+      95.5
+    ],
+    "look_widths": [
+      116,
+      112,
+      111,
+      111,
+      110,
+      110,
+      108,
+      108,
+      98,
+      91,
+      92,
+      91,
+      92,
+      91,
+      93,
+      95
+    ],
+    "maximum_center_drift_pixels": 2.0,
+    "maximum_width_ratio": 1.2747252747252746
+  },
+  "errors": [],
+  "warnings": [
+    "look direction 067.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "337.5->000 diff is a local outlier (3756 pixels vs neighbor average 2165)",
+    "337.5->000 sprite area ratio is high (1.17)"
+  ]
+}

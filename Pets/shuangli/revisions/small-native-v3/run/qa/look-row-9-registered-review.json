@@ -1,0 +1,10 @@
+{
+  "reviewer": "parent",
+  "source": "decoded/look-row-9-registered.png",
+  "native_panel": "qa/look-row-9-native.png",
+  "verdict": "pass",
+  "evidence": "All8 planted bodies and skirt baselines stable.000 frontal lifted chin/up irises;022.5 and045 right yaw plus raised chin/up gaze;067.5 right yaw with subtle raised chin and elevated gaze;090 clear right-profile level;112.5 and135 tucked chin and right/down gaze;157.5 mostlydown with small retained right yaw. Larger readable face remains consistent and anatomical-left rosette changes occlusion naturally.",
+  "warnings": [
+    "067.5 vertical-up cue subtle; final labeled and blind axis review required."
+  ]
+}

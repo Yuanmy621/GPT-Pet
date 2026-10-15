@@ -1,0 +1,89 @@
+{
+  "candidate": "loop-v3",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A: both eyes and cheeks are nearly symmetric, and the chin stays close to the neck midline; no firm horizontal turn. B: the face and chin sit to the right of the neck, with the nose and eye line directed screen-right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the face and chin sit left of the neck, with a shortened left face contour and more visible right side of the head. B: the nose and chin project to the right, and the face lies right of the neck."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the projecting nose and chin make a left-facing profile, with the visible ear and head ornament behind the face on the right. B: the nose and chin project right, with the visible ear behind the face on the left."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the nose, mouth, and chin form a left-facing profile and the face extends left of the neck. B: the nose and chin extend right of the neck, with the ear behind them on the left."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: despite the lowered chin, the face lies right of the neck and the visible left ear sits behind a right-directed nose. B: the lowered face and nose lie left of the neck, with the ear and ornament behind them on the right."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the bowed face, nose, and chin project left of the neck, with the head ornament to their right. B: the bowed face and chin project right of the neck, with the visible ear behind them on the left."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-left",
+      "B": "ambiguous",
+      "reason": "A: the bowed face is shifted left of the neck and the nose contour points left. B: both eyes remain visible at nearly symmetric spacing, and the nose and chin stay centered over the neck; the downward tilt does not establish a horizontal direction."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown is prominent, the bangs cover much of the eyes, and the chin is tucked close to the collar. B: the chin is lifted, the underside of the face is visible, and the neck is exposed beneath it."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the chin and nose are lifted with exposed neck below the jaw and eyes high in the upturned face. B: the crown and bangs dominate above low-set eyes, and the chin is tucked toward the collar."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the top of the head is prominent, the eye is partly shaded by the bangs, and the chin drops toward the collar. B: the nose and chin lift away from the collar, exposing the neck under the upturned jaw."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the chin is tucked, the bangs hang over the eye, and the crown is clearly visible. B: the profile nose points upward, the chin is raised, and the jaw leaves visible neck above the collar."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the face is tilted back with a lifted chin and visible neck beneath the rounded jaw. B: the face is bowed, the eyes sit under low bangs, and the chin approaches the collar."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the chin is gently raised, with a visible neck gap below the jaw and eyes directed upward in the face. B: the crown tilts forward, the bangs cover the upper face, and the chin is tucked toward the collar."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the profile nose slopes downward and the chin is tucked close to the collar beneath the hanging bangs. B: the profile nose and chin are raised, the jaw tilts back, and the neck is extended beneath the face."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "operation": "Normalize only pixels already treated as removable chroma by bundled extractor to exact #00FF00",
+  "threshold": 96,
+  "distance": "Euclidean RGB",
+  "normalized_pixels": 715980,
+  "raw_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/source-attempt-1.png",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/review.png",
+  "raw_sha256": "ba7fc4dc151846d94b861ad7242487ef5d82df1aff01b64862872fc76dbc230c",
+  "selected_sha256": "54e75661ecea772533c6edd25b49846465da995e4660c4ca521ea7b4e47d38ff",
+  "artwork_pixels_redrawn": false,
+  "despill_performed": false
+}

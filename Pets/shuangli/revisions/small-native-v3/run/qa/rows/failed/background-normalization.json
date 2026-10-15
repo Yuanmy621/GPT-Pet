@@ -1,0 +1,10 @@
+{
+  "operation": "Normalize only pixels the bundled extractor already treats as chroma to exact #00FF00",
+  "threshold": 96,
+  "normalized_pixels": 986063,
+  "raw_source": "source-attempt-2.png",
+  "source": "decoded/failed.png",
+  "source_sha256": "49d371addbea40d9e99e9167eb0f9287230264a95538358b2b6aef5e763a58b2",
+  "artwork_pixels_redrawn": false,
+  "despill_performed": false
+}

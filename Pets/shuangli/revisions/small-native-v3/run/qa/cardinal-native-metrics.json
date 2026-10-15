@@ -1,0 +1,72 @@
+[
+  {
+    "direction": "neutral",
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/frames/idle/00.png",
+    "native_size": [
+      192,
+      208
+    ],
+    "alpha_bbox": [
+      34,
+      6,
+      157,
+      203
+    ]
+  },
+  {
+    "direction": "000",
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/cardinal-anchors/000.png",
+    "native_size": [
+      192,
+      208
+    ],
+    "alpha_bbox": [
+      21,
+      5,
+      171,
+      203
+    ]
+  },
+  {
+    "direction": "090",
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/cardinal-anchors/090.png",
+    "native_size": [
+      192,
+      208
+    ],
+    "alpha_bbox": [
+      25,
+      5,
+      166,
+      203
+    ]
+  },
+  {
+    "direction": "180",
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/cardinal-anchors/180.png",
+    "native_size": [
+      192,
+      208
+    ],
+    "alpha_bbox": [
+      23,
+      5,
+      169,
+      203
+    ]
+  },
+  {
+    "direction": "270",
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/cardinal-anchors/270.png",
+    "native_size": [
+      192,
+      208
+    ],
+    "alpha_bbox": [
+      24,
+      5,
+      167,
+      203
+    ]
+  }
+]

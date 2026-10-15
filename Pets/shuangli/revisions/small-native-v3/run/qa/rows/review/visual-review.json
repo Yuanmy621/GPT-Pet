@@ -1,0 +1,44 @@
+{
+  "state": "review",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/review.png",
+  "generation_mode": "built-in imagegen",
+  "source_size": [
+    2172,
+    724
+  ],
+  "source_sha256": "54e75661ecea772533c6edd25b49846465da995e4660c4ca521ea7b4e47d38ff",
+  "native_panel": "native-panel.png",
+  "native_loop": "native-loop.gif",
+  "wrap_panel": "wrap-large.png",
+  "state_comparison": "native-state-comparison.png",
+  "verdict": "pass",
+  "review_method": "Visual review of source, all six ordered 192x208 extracted frames, 4-5-0-1 wrap panel and native idle/running/waiting/review comparison; saved looping GIF for parent playback.",
+  "evidence": {
+    "count": "Exactly six separated complete full-body poses; component extraction recovers all six.",
+    "semantics": "Both hands remain joined at waist throughout. Frames 1-2 lower gaze and head slightly screen-left, frame 3 gently nods with closed relaxed eyes, frames 4-5 return to centered content closed smile. Quiet inspection of completed work. No chin gesture or upward open asking palms.",
+    "identity": "Matches approved idle compact head and face construction, silver-white grouped hair, clear lavender eyes, paired ivory horns, pointed ears, viewer-right temple silver rosette, lavender bat wings and attached fluffy viewer-right tail; same full white/lavender formal dress.",
+    "continuity": "Near-identical centered first/last poses. All six native bounds are [36,5,156,203], with identical hem/shoe baseline. Ordered frames and wrap panel show no conspicuous size or baseline pop. Tiny natural head/dress raster variations remain within the stable template.",
+    "spacing_clipping": "All horns, wing tips, tail, hair, shoes and full hem fit with padding. Bundled inspection reports zero edge pixels in every frame.",
+    "attachment": "Hands join forearms, wings and tail remain attached. No props, detached fragments, symbols, marks, shadow or loose effects.",
+    "distinction": "Native four-state comparison confirms review has waist-joined hands and downward inspection, running has hand at chin, waiting has open asking palms."
+  },
+  "diagnostics": {
+    "bundled_review_ok": true,
+    "bundled_errors": [],
+    "bundled_warnings": [],
+    "extraction": "components, shared scale and registration"
+  },
+  "background_normalization": {
+    "operation": "Normalize only pixels already treated as removable chroma by bundled extractor to exact #00FF00",
+    "threshold": 96,
+    "distance": "Euclidean RGB",
+    "normalized_pixels": 715980,
+    "raw_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/qa/rows/review/source-attempt-1.png",
+    "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/decoded/review.png",
+    "raw_sha256": "ba7fc4dc151846d94b861ad7242487ef5d82df1aff01b64862872fc76dbc230c",
+    "selected_sha256": "54e75661ecea772533c6edd25b49846465da995e4660c4ca521ea7b4e47d38ff",
+    "artwork_pixels_redrawn": false,
+    "despill_performed": false
+  },
+  "remaining_pipeline_note": "Edge-local green chroma fringe remains before parent final exactly-once despill. No despill, shared manifest edit, assembly, upload or pet selection performed."
+}

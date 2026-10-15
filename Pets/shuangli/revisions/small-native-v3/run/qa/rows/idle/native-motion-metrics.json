@@ -1,0 +1,49 @@
+{
+  "bboxes": [
+    [
+      34,
+      6,
+      157,
+      203
+    ],
+    [
+      34,
+      5,
+      156,
+      203
+    ],
+    [
+      34,
+      5,
+      157,
+      203
+    ],
+    [
+      34,
+      5,
+      157,
+      203
+    ],
+    [
+      34,
+      5,
+      157,
+      203
+    ],
+    [
+      34,
+      5,
+      157,
+      203
+    ]
+  ],
+  "rgb_mae_loop": [
+    6.628,
+    4.316,
+    8.958,
+    4.138,
+    8.819,
+    6.856
+  ],
+  "note": "Pre-final-despill diagnostic on consistent light lavender background; not a standalone acceptance criterion"
+}

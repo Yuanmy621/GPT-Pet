@@ -1,0 +1,7 @@
+{
+  "candidate": "loop-v2",
+  "source_row10_sha256": "68d1596289b4b3981ecc76b79029bcc41dcc7a00a7612cde794224e0a831e1d5",
+  "atlas_sha256": "43306a4c644dd9016a054f48f0c8485128d23a6287c0b2e2b99dc47b4e0e3184",
+  "reason": "337.5 to000 improved;315 to337.5 still a concentrated yaw step. No upload performed.",
+  "never_uploaded": true
+}

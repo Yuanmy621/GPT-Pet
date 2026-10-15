@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "stored_pixels_match_final": true,
+  "final_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "stored_sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70",
+  "final_bytes": 3567404,
+  "stored_bytes": 3686685,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "metadata_verified_separately": true,
+  "note": "Stored PNG may be re-encoded by the service. Pixel comparison uses decoded RGBA."
+}

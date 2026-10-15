@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-10-15T07:24:13.847435+00:00",
+  "stage": "New visual yaw anchor, prior to whole-row repair",
+  "generator": "built-in image_gen.imagegen",
+  "elapsed_seconds": 102.249,
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/moderate-up-left-yaw-anchor.png",
+  "source_sha256": "8d8d2813ae81387a80e47d529a04e8a950e6c4ec5f2f91b24f1c535df1be52c3",
+  "source_size": [
+    1447,
+    1087
+  ],
+  "original_generated_path": "/Users/ymy/.codex/generated_images/01a13e3c-920d-71f2-97d1-2d77f71fa053/exec-8695b382-3667-453d-9ce5-b40e797df815.png",
+  "prompt": {
+    "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/prompts/rows/look-row-10-moderate-yaw-anchor.md",
+    "text": "Use case: identity-preserve.\nAsset: ONE high-quality physical head-yaw reference portrait for the existing 霜璃 character, head and shoulders only, uniform solid pure #00FF00 background.\n\nImage1 is authoritative canonical identity: reproduce the same large readable chibi face, white/lilac hair, white horns, pointed ears, lavender physical iris/eyelid/highlight construction, silver temple rosette and white/lilac neckline.\nImage2 is the accepted frontal000UP head crop: preserve its lifted chin/upward pitch, near-frontal face proportions and original two-eye construction. Use ONLY these two identity/UP references; do not invent a different character.\n\nDraw a HEAD-AND-SHOULDERS portrait LOOKING UP-LEFT with MODERATE physical head yaw, about30–35degrees toward the LEFT EDGE OF THE PICTURE. This is a broad two-eye three-quarter face, gently left of frontal, never a side profile.\nBOTH lavender eyes must be FULLY VISIBLE and OPEN, including the far eye on the LEFT side of the image. The near eye on the RIGHT side of the image is larger; the far LEFT eye has about TWO THIRDS of its width. Draw the complete far eye surface, eyelids, iris and highlight; do not hide it behind hair or nose.\nThe nose tip and chin shift moderately LEFT of skull center, with both cheeks visible. Keep the front face broad. The head/neck/chin physically lift UP, with a visible under-jaw angle and both eyes aimed upward-left. This is whole-head pitch/yaw, not shifted pupils.\nThe silver rosette belongs to anatomicalLEFT, visible on the NEAR temple at the RIGHT side of this image. Preserve that attachment; no side flip. Horns, hair locks, ears and rosette follow the same moderate head turn.\nMatch canonical style, clean fine linework, white/lilac palette, soft shading and head proportions. No body rotation, whole-portrait tilt, deformation or exaggerated narrow profile.\nFrame one complete head, horns, hair and shoulders with safe padding. No full-body figure, additional heads, panels, text, labels, diagrams, arrows, props, scenery, shadows, glow, effects or green inside the character. Finished portrait only.",
+    "sha256": "fbe45b3e0f48fab1efb280501fcc2742c6404eaa8a424c364773bfe6349d8759"
+  },
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/references/up-frontal-head-highres.png",
+      "sha256": "ccc726548eec49196176a265e44d4159830bd9c8a0bbe70137ffbbaf10251217"
+    }
+  ],
+  "visual_verdict": "pass",
+  "evidence": "Broad moderate left-up three-quarter face, both eyes fully visible, far viewer-left eye roughly two-thirds near viewer-right width, chin lifted with under-jaw angle, modest leftward nose/chin projection, silver rosette remains on near viewer-right temple. No existing315profile used as generation reference.",
+  "scope": "Pose/physical yaw anchor only, not a final cell; whole coherent row generation follows."
+}

@@ -1,22 +1,22 @@
 {
   "ok": true,
-  "atlas": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/clarity-motion-v2/run/final/spritesheet-extended.png",
-  "encoded_bytes": 3528335,
-  "sha256": "ae8a172992e425c540badb74b330673d3564ee57b6803e4420e677f14646ae5e",
+  "atlas": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/small-native-v3/run/final/spritesheet-extended.png",
+  "encoded_bytes": 3567404,
+  "sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
   "jump": {
     "idle_baseline": 202,
     "jump_baselines": [
       202,
-      190,
-      175,
-      198,
+      186,
+      162,
+      187,
       202
     ],
-    "airborne_lift_pixels": 27,
+    "airborne_lift_pixels": 40,
     "landing_delta_pixels": 0
   },
   "look_registration": {
-    "neutral_center_x": 96.0,
+    "neutral_center_x": 95.5,
     "look_centers_x": [
       96.0,
       97.0,
@@ -53,7 +53,7 @@
       120,
       124
     ],
-    "maximum_center_drift_pixels": 7.5,
+    "maximum_center_drift_pixels": 8.0,
     "maximum_width_ratio": 1.105263157894737
   },
   "errors": [],

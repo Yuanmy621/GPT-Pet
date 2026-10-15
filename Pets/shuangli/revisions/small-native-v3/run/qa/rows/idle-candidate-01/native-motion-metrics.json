@@ -1,0 +1,49 @@
+{
+  "bboxes": [
+    [
+      35,
+      6,
+      157,
+      203
+    ],
+    [
+      35,
+      5,
+      156,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ],
+    [
+      35,
+      5,
+      157,
+      203
+    ]
+  ],
+  "rgb_mae_loop": [
+    6.925,
+    4.351,
+    9.134,
+    5.145,
+    8.819,
+    7.48
+  ],
+  "note": "comparison on consistent light lavender background; non-identical generated frames"
+}
