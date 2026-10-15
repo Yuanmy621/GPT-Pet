@@ -1,0 +1,168 @@
+{
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-row-9.png",
+  "source_sha256": "869498cafa4709db9c381af22d37ab2a44b79c7722cae76a5dac7bb332de756b",
+  "source_size": [
+    1899,
+    828
+  ],
+  "generation_mode": "built-in image_gen",
+  "generated_original": "/Users/ymy/.codex/generated_images/01a13fc0-4db7-7bd1-b5b5-38fb8eb88a5e/exec-6f3945e3-860f-44b5-a4f1-5eb9d9d642ab.png",
+  "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/prompts/rows/look-row-9-effective.md",
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/candidates/look-row-9/attempt-3.png",
+      "sha256": "0212722ea09bcb2d6f521e5fda2fd9e85fd9fc23d814c76cb27ce581573c9cb9"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/approved-cardinal-faces-highres.png",
+      "sha256": "4610d18afeeb692638c3411a5a33e54d99c40e5e5d0c97ca3fe54a5382b5b630"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/row9-front-only-identity-board.png",
+      "sha256": "1285b7e94a64e64e50980958edc00edca2fca8193c3ddb6bd19c8a1051a5fb8a"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/layout-guides/look-row-9-spacious.png",
+      "sha256": "7102bab77ac8ce2fa514857da92c3a891627d77cdfe8c08323af84fbe66ed9f6"
+    }
+  ],
+  "selected_attempt": 4,
+  "required_parent_acceptance": true,
+  "structural_source_review": {
+    "ok": true,
+    "main_component_count": 8,
+    "areas": [
+      39257,
+      39264,
+      39207,
+      40409,
+      39531,
+      38876,
+      38843,
+      39027
+    ],
+    "bboxes": [
+      [
+        20,
+        256,
+        220,
+        569
+      ],
+      [
+        255,
+        256,
+        451,
+        568
+      ],
+      [
+        493,
+        253,
+        689,
+        568
+      ],
+      [
+        728,
+        253,
+        925,
+        568
+      ],
+      [
+        964,
+        253,
+        1161,
+        568
+      ],
+      [
+        1199,
+        257,
+        1396,
+        568
+      ],
+      [
+        1437,
+        257,
+        1633,
+        568
+      ],
+      [
+        1674,
+        257,
+        1870,
+        568
+      ]
+    ],
+    "source_edge_foreground": false
+  },
+  "face_identity_review": {
+    "verdict": "pass",
+    "evidence": "All eight retain rounded compact cheeks, short chin and both original purple eyes; right cardinal avoids the previous full-profile jaw shelf. Waist-clasped frontal body, planted feet, white/lavender costume, attached wings/tail preserved."
+  },
+  "semantics": [
+    {
+      "expected": "000 up",
+      "observed": "Broad frontal head chin lifted and eyes gaze high, rounded short chin.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "022.5 up-right",
+      "observed": "Eyes and face physically right-biased, lifted chin and visibly upturned eye line.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "045 up-right",
+      "observed": "Rightward head yaw with both eyes, chin lifted, far eye smaller.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "067.5 up-right",
+      "observed": "Rightward shallow three-quarter face, upward eye line and raised chin. Similar to preceding pose.",
+      "verdict": "warning"
+    },
+    {
+      "expected": "090 right",
+      "observed": "Both-eye three-quarter right head, nose/face center to screen-right, short rounded cheek/chin.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "112.5 down-right",
+      "observed": "Chin drops and head returns closer to frontal; both eyes remain visible, horizontal cue is substantially weaker than 090 and requires parent labeled review.",
+      "verdict": "warning"
+    },
+    {
+      "expected": "135 down-right",
+      "observed": "Clear tucked-chin downward gaze, nearly frontal head; horizontal right bias is subtle and requires parent labeled review.",
+      "verdict": "warning"
+    },
+    {
+      "expected": "157.5 down-right",
+      "observed": "Nearly frontal tucked-chin downward gaze close to approved DOWN, subtle horizontal cue requires parent labeled review and boundary check.",
+      "verdict": "warning"
+    }
+  ],
+  "parent_visual_acceptance_pending": true,
+  "previous_attempts": [
+    {
+      "attempt": 1,
+      "result": "rejected",
+      "reason": "090 full profile; down-right poses turned left",
+      "source": "decoded/candidates/look-row-9/attempt-1-wrong-yaw.png"
+    },
+    {
+      "attempt": 2,
+      "result": "rejected",
+      "reason": "7 figures merged through hems; official registration nominal success was rejected after component audit",
+      "source": "decoded/candidates/look-row-9/attempt-2.png"
+    },
+    {
+      "attempt": 3,
+      "result": "rejected",
+      "reason": "figures merged through wing tips; spacious guide alone did not create enough gaps",
+      "source": "decoded/candidates/look-row-9/attempt-3.png"
+    }
+  ],
+  "strategy_change": "After touching silhouettes, whole-strip edit uniformly reduced all complete figures about 70% around fixed centers and opened green gutters. No manual painting, per-cell patch, or warp."
+}

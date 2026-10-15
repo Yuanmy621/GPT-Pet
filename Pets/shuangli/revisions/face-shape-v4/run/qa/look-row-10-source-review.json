@@ -1,0 +1,189 @@
+{
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-row-10.png",
+  "source_sha256": "5755086041a136343ed9eb82c9397cc607f2b6e4336b1d4620e51dc82bf84d17",
+  "source_size": [
+    1899,
+    828
+  ],
+  "generation_mode": "built-in image_gen",
+  "generated_original": "/Users/ymy/.codex/generated_images/01a13fc0-4db7-7bd1-b5b5-38fb8eb88a5e/exec-036fe9ec-9c46-4cfe-977a-80e1b8f1a6fa.png",
+  "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/prompts/rows/look-row-10-effective.md",
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/row10-left-down-up-faces.png",
+      "sha256": "60858859c5cc3f9e02b83beb2956f8d0b5cad3230a4d85ebbcf79c44eaedbd56"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/row9-body-and-boundaries.png",
+      "sha256": "96186e6b7a6744190783641f411b80276898d2ce1bff6c7532a36ca86485f740"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/row9-front-only-identity-board.png",
+      "sha256": "1285b7e94a64e64e50980958edc00edca2fca8193c3ddb6bd19c8a1051a5fb8a"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/layout-guides/look-row-10-spacious.png",
+      "sha256": "1a57ad84f18b905beda240c93d2e823dddb09d37aa78ad476664a4efe6477482"
+    }
+  ],
+  "selected_attempt": 1,
+  "source_component_review": {
+    "ok": true,
+    "real_main_components": 8,
+    "heights": [
+      405,
+      408,
+      408,
+      410,
+      407,
+      414,
+      412,
+      416
+    ],
+    "widths": [
+      237,
+      230,
+      231,
+      233,
+      232,
+      233,
+      232,
+      237
+    ],
+    "bboxes": [
+      [
+        17,
+        230,
+        254,
+        635
+      ],
+      [
+        257,
+        228,
+        487,
+        636
+      ],
+      [
+        491,
+        227,
+        722,
+        635
+      ],
+      [
+        723,
+        225,
+        956,
+        635
+      ],
+      [
+        957,
+        228,
+        1189,
+        635
+      ],
+      [
+        1191,
+        223,
+        1424,
+        637
+      ],
+      [
+        1426,
+        223,
+        1658,
+        635
+      ],
+      [
+        1656,
+        221,
+        1893,
+        637
+      ]
+    ],
+    "edge_clipping": false,
+    "note": "All eight whole-body components are disjoint; some x bounding boxes overlap due wing curvature, but masks do not touch."
+  },
+  "registration": {
+    "row9_shared_scale": 0.60625,
+    "raw_heights_after_shared_scale": [
+      245.53,
+      247.35,
+      247.35,
+      248.56,
+      246.74,
+      250.99,
+      249.77,
+      252.2
+    ],
+    "row9_source_heights": [
+      317,
+      316,
+      319,
+      320,
+      319,
+      315,
+      315,
+      315
+    ],
+    "parent_whole_source_density_normalization_required": true,
+    "median_height_ratio_row9_over_row10": 0.773838630806846,
+    "max_height_ratio_row9_over_row10": 0.7692307692307693,
+    "density_fit_applied": false,
+    "native_proof_status": "Deferred until parent applies one uniform whole-source density fit; raw shared-scale native cells would clip. No per-pose fitting performed."
+  },
+  "face_quality": {
+    "verdict": "pass",
+    "evidence": "All eight heads retain two violet eyes, compact round cheeks, tiny noses and short chin. Left cardinal is moderate three-quarter with foreshortened far viewer-left eye. No single-eye full profile, protruding jaw or horizontal shelf."
+  },
+  "semantics_provisional": [
+    {
+      "expected": "180 down",
+      "observed": "Frontal bowed head, both eyes lowered and short chin tucked.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "202.5 down-left",
+      "observed": "Leftward nose/cheek turn under downward pitch, far viewer-left eye smaller.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "225 down-left",
+      "observed": "Physical left yaw with head and eyes still lowered, both eyes remain.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "247.5 down-left",
+      "observed": "Clear left physical yaw and both eyes; down pitch weaker, must verify at native size after density normalization.",
+      "verdict": "warning"
+    },
+    {
+      "expected": "270 left",
+      "observed": "Clear left three-quarter physical head, tiny nose and short rounded chin, both eyes visible with near viewer-right eye larger.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "292.5 up-left",
+      "observed": "Head raised with nose/face left-biased and eyes aimed upward.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "315 up-left",
+      "observed": "Raised chin and upward eyes with shallower left yaw.",
+      "verdict": "pass"
+    },
+    {
+      "expected": "337.5 up-left",
+      "observed": "Near-frontal raised chin approaching row9 UP; left bias is subtle and requires native/boundary review.",
+      "verdict": "warning"
+    }
+  ],
+  "identity_body_review": {
+    "verdict": "pass",
+    "evidence": "Frontal torso, waist-clasped hands, layered white/lavender gown, attached wings and fluffy tail, two ivory horns, pointed ears and anatomical-left rosette maintained consistently. Density differs from row9, requiring shared whole-source normalization."
+  },
+  "parent_visual_acceptance_pending": true
+}

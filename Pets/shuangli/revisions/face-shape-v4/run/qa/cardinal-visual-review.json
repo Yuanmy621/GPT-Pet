@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "reviewer": "face_v4_cardinals visual worker",
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-cardinals.png",
+  "source_sha256": "80d5d876f5dddf03ecfe7d4d974d8ac7a958321506c4ce82629c44a6ef1512be",
+  "method": "Visual review of generated source plus exact official 192x208 anchors at native size",
+  "observed": [
+    {
+      "direction": "000",
+      "verdict": "pass",
+      "evidence": "Broad frontal face, both eyes visibly lifted, chin raised and tiny nose angled upward; short compact rounded jaw remains under mouth."
+    },
+    {
+      "direction": "090",
+      "verdict": "pass",
+      "evidence": "Physical head yaw toward screen-right, shifted nose/mouth and rightmost face surface, both purple eyes visible with far eye foreshortened; compact curved cheek avoids previous full-profile flat jaw ledge. Rosette partly occluded on far side."
+    },
+    {
+      "direction": "180",
+      "verdict": "pass",
+      "evidence": "Head pitched downward, chin tucked toward chest, lower visible eye line and lowered eyelids; both eyes and rounded face remain visible."
+    },
+    {
+      "direction": "270",
+      "verdict": "pass",
+      "evidence": "Physical head yaw screen-left, both eyes readable and far eye narrowed, small nose and short curved cheek/chin; anatomical left temple rosette remains near/visible on screen-right head edge."
+    }
+  ],
+  "identity": {
+    "verdict": "pass",
+    "evidence": "White layered hair, two ivory horns, pointed ears, purple eyes, white/lavender full dress, waist-clasped hands, bat wings, attached fluffy tail, and left-temple rosette preserved; body remains frontal."
+  },
+  "source_geometry": {
+    "initial": "Official extraction failed on equal slot edge checks because isolated complete silhouettes straddled assumed boundaries. No source pose was clipped or touching a neighboring pose.",
+    "repair": "Official component groups deterministically recentered into evenly padded slots, no resize/redraw. Actual official extraction rerun reports ok true, all source edge pixels zero."
+  },
+  "warnings": [
+    "Native anchors retain source green fringe pending the parent full-atlas single despill pass. Do not apply isolated repeated despill to these references.",
+    "Final look strips must preserve these three-quarter two-eye faces and must pass parent final direction/continuity review."
+  ],
+  "prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/prompts/look-cardinals-effective.md",
+  "generation_mode": "built-in image_gen",
+  "generated_original": "/Users/ymy/.codex/generated_images/01a13fc0-4db7-7bd1-b5b5-38fb8eb88a5e/exec-2c8450c8-7228-4702-bc1e-60b53b7618c4.png",
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/reference-02.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/layout-guides/look-cardinals.png",
+      "sha256": "5ccc2ce66b4677a2891ddc78b2e0c1457c8dd4c48ee03135135bf334ee782002"
+    }
+  ],
+  "parent_final_acceptance_pending": true
+}

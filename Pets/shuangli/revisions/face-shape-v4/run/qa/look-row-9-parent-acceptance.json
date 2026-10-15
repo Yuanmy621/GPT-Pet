@@ -1,0 +1,10 @@
+{
+  "verdict": "pass-with-warnings",
+  "source_sha256": "09cee4c5d93fbe2adece295086fcc65c8af19890834837ff5b1afb3fa87fd7eb",
+  "evidence": "Parent reviewed encoded native8cells and highres source heads. Both eyes/short roundface coherent, right cardinal clear, 135/157 now nose/cheek/chin physicalright and far eye smaller underdownpitch. Lastthree poses similar but correctquadrant. Wholebody scale andfeet registered consistently.",
+  "warnings": [
+    "067.5 similar045",
+    "112/135/157 down-right angularstep spacing notuniform; allactualright/down cuespresent"
+  ],
+  "scope": "Row9source+registerednative approval only, finalatlasindependentreview stillrequired"
+}

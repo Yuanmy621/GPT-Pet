@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>霜璃 · 侧脸修复对比</title>
+<style>
+  :root { color-scheme: light dark; font-family: system-ui, sans-serif; color: #282332; background: #f6f4f9; }
+  * { box-sizing: border-box; }
+  body { max-width: 820px; margin: 40px auto; padding: 0 20px; }
+  h1 { font-size: 24px; margin: 0 0 10px; }
+  p { color: #655c70; line-height: 1.6; }
+  .controls { display: flex; flex-wrap: wrap; align-items: end; gap: 14px; margin: 24px 0; }
+  label { display: grid; gap: 6px; font-size: 14px; }
+  button, select { font: inherit; padding: 9px 12px; border: 1px solid #c9c1d4; border-radius: 8px; background: #fff; color: #282332; min-height: 42px; }
+  button { cursor: pointer; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  figure { margin: 0; min-width: 0; }
+  figcaption { padding: 12px 0; font-size: 14px; }
+  .stage { min-height: 310px; display: grid; place-items: center; background: #ececf5; border-radius: 12px; }
+  .viewport { position: relative; width: 192px; height: 208px; }
+  .sprite { width: 192px; height: 208px; position: absolute; transform-origin: top left; background-repeat: no-repeat; background-size: 1536px 2288px; }
+  .frame { font-variant-numeric: tabular-nums; }
+  .error { color: #a32037; }
+  .status { min-height: 26px; }
+  @media (prefers-color-scheme: dark) { :root { background: #1e1b25; color: #f2edf7; } p { color: #c9bed5; } }
+  @media (max-width: 540px) { body { margin: 24px auto; } .pair { grid-template-columns: 1fr; } }
+</style>
+<h1>霜璃 · 侧脸修复对比</h1>
+<p>对比转头与移动时的脸颊、下巴和眼睛透视。此页用于检查动画素材，不会改变 Pets 的播放设置。</p>
+<div class="controls">
+  <label>动作<select id="state">
+    <option value="9" selected>跟随视线</option><option value="1">向右移动</option><option value="2">向左移动</option>
+  </select></label>
+  <label>显示尺寸<select id="scale"><option value="0.75">75%</option><option value="1" selected>100% 原生尺寸</option><option value="1.25">125%</option></select></label>
+  <label>底色<select id="background"><option value="#ececf5">浅灰</option><option value="#ffffff">纯白</option><option value="#272334">深色</option></select></label>
+  <button id="play" type="button">暂停</button>
+  <button id="step" type="button">下一帧</button>
+  <span id="frame" class="frame" aria-label="当前帧"></span>
+</div>
+<div class="pair">
+  <figure><div class="stage"><div class="viewport"><div class="sprite" id="before" role="img" aria-label="优化前动画"></div></div></div><figcaption>优化前</figcaption></figure>
+  <figure><div class="stage"><div class="viewport"><div class="sprite" id="after" role="img" aria-label="侧脸修复版动画"></div></div></div><figcaption>侧脸修复版</figcaption></figure>
+</div>
+<p id="status" class="status" role="status" aria-live="polite">正在载入两份素材…</p>
+<script>
+(() => {
+  const durations = [[280,110,110,140,140,320],[120,120,120,120,120,120,120,220],[120,120,120,120,120,120,120,220],[140,140,140,280],[140,140,140,140,280],[140,140,140,140,140,140,140,240],[150,150,150,150,150,260],[120,120,120,120,120,220],[150,150,150,150,150,280],Array(16).fill(180)];
+  const elements = Object.fromEntries(['state','scale','background','play','step','frame','before','after','status'].map(id => [id, document.getElementById(id)]));
+  let state = 9, index = 4, accumulated = 0, last = null, ready = false;
+  let playing = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const sprites = [elements.before, elements.after];
+  function paint() {
+    const row = state === 9 ? 9 + Math.floor(index / 8) : state;
+    const column = state === 9 ? index % 8 : index;
+    for (const sprite of sprites) sprite.style.backgroundPosition = `${-column * 192}px ${-row * 208}px`;
+    elements.frame.textContent = `${index + 1} / ${durations[state].length}`;
+    elements.play.textContent = playing ? '暂停' : '播放';
+  }
+  elements.state.addEventListener('change', () => { state = Number(elements.state.value); index = 0; accumulated = 0; paint(); });
+  elements.play.addEventListener('click', () => { playing = !playing; accumulated = 0; paint(); });
+  elements.step.addEventListener('click', () => { playing = false; index = (index + 1) % durations[state].length; accumulated = 0; paint(); });
+  elements.scale.addEventListener('change', () => {
+    const scale = Number(elements.scale.value);
+    for (const sprite of sprites) sprite.style.transform = `scale(${scale})`;
+    for (const viewport of document.querySelectorAll('.viewport')) { viewport.style.width = `${192 * scale}px`; viewport.style.height = `${208 * scale}px`; }
+  });
+  elements.background.addEventListener('change', () => { for (const stage of document.querySelectorAll('.stage')) stage.style.background = elements.background.value; });
+  document.addEventListener('visibilitychange', () => { last = null; accumulated = 0; });
+  const files = ['inputs/current-spritesheet.png', 'run/final/spritesheet-extended.png'];
+  Promise.all(files.map((file, i) => new Promise((resolve, reject) => {
+    const image = new Image(); image.onload = () => { sprites[i].style.backgroundImage = `url("${file}")`; resolve(); }; image.onerror = reject; image.src = file;
+  }))).then(() => { ready = true; elements.status.textContent = '两份素材已载入；动作时序与 Pets 格式一致。'; }).catch(() => { elements.status.classList.add('error'); elements.status.textContent = '素材未载入。请保留此页与 inputs、run 文件夹的相对位置。'; });
+  function tick(now) {
+    if (last !== null && ready && playing && !document.hidden) {
+      accumulated += Math.min(now - last, 250);
+      let changed = false;
+      while (accumulated >= durations[state][index]) { accumulated -= durations[state][index]; index = (index + 1) % durations[state].length; changed = true; }
+      if (changed) paint();
+    }
+    last = document.hidden ? null : now;
+    requestAnimationFrame(tick);
+  }
+  paint(); requestAnimationFrame(tick);
+})();
+</script>
+</html>

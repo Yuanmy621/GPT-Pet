@@ -1,0 +1,27 @@
+{
+  "cardinals": {
+    "verdict": "pass",
+    "observed": "Both eyes remain coherent on physical right/left three-quarter heads; tiny nose, curved short cheek/chin, face shape close to neutral. Up chin raised, down crown/loweyelids read down.",
+    "artifacts": [
+      "qa/cardinal-native-panel.png",
+      "qa/cardinal-face-proof.png"
+    ]
+  },
+  "running-right": {
+    "verdict": "pass",
+    "observed": "Eight compact round faces with two-eye perspective and tiny nose; rightward body/face and hairtaildragleft. Alternating knees/feet visible. Step lift195\u2013203 accepted as gait variation, not accidental scaling.",
+    "artifacts": [
+      "qa/rows/running-right/native-ordered.png",
+      "qa/rows/running-right/heads-nearest3x.png"
+    ]
+  },
+  "status": "Source/native acceptance only; finalatlas,independentreview andblindgates pending",
+  "running-left": {
+    "verdict": "pass",
+    "observed": "Eight rounded left three-quarter faces with coherent near/far eyes, tiny nose, short curved chin. Near rosette remains anatomical-left/viewer-right. Distinct leftward foot/knee steps and right-trailing hair/tail.",
+    "artifacts": [
+      "qa/rows/running-left/native-ordered.png",
+      "qa/rows/running-left/heads-nearest3x.png"
+    ]
+  }
+}

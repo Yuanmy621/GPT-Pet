@@ -1,0 +1,75 @@
+{
+  "operation": "recenter complete disjoint source components into safely padded slots; no resizing or redrawing",
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/candidates/look-cardinals/attempt-1.png",
+  "source_sha256": "1802f31512630cadad141a130d9bcb126f8115f22bccaab3dac5ce16cd761f91",
+  "output": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-cardinals.png",
+  "output_sha256": "80d5d876f5dddf03ecfe7d4d974d8ac7a958321506c4ce82629c44a6ef1512be",
+  "source_size": [
+    2170,
+    725
+  ],
+  "output_size": [
+    2268,
+    725
+  ],
+  "slot_width": 567,
+  "chroma_key": "#00FF00",
+  "placements": [
+    {
+      "source_bbox": [
+        71,
+        23,
+        574,
+        711
+      ],
+      "target_xy": [
+        32,
+        23
+      ],
+      "scale": 1.0,
+      "main_component_area": 222547
+    },
+    {
+      "source_bbox": [
+        590,
+        15,
+        1080,
+        711
+      ],
+      "target_xy": [
+        605,
+        15
+      ],
+      "scale": 1.0,
+      "main_component_area": 214769
+    },
+    {
+      "source_bbox": [
+        1092,
+        20,
+        1586,
+        712
+      ],
+      "target_xy": [
+        1170,
+        20
+      ],
+      "scale": 1.0,
+      "main_component_area": 219552
+    },
+    {
+      "source_bbox": [
+        1607,
+        20,
+        2089,
+        711
+      ],
+      "target_xy": [
+        1743,
+        20
+      ],
+      "scale": 1.0,
+      "main_component_area": 210055
+    }
+  ]
+}

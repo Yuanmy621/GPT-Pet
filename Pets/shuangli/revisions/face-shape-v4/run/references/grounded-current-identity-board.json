@@ -1,0 +1,13 @@
+{
+  "operation": "Reference collage only; actual current atlas and all three original references. No final artwork edit.",
+  "inputs": [
+    {
+      "path": "Pets/shuangli/references/identity-board.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    },
+    {
+      "path": "Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    }
+  ]
+}

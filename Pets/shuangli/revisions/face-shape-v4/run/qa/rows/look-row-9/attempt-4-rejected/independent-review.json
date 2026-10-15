@@ -1,0 +1,93 @@
+{
+  "review_type": "independent labeled row-9 semantic and native-face acceptance",
+  "overall": "fail",
+  "decision": "The rounded face design and the up/right portion of row 9 pass. 112.5 has real subtle rightward yaw with downward pitch. At 135 and 157.5 the intended right component is not reliably visible at native size: the faces read mainly as centered down. Repair those two down-right heads before advancing the row.",
+  "inputs_inspected": [
+    {
+      "path": "qa/look-row-9-native.png",
+      "sha256": "42d329359351164b0a2288289abd27ec66e5552424bd79cb6b92e559819a913e"
+    },
+    {
+      "path": "qa/look-row-9-source-heads.png",
+      "sha256": "ac55498244e51458811d1e6fdc6f7ccc68330b8a6fd887f239d0c4e25e5e00ac"
+    },
+    {
+      "path": "qa/cardinal-native-panel.png",
+      "sha256": "1d8b4f9eb91b68257f1df7dd2a2f5ac6f5a31e6b699c487cea748588fa7fc48e"
+    }
+  ],
+  "method": "Judged the actual labeled native row, source head crops, and cardinal reference. A nearest-neighbor enlargement of the last three actual source head crops was used only to confirm facial geometry. Large yaw and true profile were not required; the criterion was a visible physical right bias while retaining the rounded two-eye character.",
+  "row_findings": [
+    {
+      "angle": 0,
+      "status": "pass",
+      "semantics": "up",
+      "landmarks": "Frontal face, eyes and nose presented upward, compact rounded lower face and short chin."
+    },
+    {
+      "angle": 22.5,
+      "status": "pass",
+      "semantics": "up-right",
+      "landmarks": "The cheek/nose turn and reduced far-eye presentation introduce a visible right component while the eyes and face remain upward."
+    },
+    {
+      "angle": 45,
+      "status": "pass",
+      "semantics": "up-right",
+      "landmarks": "Both eyes remain visible with the viewer-right eye more foreshortened; the tiny nose and cheek contour turn right without lengthening the chin."
+    },
+    {
+      "angle": 67.5,
+      "status": "pass",
+      "semantics": "up-right",
+      "landmarks": "Similar to 45 but still visibly turned right and pitched upward. Similarity does not create a wrong-quadrant defect."
+    },
+    {
+      "angle": 90,
+      "status": "pass",
+      "semantics": "right",
+      "landmarks": "Moderate physical right yaw, a fuller near eye/cheek, narrower far-eye/cheek presentation, and a short rounded chin. Both eyes remain visible and the right direction is readable."
+    },
+    {
+      "angle": 112.5,
+      "status": "pass",
+      "semantics": "down-right",
+      "landmarks": "The face is pitched down but still has a visible rightward cheek/nose turn. The viewer-right far eye is visibly narrower than the near eye and closer to the far facial edge. This is a real mild three-quarter right head, not merely a frontal down face."
+    },
+    {
+      "angle": 135,
+      "status": "fail",
+      "semantics": "reads mainly down; right component not reliable",
+      "landmarks": "Downward pitch is clear, but the small nose and rounded chin read centered beneath the fringe and eyes at native size. The two-eye/cheek presentation is too close to a frontal bowed face to supply a reliable physical right turn. Minor asymmetry in the enlarged crop does not give a stable rightward direction in the native cell."
+    },
+    {
+      "angle": 157.5,
+      "status": "fail",
+      "semantics": "reads mainly down; right component not reliable",
+      "landmarks": "The face is nearly frontal and bowed, with both eyes presented at similar prominence and a centered short chin. Neither the tiny nose/cheek contour nor the eye presentation provides a reliable rightward bias at native size. The pose cannot be confidently separated from centered down by its facial direction."
+    }
+  ],
+  "face_quality": {
+    "status": "pass",
+    "evidence": "All eight faces retain the rounded cheek, tiny nose, short chin, and large violet two-eye character. No return to the old long flat jaw, protruding chin, or one-eye full-profile style is visible."
+  },
+  "head_scale_identity_and_registration": {
+    "status": "pass",
+    "evidence": "Head scale and rendering remain coherent across the row, and the full native figures retain a consistent body placement and ground baseline. No conspicuous scale or attachment defect was found."
+  },
+  "blockers": [
+    {
+      "id": "135_and_157_5_down_right_component_missing_at_native",
+      "angles": [
+        135,
+        157.5
+      ],
+      "evidence": "The down direction is readable but the physical right component is not reliably visible. These two cells therefore do not yet establish the intended down-right quadrant at native size.",
+      "smallest_source_repair": "In the complete row source, revise only the 135 and 157.5 heads to retain a mild rightward nose/chin/cheek turn under the existing down pitch. Use the accepted 112.5 head as the structural reference: subtly compress the far viewer-right eye/cheek and expose the fuller near cheek, while keeping both eyes visible, the tiny nose, round cheek, and short chin. Do not restore full profiles or a long jaw. Preserve the accepted first six heads, body artwork, and registration."
+    }
+  ],
+  "warnings": [],
+  "inspection_artifact": "qa/look-row-9-independent-down-right-inspection.png",
+  "uncertainty": "This is row-9 source/native proof acceptance only. Final despill, exact atlas assembly, row-10 transitions, and complete animation acceptance remain for a later review.",
+  "artwork_mutated": false
+}

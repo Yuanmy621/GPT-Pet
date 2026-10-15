@@ -1,0 +1,17 @@
+{
+  "face_board_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-cardinals.png",
+  "sha256": "80d5d876f5dddf03ecfe7d4d974d8ac7a958321506c4ce82629c44a6ef1512be",
+  "operation": "Unmodified head crops only; primary left with down/up anchors, excluding right head.",
+  "guide": {
+    "size": [
+      1900,
+      828
+    ],
+    "slot_centers": "(index+0.5)*1900/8",
+    "zone": [
+      200,
+      320
+    ],
+    "common_baseline": 570
+  }
+}

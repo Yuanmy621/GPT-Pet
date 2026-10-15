@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "strip": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-cardinals.png",
+  "directions": [
+    "000",
+    "090",
+    "180",
+    "270"
+  ],
+  "errors": [],
+  "anchors": [
+    {
+      "direction": "000",
+      "source_box": [
+        0,
+        0,
+        567,
+        725
+      ],
+      "used_pixels": 222547,
+      "edge_pixels": 0,
+      "output": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/cardinal-anchors/000.png"
+    },
+    {
+      "direction": "090",
+      "source_box": [
+        567,
+        0,
+        1134,
+        725
+      ],
+      "used_pixels": 214769,
+      "edge_pixels": 0,
+      "output": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/cardinal-anchors/090.png"
+    },
+    {
+      "direction": "180",
+      "source_box": [
+        1134,
+        0,
+        1701,
+        725
+      ],
+      "used_pixels": 219552,
+      "edge_pixels": 0,
+      "output": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/cardinal-anchors/180.png"
+    },
+    {
+      "direction": "270",
+      "source_box": [
+        1701,
+        0,
+        2268,
+        725
+      ],
+      "used_pixels": 210055,
+      "edge_pixels": 0,
+      "output": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/cardinal-anchors/270.png"
+    }
+  ]
+}

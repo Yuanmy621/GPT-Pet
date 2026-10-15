@@ -1,12 +1,13 @@
 {
-  "revision": "revisions/small-native-v3",
+  "revision": "revisions/face-shape-v4",
   "artifact": "final/spritesheet-extended.png",
-  "sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
-  "bytes": 3567404,
+  "sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "bytes": 3538414,
   "frames": 73,
-  "redrawn_standard_frames": 57,
-  "preserved_look_frames": 16,
+  "redrawn_standard_frames": 16,
+  "redrawn_look_frames": 16,
+  "preserved_frames": 41,
   "validation_passed": true,
   "stored_pixels_match_final": true,
-  "completed_at": "2026-10-15T07:58:43.248265+00:00"
+  "completed_at": "2026-10-15T14:08:24.064452+00:00"
 }

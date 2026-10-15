@@ -1,0 +1,89 @@
+{
+  "candidate": "face-v4-candidate1",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The nose and pointed chin sit to the right of the neck, with the left cheek and ear more exposed. B: The lower face and chin sit left of the neck, while the right temple and ear area are more exposed."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The chin projects left of the collar center and the right cheek-to-ear area remains visible. B: The nose and chin project right of the collar, with more of the left cheek and ear visible."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The lower face shifts right across the neck and the left cheek is broader. B: The chin shifts left across the neck, with the right side of the head and ear more visible."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: The nose and chin are left of the neck axis, and the right temple and ornament side are exposed. B: The chin and nose extend right of the neck axis, with the left cheek and ear open to view."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: Despite the lowered head, the chin is displaced right of the collar and the left ear is visible. B: The chin and mouth sit left of the neck, and the right cheek-to-ear contour is exposed."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The tucked lower face ends to the right of the neck, with the left side of the face more exposed. B: The tucked chin ends left of the neck, and the right temple and ear remain visible."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: The nose-to-chin line is offset right of the collar, with more visible left cheek. B: The lower face is offset left of the collar, with more visible right temple and cheek."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The face is lowered under the bangs, the chin is tucked close to the collar, and little neck is visible. B: The chin is raised above the collar and the face is open, with a longer visible neck beneath the jaw."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The jaw is lifted away from the collar, exposing the neck below the chin. B: The forehead and bangs dominate the lowered face, with the chin tucked toward the collar."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The lifted chin leaves a visible neck gap above the collar and the lower face is open. B: The face is pitched down under the bangs and the jaw is compressed toward the collar."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The chin is low and tucked, with the upper head prominent and the neck mostly covered. B: The chin rises away from the collar, exposing more neck and the underside of the jaw."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: The lifted lower face exposes the neck beneath the chin and the eyes sit in an open frontal face. B: The head bows toward the collar, with the bangs covering more of the eyes and the chin tucked low."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The head pitches forward, putting the chin close to the collar and emphasizing the crown and bangs. B: The chin is elevated and separated from the collar by a visible neck section."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: The lower face sits low toward the collar, with a shorter visible neck and a slightly tucked chin. B: The chin is lifted higher above the collar, leaving more neck visible beneath the jaw."
+    }
+  ]
+}

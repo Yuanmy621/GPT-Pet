@@ -1,0 +1,6 @@
+{
+  "before_sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70",
+  "after_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "operation": "Encoded-cell crops and labeled comparison panels only. Enlarged head crops use nearest-neighbor pixels; no drawn or warped face.",
+  "timings": "Existing Pets contract timings on both sides"
+}

@@ -1,0 +1,118 @@
+{
+  "reviewer": "Parent exact encoded native-size visual review",
+  "atlas_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "directions": [
+    {
+      "label": "000",
+      "expected": "up",
+      "observed": "Frontal lifted chin and upturned eye/face plane, neck opens above collar.",
+      "verdict": "pass",
+      "evidence": "Frontal lifted chin and upturned eye/face plane, neck opens above collar. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "022.5",
+      "expected": "up-right",
+      "observed": "Face and short chin shift right while jaw remains raised and far eye foreshortened.",
+      "verdict": "pass",
+      "evidence": "Face and short chin shift right while jaw remains raised and far eye foreshortened. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "045",
+      "expected": "up-right",
+      "observed": "Two-eye right three-quarter yaw, small nose right of skull center, lifted chin.",
+      "verdict": "pass",
+      "evidence": "Two-eye right three-quarter yaw, small nose right of skull center, lifted chin. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "067.5",
+      "expected": "up-right",
+      "observed": "Rightward cheek/nose and upward face plane; neighboring upper-right poses are similar.",
+      "verdict": "warning",
+      "evidence": "Rightward cheek/nose and upward face plane; neighboring upper-right poses are similar. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "090",
+      "expected": "right",
+      "observed": "Rightward physical head yaw, screen-left near eye broader, small nose and chin shifted right with level pitch.",
+      "verdict": "pass",
+      "evidence": "Rightward physical head yaw, screen-left near eye broader, small nose and chin shifted right with level pitch. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "112.5",
+      "expected": "down-right",
+      "observed": "Head bows with crown exposed and shortened throat; mild real right cheek/nose bias remains.",
+      "verdict": "warning",
+      "evidence": "Head bows with crown exposed and shortened throat; mild real right cheek/nose bias remains. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "135",
+      "expected": "down-right",
+      "observed": "Bowed head with chin/nose right of crown center and narrower viewer-right far eye. Similar down-right poses.",
+      "verdict": "warning",
+      "evidence": "Bowed head with chin/nose right of crown center and narrower viewer-right far eye. Similar down-right poses. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "157.5",
+      "expected": "down-right",
+      "observed": "Downward facial plane and right-shifted short chin; physical right yaw remains after source repair.",
+      "verdict": "warning",
+      "evidence": "Downward facial plane and right-shifted short chin; physical right yaw remains after source repair. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "180",
+      "expected": "down",
+      "observed": "Centered bowed head, visible crown, lowered eyes and chin tucked toward collar.",
+      "verdict": "pass",
+      "evidence": "Centered bowed head, visible crown, lowered eyes and chin tucked toward collar. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "202.5",
+      "expected": "down-left",
+      "observed": "Bowed head with nose/chin shifted screen-left and near right cheek/eye exposed.",
+      "verdict": "pass",
+      "evidence": "Bowed head with nose/chin shifted screen-left and near right cheek/eye exposed. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "225",
+      "expected": "down-left",
+      "observed": "Left nose/cheek projection and compressed far eye persist under tucked chin; similar preceding pose.",
+      "verdict": "warning",
+      "evidence": "Left nose/cheek projection and compressed far eye persist under tucked chin; similar preceding pose. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "247.5",
+      "expected": "down-left",
+      "observed": "Leftward face/nose with slightly lowered eye plane and short tucked chin; downward pitch shallow versus225.",
+      "verdict": "warning",
+      "evidence": "Leftward face/nose with slightly lowered eye plane and short tucked chin; downward pitch shallow versus225. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "270",
+      "expected": "left",
+      "observed": "Physical left three-quarter head, nose and chin to screen-left, near right eye broader and anatomical-left rosette near.",
+      "verdict": "pass",
+      "evidence": "Physical left three-quarter head, nose and chin to screen-left, near right eye broader and anatomical-left rosette near. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "292.5",
+      "expected": "up-left",
+      "observed": "Leftward cheek/nose and raised chin, throat visible below upturned jaw.",
+      "verdict": "pass",
+      "evidence": "Leftward cheek/nose and raised chin, throat visible below upturned jaw. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "315",
+      "expected": "up-left",
+      "observed": "Leftward face offset and foreshortened far eye with lifted chin; neighbor similar but still upper-left.",
+      "verdict": "warning",
+      "evidence": "Leftward face offset and foreshortened far eye with lifted chin; neighbor similar but still upper-left. Rounded compact cheeks and both original purple eyes retained."
+    },
+    {
+      "label": "337.5",
+      "expected": "up-left",
+      "observed": "Mostly-up face with shallow physical left bias, lifted chin and small residual nose/chin offset toward left.",
+      "verdict": "warning",
+      "evidence": "Mostly-up face with shallow physical left bias, lifted chin and small residual nose/chin offset toward left. Rounded compact cheeks and both original purple eyes retained."
+    }
+  ]
+}

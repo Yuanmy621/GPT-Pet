@@ -1,0 +1,21 @@
+{
+  "operation": "Reference-only image crop/collage; no visual redraw or face alterations.",
+  "sources": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-cardinals.png",
+      "sha256": "80d5d876f5dddf03ecfe7d4d974d8ac7a958321506c4ce82629c44a6ef1512be"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/reference-02.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    }
+  ],
+  "outputs": [
+    "references/approved-cardinal-faces-highres.png",
+    "references/row9-body-identity-board.png"
+  ]
+}

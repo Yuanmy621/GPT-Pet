@@ -1,0 +1,76 @@
+{
+  "review_type": "early independent face-shape visual review",
+  "revision": "face-shape-v4",
+  "overall": "pass",
+  "acceptance_stage": "early source proofs only; not final atlas acceptance",
+  "decision": "The inspected cardinal and running-right faces fix the old elongated flat-jaw/profile defect while retaining the same character and readable direction. No concrete source-art blocker was found in these proofs.",
+  "inputs_inspected": [
+    {
+      "path": "inputs/native-diagnosis.png",
+      "sha256": "71403de9149ba1b75ae04b6c2d820bac259409101021c6fbb28c3b83e9187c2e"
+    },
+    {
+      "path": "run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "run/qa/cardinal-native-panel.png",
+      "sha256": "1d8b4f9eb91b68257f1df7dd2a2f5ac6f5a31e6b699c487cea748588fa7fc48e"
+    },
+    {
+      "path": "run/qa/cardinal-face-proof.png",
+      "sha256": "8e3ed8273be94bf52a5099aeab6ad2857dde87891955901a6b1b391a0c4ab378"
+    },
+    {
+      "path": "run/qa/rows/running-right/native-ordered.png",
+      "sha256": "46cb67b0f17fd6e106f4d7c76efdbe0509f0c41d517c80922e49e2cdbfcfa237"
+    },
+    {
+      "path": "run/qa/rows/running-right/heads-nearest3x.png",
+      "sha256": "06be2d861c65f56a92e87d14131ca0a994a2794073375de9cf58723f03a0bcd5"
+    }
+  ],
+  "method": "Compared the actual native-size cardinal and running-right panels with the old native diagnosis and canonical character. Enlarged nearest-neighbor head proofs confirmed cheek/chin shape, eye foreshortening, and facial-feature placement. No true 90-degree profile or uniform mathematical angular spacing was required.",
+  "checks": {
+    "old_face_geometry_defect": {
+      "status": "pass",
+      "evidence": "The new sideward cardinal and running-right faces have rounded cheeks, tiny noses, and short, softly curved chins. They no longer show the old long horizontal lower jaw, projecting chin, or one-eye full-profile face."
+    },
+    "canonical_identity_and_style": {
+      "status": "pass",
+      "evidence": "The large violet eyes, compact round face, pale skin, white/lavender fringe, horns, and attached rosette remain consistent with the canonical character. The new turned faces read as the same character rather than an alternate profile design."
+    },
+    "two_eye_three_quarter_structure": {
+      "status": "pass",
+      "evidence": "Both eyes remain visible in the left and right cardinal faces and running-right frames. The farther eye is reduced and partly framed by the fringe, so the face retains a turned three-quarter structure rather than appearing as a frontal face pasted into a side head."
+    },
+    "left_right_cardinal_semantics": {
+      "status": "pass",
+      "evidence": "The opposite cheek/nose turn, eye presentation, and gaze distinguish screen-right from screen-left at native size. The poses are milder than the old full profiles, but the intended left/right direction is still readable. Up and down remain clear."
+    },
+    "head_scale_and_body_fit": {
+      "status": "pass",
+      "evidence": "The head remains compact and appropriately sized for the same body. The cardinal heads and running-right heads do not show a conspicuous scale jump, neck disconnection, or change to the overall chibi proportions."
+    },
+    "running_right_face_continuity": {
+      "status": "pass",
+      "evidence": "All eight heads retain the same short-chin face and eye design. Small changes in head tilt and eye exposure read as natural movement; no frame returns to the old protruding profile jaw or a conspicuously different face."
+    },
+    "running_right_direction_and_gait": {
+      "status": "pass",
+      "evidence": "The forward lean and three-quarter-right face, with hair/robe/tail trailing behind, clearly read as moving right. Alternating lifted, lowered, and forward-reaching legs make a plausible running sequence; no conspicuous malformed limb or ungrounded gait pose is visible in the native ordered panel."
+    },
+    "rosette_and_costume_identity": {
+      "status": "pass",
+      "evidence": "The rosette remains attached at anatomical left in the cardinal views. The same horns, wings, robe, and curled scaled tail support character identity through the running-right row."
+    }
+  },
+  "blockers": [],
+  "recommended_source_repairs": [],
+  "uncertainty": [
+    "This review covers the four cardinal proofs and the running-right row, not all intermediate gaze cells or the running-left row.",
+    "The exact final atlas, combined transitions between all 32 new and 41 preserved cells, final registration, and final clipping have not yet been reviewed.",
+    "Visible green outline residue is expected in these pre-despill proofs. Its successful final cleanup must be checked on the exact final PNG; it is not treated as a source face-shape failure here."
+  ],
+  "artwork_mutated": false
+}

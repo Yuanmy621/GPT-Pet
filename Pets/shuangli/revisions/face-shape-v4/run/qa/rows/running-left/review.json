@@ -1,0 +1,142 @@
+{
+  "ok": true,
+  "frames_root": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames",
+  "states": [
+    "running-left"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running-left",
+      "expected_frames": 8,
+      "actual_frames": 8,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17691,
+          "bbox": [
+            23,
+            5,
+            169,
+            195
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 491
+        },
+        {
+          "index": 1,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17007,
+          "bbox": [
+            28,
+            6,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 494
+        },
+        {
+          "index": 2,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17198,
+          "bbox": [
+            24,
+            7,
+            167,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 451
+        },
+        {
+          "index": 3,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16278,
+          "bbox": [
+            27,
+            7,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 467
+        },
+        {
+          "index": 4,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16598,
+          "bbox": [
+            27,
+            8,
+            164,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 461
+        },
+        {
+          "index": 5,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16497,
+          "bbox": [
+            29,
+            6,
+            163,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 468
+        },
+        {
+          "index": 6,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/06.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17152,
+          "bbox": [
+            26,
+            5,
+            166,
+            202
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 456
+        },
+        {
+          "index": 7,
+          "file": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 17026,
+          "bbox": [
+            26,
+            8,
+            165,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 483
+        }
+      ]
+    }
+  ]
+}

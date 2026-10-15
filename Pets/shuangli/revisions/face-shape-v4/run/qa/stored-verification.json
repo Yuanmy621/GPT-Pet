@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "stored_pixels_match_final": true,
+  "final_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "stored_sha256": "b8a9ee74e89d109bbf2b44dd40f994bb7d16ce2d97c150b62a4be482b9b602de",
+  "final_bytes": 3538414,
+  "stored_bytes": 3649253,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "stable_id_verified": true,
+  "active_selection_preserved": true,
+  "note": "Server may re-encode PNG; decodedRGBA compared exactly."
+}

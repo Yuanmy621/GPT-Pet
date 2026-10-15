@@ -1,0 +1,28 @@
+{
+  "description": "Reference-only body collage from exact uploaded atlas frontal idle cell and original reference board; invisible guide with 8 small safe zones, not visual art.",
+  "sources": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/reference-02.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    }
+  ],
+  "body_atlas_crop": [
+    0,
+    0,
+    192,
+    208
+  ],
+  "guide": {
+    "size": [
+      2172,
+      724
+    ],
+    "safe_zone_height": 320,
+    "safe_zone_width": 224,
+    "figure_scale": "shared across all 8"
+  }
+}

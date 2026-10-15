@@ -1,0 +1,89 @@
+{
+  "candidate": "face-v4-candidate1",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the chin and facial center sit to screen-right of the neck, with a fuller screen-left cheek and a tighter screen-right facial edge. B: the facial center and chin shift screen-left, and the screen-left eye/cheek side is more foreshortened."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the chin points screen-left of the neck axis, with the screen-left facial side narrower than the screen-right cheek. B: the chin and nose/mouth region point screen-right, leaving more visible screen-left cheek."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the lower face projects screen-right and the screen-right eye lies close to the facial edge. B: the chin projects screen-left, with the screen-left eye/cheek side shortened and the screen-right cheek fuller."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the jaw tip and facial center fall screen-left of the neck, and the screen-left eye is nearer the facial contour. B: the lower face shifts screen-right, with the screen-right contour tighter and more screen-left cheek visible."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: despite the lowered face, the chin and central facial features lean screen-right of the neck, and the screen-right cheek is compressed. B: the chin and facial center lean screen-left, with a narrower screen-left eye/cheek region."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the lowered chin is displaced screen-right of the neck and the visible facial plane extends farther on screen-left. B: the lowered face and chin are displaced screen-left, with the screen-right cheek remaining broader."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the chin points screen-right and the screen-right eye/face edge is foreshortened. B: the chin points screen-left and the facial plane extends farther across the screen-right cheek."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the eye line sits low under a broad forehead, the lower face is shortened, and the chin tucks toward the neck. B: the eyes sit higher within the face, the lower jaw is more exposed, and the chin lifts clear of the collar/neck."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the face opens upward with a visible longer lower-face plane and a lifted chin over the neck. B: the forehead dominates above low-set eyes, the eye-to-chin distance is compressed, and the chin tucks into the neck."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the higher eye line, open lower face, and chin lifted away from the neck indicate an upward head tilt. B: the eyes sit beneath a large forehead and the short jaw/chin region presses close to the collar, indicating a downward tilt."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the eye line and shortened lower face sit low beneath the forehead, with the chin tucked near the neck. B: the visible lower face is longer and the jaw tip is lifted above a clearer neck gap."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the eyes sit high in the exposed face and the chin lifts above the neck, leaving an open lower-face plane. B: the low eye line, short eye-to-chin distance, and chin tucked toward the collar indicate a downward tilt."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the forehead occupies more of the visible head while the eyes and chin cluster low, with the jaw tucked into the neck. B: the eye line is higher, the lower face is more exposed, and the chin is visibly lifted above the neck."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "up",
+      "reason": "A: the face appears close to upright; the jaw retains ordinary depth and the chin/neck geometry does not give a sufficiently clear upward or downward tilt. B: the eyes sit high in the facial plane and the lower jaw/chin is lifted with a clearer neck gap, indicating up."
+    }
+  ]
+}

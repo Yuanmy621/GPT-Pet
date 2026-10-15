@@ -1,66 +1,131 @@
 {
-  "review_type": "independent native-size final visual acceptance",
-  "candidate": "candidate 4, nine standard rows updated and installed-v2 look rows preserved",
+  "review_type": "independent exact-final native visual acceptance",
+  "candidate": "face-shape-v4 final candidate 1",
   "source": "final/spritesheet-extended.png",
-  "source_sha256": "23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b",
+  "source_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
   "overall": "pass",
   "upload_blocked_by_visual_defect": false,
-  "decision": "The nine updated standard states pass native-size visual acceptance against the preserved sixteen look states. No new conspicuous identity, proportion, registration, attachment, clipping, or landing defect was found.",
+  "decision": "The exact final atlas passes the face repair and native visual continuity review. All sixteen look directions retain coherent rounded two-eye faces and readable principal quadrants/cardinals; both running rows retain the same character face through plausible gait poses. No concrete visual blocker was found.",
   "scope": {
-    "changed": "Rows 0 through 8: idle, running-right, running-left, waving, jumping, failed, waiting, running, and review; 57 active frames.",
-    "preserved": "Rows 9 and 10: all sixteen look states from the approved installed v2 artwork. The provided preserved-look-provenance.json records pixel identity to the current downloaded pet. This review inspected their actual final appearance for compatibility with the nine changed rows; redesign of their inherited angular spacing is outside candidate 4 scope.",
-    "excluded": "Rejected regenerated look-row candidates are not the artwork reviewed here."
+    "new_frames": 32,
+    "new_rows": [
+      "running-right (8)",
+      "running-left (8)",
+      "look 000 through 157.5 (8)",
+      "look 180 through 337.5 (8)"
+    ],
+    "preserved_frames": 41,
+    "preserved_rows": [
+      "idle",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review"
+    ],
+    "preservation_evidence": "qa/preserved-states-final.json reports pixel identity for the 41 preserved frames. This review read that provenance record after visual inspection; it did not independently compare against a separate baseline PNG."
   },
-  "method": "Viewed the refreshed native boundary and direction sheets, complete state contact sheet, motion stills, and native actual-cell crops from the exact hashed final PNG. The direct-cell strip compares new idle/wave/running poses against preserved looks and shows the full five-frame jump sequence followed by idle. No numeric continuity threshold was used as a visual acceptance gate. Pixel identity of the preserved look cells is recorded from the provided provenance artifact rather than an independent baseline pixel comparison.",
+  "method": "Viewed the actual final state contact sheet, direction sheet, native boundary panel, before/after face comparison, and motion stills. Independently cropped the exact hashed encoded cells into native full-body look and gait sheets and enlarged head/mid-body inspection panels. Checked the mid-body alpha warnings against the actual final cells on a dark contrasting background, then compared the investigation panel. Neither other reviewers' votes nor numeric continuity outlier thresholds were used as the acceptance gate. Uniform mathematical angular spacing and full 90-degree profile heads were not required.",
   "images_inspected": [
     "qa/contact-sheet-final.png",
     "qa/direction-sheet.png",
     "qa/look-boundaries-native.png",
+    "previews/comparisons/face-shape-before-after.png",
     "previews/motion-stills.png",
-    "final/spritesheet-extended.png (native actual-cell crops)"
+    "final/spritesheet-extended.png (actual encoded native crops)",
+    "qa/interior-alpha-investigation.png"
   ],
-  "provenance_inspected": "qa/preserved-look-provenance.json",
-  "blockers": [],
-  "warnings": [],
   "checks": {
-    "nine_state_quality_and_readability": {
+    "requested_face_shape_repair": {
       "status": "pass",
-      "evidence": "The idle and expression states remain clean and readable. Both running directions have a clear sideward moving silhouette, waving exposes the raised hand, and jumping has an unmistakable bent-leg airborne pose."
+      "evidence": "The old long flat lower jaw, projecting chin, and one-eye full-profile face are replaced by rounded cheeks, tiny noses, short curved chins, and two visible eyes with appropriate foreshortening. This holds in both movement rows and all turned look faces."
     },
-    "same_character_across_new_and_preserved_states": {
+    "same_character_and_style": {
       "status": "pass",
-      "evidence": "Hair color and volume, horns, violet eyes, pale layered robe, wings, scaled curled tail, and temple rosette consistently identify the same character. No conspicuous rendering-style or identity break is visible when comparing new idle and actions to preserved up/down and side looks."
+      "evidence": "Violet eyes, compact pale face, white/lavender fringe, horns, anatomical-left rosette, costume, wings, and scaled tail remain coherent with the preserved neutral and action poses. No conspicuous alternate face design or rendering style appears in the repaired rows."
     },
-    "head_body_proportions_and_practical_scale": {
+    "up_right_look_quadrant": {
       "status": "pass",
-      "evidence": "New standing poses have a consistent practical height, head-to-body balance, and foot placement relative to the preserved look figures. Pose-related face-width changes in the look art remain visible but do not create a new conspicuous whole-pet size change between the updated states and preserved states. The crouched jump has the expected reduced silhouette from bent limbs rather than a scaled-down character."
+      "angles": [
+        22.5,
+        45,
+        67.5
+      ],
+      "evidence": "Physical cheek/nose turn and eye foreshortening establish a right bias while the face and eyes remain upward. Similar adjacent poses retain the correct quadrant."
     },
-    "wings_tail_robe_continuity": {
+    "down_right_look_quadrant": {
       "status": "pass",
-      "evidence": "Wings remain connected at the upper back, the curled tail keeps the same scaled design, and robe layers remain coherent through front, running, waving, and jump poses. No detached component is conspicuous."
+      "angles": [
+        112.5,
+        135,
+        157.5
+      ],
+      "evidence": "The final 135 and 157.5 faces now retain visible rightward cheek/nose turn and a reduced far-eye presentation under downward pitch. They no longer read only as centered down. The compact two-eye face remains intact."
     },
-    "rosette_anatomical_left": {
+    "down_left_look_quadrant": {
       "status": "pass",
-      "evidence": "The rosette stays attached on anatomical left; side-view visibility and occlusion are consistent with head direction."
+      "angles": [
+        202.5,
+        225,
+        247.5
+      ],
+      "evidence": "The face and gaze retain a leftward physical bias while coming out of the bowed pose. The nose/cheek and near/far-eye arrangement distinguish these from down-right without restoring a full profile."
     },
-    "body_and_feet_registration": {
+    "up_left_look_quadrant": {
       "status": "pass",
-      "evidence": "Standing state feet and torso remain centered at a coherent baseline. Running foot placement reads as gait, and the jump moves vertically with consistent centering."
+      "angles": [
+        292.5,
+        315,
+        337.5
+      ],
+      "evidence": "Modest leftward head/gaze bias remains visible with upward presentation, reducing toward the near-frontal upward end. No conspicuous strong-side-view-to-front snap remains."
     },
-    "jump_and_landing_transition": {
+    "four_cardinals": {
       "status": "pass",
-      "evidence": "The actual five cells show crouch, rise, apex, fall, and crouched landing. The landing returns to the initial grounded crouch shape; recovery into the standing idle reads as extension of the legs and body, not a positional teleport or clipped landing."
+      "evidence": "000 reads up, 090 reads screen-right with a compact three-quarter head, 180 reads centered down, and 270 reads screen-left with a modest opposite cheek/nose turn. Both sideward cardinal faces retain both eyes and short chins."
     },
-    "clipping_or_holes": {
+    "adjacent_look_and_loop_continuity": {
       "status": "pass",
-      "evidence": "No conspicuous clipped horn, hair, wing, tail, robe hem, raised hand, or foot and no accidental transparent hole was found in the active cells."
+      "evidence": "All adjacent looks retain coherent character structure and direction. The 157.5-to-180 change reads as a shallow right-down pose becoming a centered bow; the 337.5-to-000 change reads as a small shift into a stronger centered upward tilt. Neither produces a conspicuous head/body size pop or identity snap at native size."
     },
-    "compatibility_with_preserved_look_states": {
+    "head_body_scale_and_registration": {
       "status": "pass",
-      "evidence": "The new standard poses and preserved looks retain coherent character identity, palette, costume, practical standing scale, and baseline. No new mismatch requires changing the approved look artwork."
+      "evidence": "New look rows and preserved standing poses keep consistent practical height, head-to-body balance, body centering, and foot baseline. Small wing-spread and face-silhouette changes read as pose rather than a whole-character rescale."
+    },
+    "running_faces_and_gaits": {
+      "status": "pass",
+      "evidence": "All sixteen actual encoded running cells keep the same rounded, short-chin, two-eye face. Forward lean with trailing hair/robe/tail makes each travel direction clear. Alternating bent, lifted, lowered, and forward-reaching legs read as a plausible running gait, with no conspicuous malformed limb, face jump, or head-scale change."
+    },
+    "wings_tail_robe_and_rosette": {
+      "status": "pass",
+      "evidence": "Wings stay attached at the back/shoulder region, tail and robe retain coherent shape and scale, and the rosette remains physically attached on anatomical left. Directional occlusion is plausible."
+    },
+    "clipping_and_material_interior_seams": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped horn, hair, wing, tail, robe hem, hand, or foot was found. No transparent seam or material hole cuts through the torso, hands, thigh, or main robe body."
+    },
+    "preserved_actions_and_landing": {
+      "status": "pass",
+      "evidence": "The preserved idle, wave, expressions, and five-frame jump remain readable and coherent with the repaired faces. The jump sequence retains crouch, rise, apex, fall, and grounded crouch with a natural return to standing."
     }
   },
+  "alpha_warning_investigation": {
+    "reported_region": "row 9, approximately native y 124 through 128",
+    "classification": "false_positive_for_material_interior_body_hole",
+    "material_interior_hole_visible": false,
+    "evidence": "The exact final cells on a dark background show background-visible spaces beneath the wings and beside the separate robe/leg and tail contours. These are exterior gaps between illustrated components, not holes or seams through the body. The enlarged actual mid-body crops keep the bodice, hands, thigh, and central robe continuous. The investigation panel is consistent with that direct encoded-cell inspection.",
+    "repair_required": false
+  },
+  "blockers": [],
+  "warnings": [],
   "recommended_source_repairs": [],
-  "inspection_artifact": "qa/independent-final-candidate4-inspection.png",
+  "inspection_artifacts": [
+    "qa/independent-final-native-contrast.png",
+    "qa/independent-final-midbody-contrast.png",
+    "qa/independent-final-encoded-heads.png",
+    "qa/independent-final-midbody-context.png",
+    "qa/independent-final-native-gaits.png"
+  ],
   "artwork_mutated": false
 }

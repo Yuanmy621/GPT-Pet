@@ -1,0 +1,94 @@
+{
+  "candidate": "attempt-1-rounded-three-quarter",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/running-left.png",
+  "source_sha256": "802277c0d6e63d1eff29d2c6df2c81ac98e48d99c0680c77ff094956a6adf29a",
+  "source_size": [
+    2172,
+    724
+  ],
+  "generator": "built-in image_gen.imagegen",
+  "generated_original": "/Users/ymy/.codex/generated_images/01a13fc0-8950-7060-9785-6b397ddcd56b/exec-ce044a07-cc6b-49f8-bda2-86e8f95dc423.png",
+  "effective_prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/prompts/rows/running-left-effective.md",
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/reference-02.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/layout-guides/running-left.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/running-right.png",
+      "sha256": "fe4bfde35996dd0ccbf0b73aca226fd260784d27e86e6a67ef27bf59f781531a"
+    }
+  ],
+  "official_extraction_review": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-left/review.json",
+  "visual_review": {
+    "frame_count": 8,
+    "separated_complete_figures": true,
+    "face": "All eight heads rounded three-quarter screen-left with both violet eyes visible, far eye narrower; nearly flush nose and compact curved chin. No flat profile jaw.",
+    "identity": "Near anatomical left temple rosette stays visible on viewer-right of left-facing head, two horns, attached ears/wings/tail, white lavender flowing dress. Independently generated, not mirrored.",
+    "gait": "Changing knees and shoes, forward/back/passing phases, bent counter-swinging arms. Hair, garment and fluffy tail stream screen-right. Some far shoes are occluded under dress.",
+    "frame_bounds": [
+      [
+        23,
+        5,
+        169,
+        195
+      ],
+      [
+        28,
+        6,
+        164,
+        203
+      ],
+      [
+        24,
+        7,
+        167,
+        203
+      ],
+      [
+        27,
+        7,
+        164,
+        203
+      ],
+      [
+        27,
+        8,
+        164,
+        203
+      ],
+      [
+        29,
+        6,
+        163,
+        203
+      ],
+      [
+        26,
+        5,
+        166,
+        202
+      ],
+      [
+        26,
+        8,
+        165,
+        203
+      ]
+    ],
+    "uncertainty": "Shared official row fit. Parent should check head scale against right/idle and native loop energy."
+  },
+  "final_acceptance": "pending parent review"
+}

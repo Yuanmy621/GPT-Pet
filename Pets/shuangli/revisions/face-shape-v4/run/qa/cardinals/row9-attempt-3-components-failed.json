@@ -1,0 +1,38 @@
+{
+  "ok": false,
+  "size": [
+    1900,
+    828
+  ],
+  "main_component_count": 3,
+  "main_components": [
+    {
+      "bbox": [
+        481,
+        225,
+        950,
+        589
+      ],
+      "area": 108103
+    },
+    {
+      "bbox": [
+        952,
+        226,
+        1887,
+        589
+      ],
+      "area": 214593
+    },
+    {
+      "bbox": [
+        8,
+        230,
+        480,
+        589
+      ],
+      "area": 109541
+    }
+  ],
+  "failure": "silhouettes connected across wing tips; not eight separate complete pose components"
+}

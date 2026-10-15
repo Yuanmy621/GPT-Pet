@@ -1,0 +1,131 @@
+{
+  "review_type": "independent exact-final native visual acceptance",
+  "candidate": "face-shape-v4 final candidate 1",
+  "source": "final/spritesheet-extended.png",
+  "source_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "overall": "pass",
+  "upload_blocked_by_visual_defect": false,
+  "decision": "The exact final atlas passes the face repair and native visual continuity review. All sixteen look directions retain coherent rounded two-eye faces and readable principal quadrants/cardinals; both running rows retain the same character face through plausible gait poses. No concrete visual blocker was found.",
+  "scope": {
+    "new_frames": 32,
+    "new_rows": [
+      "running-right (8)",
+      "running-left (8)",
+      "look 000 through 157.5 (8)",
+      "look 180 through 337.5 (8)"
+    ],
+    "preserved_frames": 41,
+    "preserved_rows": [
+      "idle",
+      "waving",
+      "jumping",
+      "failed",
+      "waiting",
+      "running",
+      "review"
+    ],
+    "preservation_evidence": "qa/preserved-states-final.json reports pixel identity for the 41 preserved frames. This review read that provenance record after visual inspection; it did not independently compare against a separate baseline PNG."
+  },
+  "method": "Viewed the actual final state contact sheet, direction sheet, native boundary panel, before/after face comparison, and motion stills. Independently cropped the exact hashed encoded cells into native full-body look and gait sheets and enlarged head/mid-body inspection panels. Checked the mid-body alpha warnings against the actual final cells on a dark contrasting background, then compared the investigation panel. Neither other reviewers' votes nor numeric continuity outlier thresholds were used as the acceptance gate. Uniform mathematical angular spacing and full 90-degree profile heads were not required.",
+  "images_inspected": [
+    "qa/contact-sheet-final.png",
+    "qa/direction-sheet.png",
+    "qa/look-boundaries-native.png",
+    "previews/comparisons/face-shape-before-after.png",
+    "previews/motion-stills.png",
+    "final/spritesheet-extended.png (actual encoded native crops)",
+    "qa/interior-alpha-investigation.png"
+  ],
+  "checks": {
+    "requested_face_shape_repair": {
+      "status": "pass",
+      "evidence": "The old long flat lower jaw, projecting chin, and one-eye full-profile face are replaced by rounded cheeks, tiny noses, short curved chins, and two visible eyes with appropriate foreshortening. This holds in both movement rows and all turned look faces."
+    },
+    "same_character_and_style": {
+      "status": "pass",
+      "evidence": "Violet eyes, compact pale face, white/lavender fringe, horns, anatomical-left rosette, costume, wings, and scaled tail remain coherent with the preserved neutral and action poses. No conspicuous alternate face design or rendering style appears in the repaired rows."
+    },
+    "up_right_look_quadrant": {
+      "status": "pass",
+      "angles": [
+        22.5,
+        45,
+        67.5
+      ],
+      "evidence": "Physical cheek/nose turn and eye foreshortening establish a right bias while the face and eyes remain upward. Similar adjacent poses retain the correct quadrant."
+    },
+    "down_right_look_quadrant": {
+      "status": "pass",
+      "angles": [
+        112.5,
+        135,
+        157.5
+      ],
+      "evidence": "The final 135 and 157.5 faces now retain visible rightward cheek/nose turn and a reduced far-eye presentation under downward pitch. They no longer read only as centered down. The compact two-eye face remains intact."
+    },
+    "down_left_look_quadrant": {
+      "status": "pass",
+      "angles": [
+        202.5,
+        225,
+        247.5
+      ],
+      "evidence": "The face and gaze retain a leftward physical bias while coming out of the bowed pose. The nose/cheek and near/far-eye arrangement distinguish these from down-right without restoring a full profile."
+    },
+    "up_left_look_quadrant": {
+      "status": "pass",
+      "angles": [
+        292.5,
+        315,
+        337.5
+      ],
+      "evidence": "Modest leftward head/gaze bias remains visible with upward presentation, reducing toward the near-frontal upward end. No conspicuous strong-side-view-to-front snap remains."
+    },
+    "four_cardinals": {
+      "status": "pass",
+      "evidence": "000 reads up, 090 reads screen-right with a compact three-quarter head, 180 reads centered down, and 270 reads screen-left with a modest opposite cheek/nose turn. Both sideward cardinal faces retain both eyes and short chins."
+    },
+    "adjacent_look_and_loop_continuity": {
+      "status": "pass",
+      "evidence": "All adjacent looks retain coherent character structure and direction. The 157.5-to-180 change reads as a shallow right-down pose becoming a centered bow; the 337.5-to-000 change reads as a small shift into a stronger centered upward tilt. Neither produces a conspicuous head/body size pop or identity snap at native size."
+    },
+    "head_body_scale_and_registration": {
+      "status": "pass",
+      "evidence": "New look rows and preserved standing poses keep consistent practical height, head-to-body balance, body centering, and foot baseline. Small wing-spread and face-silhouette changes read as pose rather than a whole-character rescale."
+    },
+    "running_faces_and_gaits": {
+      "status": "pass",
+      "evidence": "All sixteen actual encoded running cells keep the same rounded, short-chin, two-eye face. Forward lean with trailing hair/robe/tail makes each travel direction clear. Alternating bent, lifted, lowered, and forward-reaching legs read as a plausible running gait, with no conspicuous malformed limb, face jump, or head-scale change."
+    },
+    "wings_tail_robe_and_rosette": {
+      "status": "pass",
+      "evidence": "Wings stay attached at the back/shoulder region, tail and robe retain coherent shape and scale, and the rosette remains physically attached on anatomical left. Directional occlusion is plausible."
+    },
+    "clipping_and_material_interior_seams": {
+      "status": "pass",
+      "evidence": "No conspicuous clipped horn, hair, wing, tail, robe hem, hand, or foot was found. No transparent seam or material hole cuts through the torso, hands, thigh, or main robe body."
+    },
+    "preserved_actions_and_landing": {
+      "status": "pass",
+      "evidence": "The preserved idle, wave, expressions, and five-frame jump remain readable and coherent with the repaired faces. The jump sequence retains crouch, rise, apex, fall, and grounded crouch with a natural return to standing."
+    }
+  },
+  "alpha_warning_investigation": {
+    "reported_region": "row 9, approximately native y 124 through 128",
+    "classification": "false_positive_for_material_interior_body_hole",
+    "material_interior_hole_visible": false,
+    "evidence": "The exact final cells on a dark background show background-visible spaces beneath the wings and beside the separate robe/leg and tail contours. These are exterior gaps between illustrated components, not holes or seams through the body. The enlarged actual mid-body crops keep the bodice, hands, thigh, and central robe continuous. The investigation panel is consistent with that direct encoded-cell inspection.",
+    "repair_required": false
+  },
+  "blockers": [],
+  "warnings": [],
+  "recommended_source_repairs": [],
+  "inspection_artifacts": [
+    "qa/independent-final-native-contrast.png",
+    "qa/independent-final-midbody-contrast.png",
+    "qa/independent-final-encoded-heads.png",
+    "qa/independent-final-midbody-context.png",
+    "qa/independent-final-native-gaits.png"
+  ],
+  "artwork_mutated": false
+}

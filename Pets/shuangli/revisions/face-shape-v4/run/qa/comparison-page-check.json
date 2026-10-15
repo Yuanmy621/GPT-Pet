@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "source_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "scope": "QA viewer only; no Pets client behavior changed",
+  "actual_checks": [
+    "Both actual encoded atlas images loaded in in-app browser",
+    "Gaze sequence16frames advances",
+    "Rightmovement at100percent native displays andpauses1of8",
+    "Leftmovement at75percent on dark background",
+    "Nextframeadvanced1of8to2of8",
+    "Restored100percent gray gaze andplaying"
+  ]
+}

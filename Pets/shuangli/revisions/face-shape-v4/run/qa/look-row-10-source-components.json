@@ -1,0 +1,84 @@
+{
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/look-row-10.png",
+  "sha256": "5755086041a136343ed9eb82c9397cc607f2b6e4336b1d4620e51dc82bf84d17",
+  "source_size": [
+    1899,
+    828
+  ],
+  "main_component_count": 8,
+  "ok": true,
+  "main_components": [
+    {
+      "bbox": [
+        17,
+        230,
+        254,
+        635
+      ],
+      "area": 65441
+    },
+    {
+      "bbox": [
+        257,
+        228,
+        487,
+        636
+      ],
+      "area": 64029
+    },
+    {
+      "bbox": [
+        491,
+        227,
+        722,
+        635
+      ],
+      "area": 64184
+    },
+    {
+      "bbox": [
+        723,
+        225,
+        956,
+        635
+      ],
+      "area": 64401
+    },
+    {
+      "bbox": [
+        957,
+        228,
+        1189,
+        635
+      ],
+      "area": 64719
+    },
+    {
+      "bbox": [
+        1191,
+        223,
+        1424,
+        637
+      ],
+      "area": 66373
+    },
+    {
+      "bbox": [
+        1426,
+        223,
+        1658,
+        635
+      ],
+      "area": 65579
+    },
+    {
+      "bbox": [
+        1656,
+        221,
+        1893,
+        637
+      ],
+      "area": 67397
+    }
+  ]
+}

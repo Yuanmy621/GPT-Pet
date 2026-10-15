@@ -1,0 +1,89 @@
+{
+  "candidate": "face-v4-candidate1",
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose and chin sit to the right of the crown/neck axis, with the left ear and left cheek exposed and the far right eye compressed toward the face edge. B: the nose/chin sit left of the crown, the right ear/cheek are more exposed, and the left eye is nearer the left face boundary."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the visible face and chin project left of the neck, while the right ear and cheek remain exposed; the nose sits toward the left side of the eye pair. B: the nose/chin project right of the neck, the left ear is exposed, and the right-side facial space is compressed."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose, mouth and chin shift toward the right contour, with the left cheek and pointed ear showing broadly. B: the lower face projects left of its neck and crown; the right cheek/ear are exposed and the far left eye is close to the left contour."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A: the facial center and chin move left of the crown/neck axis, leaving a broader right cheek and visible right ear. B: the facial center and chin move right, with the left ear clearly exposed and less facial width beyond the right eye."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: despite the lowered head, the chin/nose are displaced right beneath the crown and the left cheek/ear are more exposed. B: the chin/nose lie left of the head/neck axis, with a broader visible right cheek and right ear."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the bowed face is offset right beneath the crown, its nose/chin approach the right contour, and the left ear/cheek remain exposed. B: the bowed face is offset left beneath its crown, the nose/chin approach the left contour, and the right ear/cheek remain exposed."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A: the nose and small chin project toward the right side of the neck, with a broader left cheek and exposed left ear. B: the nose/chin project toward the left side of the neck, with a broader right cheek and exposed right ear; the left face edge is tighter."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the crown/forehead dominate above the eyes, the lower face is foreshortened, and the chin tucks close to the collar. B: the facial plane lifts, the cheek-to-chin area is taller, and the raised chin leaves a more open neck connection."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the lifted nose/cheek plane and longer visible lower face carry the chin away from the collar, with relatively less crown visible. B: more crown and bangs face the viewer, the eyes sit low beneath them, and the short lower face/chin tuck toward the collar."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the face is raised with an open cheek-to-chin area and a chin lifted above the neck/collar. B: the forehead/crown rotate forward, the lower face is compressed, and the chin folds down near the collar; this is visible beyond the eyelid shape."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the enlarged visible crown and low facial features accompany a shortened nose-to-chin region and a chin tucked toward the collar. B: the face plane is raised, its lower cheeks and chin are more open, and the chin sits farther above the collar."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A: the eyes/nose sit high on an exposed facial plane, the lower face is relatively tall, and the chin is lifted from the collar. B: the crown rolls forward, the face below the eyes foreshortens, and the chin is tucked low against the neck/collar."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the head bows with more crown visible, a short lower cheek/jaw area, and chin close to the collar. B: the forehead recedes, the cheek-to-chin area opens, and the raised chin exposes a longer connection to the neck."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "down",
+      "B": "up",
+      "reason": "A: the face angles slightly downward: the crown is more prominent, the eyes sit lower under the bangs, and the jaw/chin are compressed toward the collar. B: the eye/nose plane is lifted, the lower cheeks and chin are longer and more exposed, and the chin is held farther above the collar."
+    }
+  ]
+}

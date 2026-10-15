@@ -4,9 +4,9 @@
 
 角色采用日系 Q 版比例：银白长发、紫色眼睛、双龙角、尖耳、淡紫薄翼、蓬松龙尾，搭配白色长裙、紫灰褶边和银色花结饰品。
 
-当前版本已通过现有 Pets 插件更新：重绘九组标准动作的 57 帧，改善眼睛与轮廓在小尺寸下的辨认，减少待机中的频繁完整闭眼，并区分工作、等待与检查结果的姿势。十六方向保留原有通过检查的 16 帧，已确认像素完全一致。源图、前后对比和验证记录见 [本轮修订说明](Pets/shuangli/revisions/small-native-v3/README.md)。
+当前版本已修复转头和左右移动时的侧脸：改用双眼可见的四分之三转头，保留远眼透视，缩短鼻尖和下巴，避免面颊与下颌向前拉长。两组移动和十六方向共重绘 32 帧，其余七组状态的 41 帧逐像素保持不变。源图、前后对比和完整验证见 [侧脸修复记录](Pets/shuangli/revisions/face-shape-v4/README.md)。
 
-[打开实际尺寸对比页](Pets/shuangli/revisions/small-native-v3/experience-preview.html)，可切换动作、底色及显示大小；这些控制项仅用于检查素材。
+[打开转头与移动对比页](Pets/shuangli/revisions/face-shape-v4/experience-preview.html)，可切换动作、底色及显示大小；这些控制项仅用于检查素材。
 
 ![霜璃九组动作预览](Pets/shuangli/previews/all-states.gif)
 
@@ -101,7 +101,7 @@ GPT-Pet/
     └── qa/                        # 质量报告、盲检、检查图与预览工具
 ```
 
-`decoded/`、`frames/`、`prompts/`、`references/` 及根部作业记录保留早期制作过程；当前标准动作的源图、提示与检查记录位于 `revisions/small-native-v3/run/`。被否决版本没有上传。使用时以 `final/spritesheet-extended.png` 为准，版本索引为 `current-version.json`；`previews/final-frames/` 是当前最终边缘清理后重新裁切的帧。
+`decoded/`、`frames/`、`prompts/`、`references/` 及根部作业记录保留早期制作过程；当前侧脸修复的源图、提示与检查记录位于 `revisions/face-shape-v4/run/`；上轮其余状态制作记录位于 `revisions/small-native-v3/run/`。被否决版本没有上传。使用时以 `final/spritesheet-extended.png` 为准，版本索引为 `current-version.json`；`previews/final-frames/` 是当前最终边缘清理后重新裁切的帧。
 
 ## 在本地重新导出预览
 
@@ -160,15 +160,17 @@ python Pets/shuangli/qa/render_final_previews.py --output-dir output/previews --
 | 三位独立评审的盲检 | [blind-validation.json](Pets/shuangli/qa/blind-validation.json) |
 | 最终综合质量检查 | [pet-quality.json](Pets/shuangli/qa/pet-quality.json) |
 | Pets 文件预检 | [pets-preflight.json](Pets/shuangli/qa/pets-preflight.json) |
+| 独立视觉复核 | [independent-final-review.json](Pets/shuangli/qa/independent-final-review.json) |
+| 其他 41 帧保留验证 | [preserved-states-final.json](Pets/shuangli/qa/preserved-states-final.json) |
 
-当前最终尺寸为 `1536 × 2288`，文件大小为 **3,567,404 字节**。最终质量检查按 alpha > 16 的可见边界测得跳跃峰值离地 **40 px**，落点与待机相同。左右移动分别绘制，保留非对称发饰的正确侧别。三位独立盲检均确认全部方向；独立视觉复核及 Pets 预检通过。
+当前最终尺寸为 `1536 × 2288`，文件大小为 **3,538,414 字节**。最终质量检查按 alpha > 16 的可见边界测得跳跃峰值离地 **40 px**，落点与待机相同。左右移动分别绘制，保留非对称发饰的正确侧别。三位独立盲检均确认全部方向；独立视觉复核及 Pets 预检通过。
 
-连续性检查在 `157.5° → 180°` 处报告了一个像素差异统计提示，已结合正常尺寸方向图与完整循环复核；动作方向、下半身锚点和发饰显露关系通过检查。
+连续性检查在 `157.5° → 180°` 处有像素差异统计提示，部分行的翼下和裙边外侧留白也触发透明区域扫描提示。独立复核确认这些是角色外部的自然空隙，没有穿过身体的破洞或接缝；方向、基线、整圈衔接和两组步态通过。若干斜向角度彼此相近，保留为已复核提示，三人盲检确认全部方向轴。
 
 成品 SHA-256：
 
 ```text
-23b61ab26a31258c9b9a4b0a1c59e0eef8cd20dbbc2ad5b2ba513cc8861fe97b
+4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696
 ```
 
 可以在克隆后核对文件：

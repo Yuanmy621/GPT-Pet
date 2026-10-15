@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "scope": "Raw standard atlas before final cleanup",
+  "pixel_identical_rows": {
+    "idle": true,
+    "waving": true,
+    "jumping": true,
+    "failed": true,
+    "waiting": true,
+    "running": true,
+    "review": true
+  },
+  "preserved_frame_count": 41
+}

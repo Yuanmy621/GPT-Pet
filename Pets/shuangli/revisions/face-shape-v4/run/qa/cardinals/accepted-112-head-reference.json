@@ -1,0 +1,13 @@
+{
+  "source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/candidates/look-row-9/attempt-4-spaced.png",
+  "source_sha256": "869498cafa4709db9c381af22d37ab2a44b79c7722cae76a5dac7bb332de756b",
+  "pose_index": 5,
+  "logical_direction": "112.5 down-right",
+  "crop_box": [
+    1232,
+    257,
+    1362,
+    392
+  ],
+  "operation": "crop only, unchanged source pixels"
+}

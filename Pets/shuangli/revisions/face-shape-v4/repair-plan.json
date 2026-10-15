@@ -1,0 +1,42 @@
+{
+  "request": "Strange face shape in both gaze and left/rightmovement, confirmed by user",
+  "repair_states": [
+    "running-right",
+    "running-left",
+    "look-row-9",
+    "look-row-10"
+  ],
+  "new_frames": 32,
+  "preserve_frames": 41,
+  "preserved_states": [
+    "idle",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
+  "face_mechanics": "Physical three-quarter head yaw maxaround45degrees,both purple eyes visible with correctperspective, tiny nose, rounded cheeks, short jaw. No long horizontalmuzzle/chin.",
+  "source_current_sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70",
+  "local_and_downloaded_pixels_identical": true,
+  "stage": "Complete: stable-ID update, active selection and downloaded stored pixels verified",
+  "pending": [],
+  "cloud_library": "Unavailable; local revision retains all useful artifacts",
+  "accepted": [
+    "reused_front_canonical",
+    "cardinals",
+    "both_movement_rows",
+    "both_registered_look_rows",
+    "41_preserved_encoded_frames",
+    "native_comparison_previews",
+    "three_blind_reviews",
+    "independent_final_visual_review",
+    "Pets_preflight",
+    "stable_id_update",
+    "stored_pixel_verification"
+  ],
+  "final_sha256": "4608b7258cfd489db3d07e64128da9df03f4f852bf2d31121babc3a8bd9a9696",
+  "final_bytes": 3538414,
+  "completed_at": "2026-10-15T14:08:24.064452+00:00"
+}

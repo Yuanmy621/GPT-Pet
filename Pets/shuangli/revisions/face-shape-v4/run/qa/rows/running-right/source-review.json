@@ -1,0 +1,41 @@
+{
+  "candidate": "attempt-1-rounded-three-quarter",
+  "selected_source": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/decoded/running-right.png",
+  "source_sha256": "fe4bfde35996dd0ccbf0b73aca226fd260784d27e86e6a67ef27bf59f781531a",
+  "source_size": [
+    2172,
+    724
+  ],
+  "generator": "built-in image_gen.imagegen",
+  "generated_original": "/Users/ymy/.codex/generated_images/01a13fc0-8950-7060-9785-6b397ddcd56b/exec-62cbeee7-e479-4b46-9fa8-cc0c4b6c3e73.png",
+  "effective_prompt": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/prompts/rows/running-right-effective.md",
+  "references": [
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/canonical-base.png",
+      "sha256": "fa6ab29493007e926c922d0f6dd03307685f5c667d5af76bc1443f0cd1ae76d7"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/inputs/current-spritesheet.png",
+      "sha256": "ac3dc0de39463d50623f4b2075ecb3369cf5349e9383308fcbad110113df7f70"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/reference-02.png",
+      "sha256": "b1da2bfef99795b53494dbbfba4ea2d50ae1a5ead5a5b21f8418bfca2b790b98"
+    },
+    {
+      "path": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/references/layout-guides/running-right.png",
+      "sha256": "6d67d00f341f39f1535fd37776b19b366e4e78ee38f7ef002d368ecb1d765c40"
+    }
+  ],
+  "official_extraction_review": "/Users/ymy/Project/GPT-Pet/Pets/shuangli/revisions/face-shape-v4/run/qa/rows/running-right/review.json",
+  "visual_review": {
+    "frame_count": 8,
+    "separated_complete_figures": true,
+    "face": "All eight heads three-quarter screen-right; two violet eyes visible. Compact rounded cheek/chin, nearly flush nose, tiny mouth. No old flat shelf jaw.",
+    "identity": "Silver-white hair, two white horns, pointed ears, lavender wings and attached fluffy tail, white long dress; anatomical left rosette hidden on far side.",
+    "gait": "Eight distinct shoe/leg positions, lifted knees alternate with forward/back/passing feet; hair/dress/tail trails screen-left. Some far shoes are occluded by dress in several phases.",
+    "baseline": "Official one shared fit; visible bottom varies 195–203 due shoe lift, crown top 5–9 due gentle gait bob. No independent per-frame scaling.",
+    "uncertainty": "Gait is more buoyant and skirt shorter from lift than current profile row. Parent should judge same head/body practical scale against current idle."
+  },
+  "final_acceptance": "pending parent review"
+}

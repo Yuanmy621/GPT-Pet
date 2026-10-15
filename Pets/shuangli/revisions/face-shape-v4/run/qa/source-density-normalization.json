@@ -1,0 +1,99 @@
+{
+  "operation": "Uniform whole-source density adjustment before shared row9 look registration. No per-cell transforms or face edits.",
+  "source_sha256": "5755086041a136343ed9eb82c9397cc607f2b6e4336b1d4620e51dc82bf84d17",
+  "selected_group_metrics": {
+    "9": [
+      {
+        "height": 325,
+        "width": 207,
+        "area": 40806
+      },
+      {
+        "height": 324,
+        "width": 204,
+        "area": 40078
+      },
+      {
+        "height": 327,
+        "width": 203,
+        "area": 39752
+      },
+      {
+        "height": 328,
+        "width": 204,
+        "area": 39805
+      },
+      {
+        "height": 327,
+        "width": 205,
+        "area": 39824
+      },
+      {
+        "height": 323,
+        "width": 203,
+        "area": 39414
+      },
+      {
+        "height": 323,
+        "width": 203,
+        "area": 39395
+      },
+      {
+        "height": 323,
+        "width": 203,
+        "area": 39589
+      }
+    ],
+    "10": [
+      {
+        "height": 413,
+        "width": 245,
+        "area": 65441
+      },
+      {
+        "height": 416,
+        "width": 238,
+        "area": 64029
+      },
+      {
+        "height": 416,
+        "width": 239,
+        "area": 64184
+      },
+      {
+        "height": 418,
+        "width": 241,
+        "area": 64401
+      },
+      {
+        "height": 415,
+        "width": 240,
+        "area": 64719
+      },
+      {
+        "height": 422,
+        "width": 241,
+        "area": 66373
+      },
+      {
+        "height": 420,
+        "width": 240,
+        "area": 65579
+      },
+      {
+        "height": 424,
+        "width": 245,
+        "area": 67397
+      }
+    ]
+  },
+  "scale": 0.7735849056603774,
+  "source_size": [
+    1899,
+    828
+  ],
+  "normalized_size": [
+    1469,
+    641
+  ]
+}

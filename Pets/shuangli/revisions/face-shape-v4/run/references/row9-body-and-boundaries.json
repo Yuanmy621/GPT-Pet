@@ -1,0 +1,56 @@
+{
+  "operation": "Reference-only crop board from accepted attempt5 row9; body and endpoint head pixels only.",
+  "source": "decoded/look-row-9.png",
+  "source_sha256": "09cee4c5d93fbe2adece295086fcc65c8af19890834837ff5b1afb3fa87fd7eb",
+  "body_crop_offset_y": 108,
+  "group_bounds": [
+    [
+      21,
+      250,
+      220,
+      567
+    ],
+    [
+      256,
+      250,
+      452,
+      566
+    ],
+    [
+      494,
+      247,
+      689,
+      566
+    ],
+    [
+      730,
+      247,
+      926,
+      567
+    ],
+    [
+      965,
+      247,
+      1162,
+      566
+    ],
+    [
+      1201,
+      252,
+      1396,
+      567
+    ],
+    [
+      1438,
+      252,
+      1633,
+      567
+    ],
+    [
+      1674,
+      252,
+      1869,
+      567
+    ]
+  ]
+}
